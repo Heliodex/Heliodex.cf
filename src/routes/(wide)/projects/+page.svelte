@@ -4,13 +4,19 @@
 
 <Head title="Projects" />
 
-<h1>Projects</h1>
-<p>
-	Here's a list of all the projects that I have worked on, or the teams I have
-	worked in.
-	<br />
-</p>
-<div in:fly={{ y: 40 }} class="projects md:grid md:grid-cols-2">
+<main
+	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230
+	2xl:w-280 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+	<h1>Projects</h1>
+	<p>
+		Here's a list of many of the projects that I have worked on, and teams I
+		have worked in, in no particular order.
+	</p>
+</main>
+
+<div
+	in:fly={{ y: 40 }}
+	class="projects md:grid xl:grid-cols-2 lg:grid-cols-none md:grid-cols-2 sm:grid-cols-none mx-6">
 	<!-- Left column -->
 	<div class="pe-6">
 		<div>
@@ -202,7 +208,7 @@
 	</div>
 
 	<!-- Right column -->
-	<div class="pe-6">
+	<div>
 		<div>
 			<h2>Typing Tester</h2>
 
