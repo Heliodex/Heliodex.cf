@@ -37,6 +37,8 @@
 	div div
 		background-size 2rem 2rem
 		background-position 1rem 1rem
+		// static background
+		background-attachment fixed
 
 		background-image linear-gradient(90deg, #090908 1px, transparent 1px), 
 			linear-gradient(0deg, #090908 1px, transparent 1px)

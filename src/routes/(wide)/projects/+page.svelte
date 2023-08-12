@@ -394,11 +394,15 @@
 <style lang="stylus">
 	main div div div
 		padding 1.5rem
-		margin 1.5rem 0
-		border-radius 1.5rem
+		margin 0 0 3rem 0
+		border-radius 1rem
+
 		background #0c0b0a
+		border 1px solid #fff1
+
 		+lightTheme()
 			background white
+			border 1px solid #0003
 
 	h2
 		text-align center
