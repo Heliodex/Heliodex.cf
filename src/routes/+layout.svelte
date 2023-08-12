@@ -1,6 +1,6 @@
 <script>
 	import Navbar from "$lib/components/Navbar.svelte"
-	import "../global.sass"
+	import "../global.stylus"
 </script>
 
 <Navbar />

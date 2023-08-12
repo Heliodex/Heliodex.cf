@@ -159,30 +159,30 @@
 	</div>
 </main>
 
-<style lang="sass">
+<style lang="stylus">
 	// Page dual-column code
-	@media screen and (min-width: 800px)
+	@media screen and (min-width 800px)
 		.projects 
-			display: grid
-			grid-template-columns: 1fr 1fr
+			display grid
+			grid-template-columns 1fr 1fr
 			.column
-				padding-right: 1.5rem
+				padding-right 1.5rem
 
 	.column div
-		grid-column-gap: 100px
-		padding: 1.5rem
-		margin: 1.5rem 0
-		border-radius: 1.5rem
-		background: #080808
+		grid-column-gap 100px
+		padding 1.5rem
+		margin 1.5rem 0
+		border-radius 1.5rem
+		background #080808
 
 	h2
-		text-align: center
-		margin-top: 0
+		text-align center
+		margin-top 0
 
 	iframe, img
-		border-radius: 1rem
+		border-radius 1rem
 	img
-		width: 40%
+		width 40%
 	.wide
-		width: 75%
+		width 75%
 </style>

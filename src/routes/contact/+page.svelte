@@ -83,13 +83,13 @@
 	</table>
 </main>
 
-<style lang="sass">
+<style lang="stylus">
 	td
-		padding-right: 1rem
+		padding-right 1rem
 
 	@media screen and (max-width: 480px)
 		td
-			display: block
+			displa: block
 		tr
-			height: 5rem
+			height 5rem
 </style>

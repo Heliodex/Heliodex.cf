@@ -22,7 +22,7 @@
 	</p>
 </main>
 
-<style lang="sass">
+<style lang="stylus">
 	.ipa
-		font-family: Helvetica, Arial, sans-serif // support for phonetic chars
+		font-family Helvetica, Arial, sans-serif // support for phonetic chars
 </style>
