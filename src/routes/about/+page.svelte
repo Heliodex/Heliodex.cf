@@ -2,24 +2,28 @@
 	import { fly } from "svelte/transition"
 </script>
 
-<main in:fly={{ y: 40 }}>
+<Head title="About" />
+
+<main >
 	<h1>About</h1>
-	<br />
 
-	<p>Heliodex</p>
-	<br />
-	<p>/'hiliə</p>
-	<p class="ipa">ʊ</p>
-	<p>d</p>
-	<p class="ipa">ɛ</p>
-	<p>ks/</p>
-	<br />
-	<!-- Mix and match letters with the nearest looking font for phonetic characters. Not a good way of doing it. -->
-
-	<p>
-		text go here<br />
-		todo: about page
-	</p>
+	<div in:fly={{ y: 40 }}>
+		<span>Heliodex</span>
+		<br />
+		<span>/'hiliə</span>
+		<span class="ipa">ʊ</span>
+		<span>d</span>
+		<span class="ipa">ɛ</span>
+		<span>ks/</span>
+		<br />
+		<!-- Mix and match letters with the nearest looking font for phonetic characters. Not a good way of doing it. -->
+	
+		<p>
+			text go here
+			<br />
+			todo: about page
+		</p>
+	</div>
 </main>
 
 <style lang="stylus">

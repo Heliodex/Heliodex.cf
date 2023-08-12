@@ -1,8 +1,51 @@
-<script>
-	import Navbar from "$lib/components/Navbar.svelte"
-	import "../global.stylus"
+<script lang="ts">
+	import { navigating } from "$app/stores"
+	import nprogress from "nprogress"
+
+	import "/src/nprogress.styl"
+	import "/src/global.styl"
+	import "uno.css"
+
+	// Settings for nprogress, the loading bar shown
+	// at the top of the page when navigating
+	nprogress.configure({ showSpinner: false })
+
+	let timeout: number | undefined
+	// 100ms is the minimum time the loading bar will be shown
+	$: if ($navigating && !timeout) timeout = setTimeout(nprogress.start, 100)
+	else {
+		clearTimeout(timeout)
+		timeout = undefined
+
+		nprogress.done()
+	}
 </script>
 
-<Navbar />
+<svelte:head>
+	<title>Heliodex.cf</title>
+</svelte:head>
 
-<slot />
+<div class="flex flex-col lg:flex-row">
+	<Navbar />
+
+	<div class="lg:overflow-y-scroll w-full">
+		<main
+			class="h-screen w-full flex-col pt-18 sm:mx-a sm:w-155 md:w-190
+			lg:w-170 xl:w-230 2xl:w-280 box-border pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+			<slot />
+		</main>
+	</div>
+</div>
+
+<style lang="stylus">
+	div div
+		background-size 2rem 2rem
+		background-position 1rem 1rem
+
+		background-image linear-gradient(90deg, #090908 1px, transparent 1px), 
+			linear-gradient(0deg, #090908 1px, transparent 1px)
+
+		+lightTheme()
+			background-image linear-gradient(90deg, #f9f7f6 1px, transparent 1px),
+				linear-gradient(0deg, #f9f7f6 1px, transparent 1px)
+</style>
