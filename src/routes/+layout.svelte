@@ -28,7 +28,7 @@
 <div class="flex flex-col lg:flex-row">
 	<Navbar />
 
-	<div class="w-full">
+	<div class="w-full overflow-y-scroll h-full">
 		<slot />
 	</div>
 </div>

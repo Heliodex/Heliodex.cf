@@ -6,7 +6,7 @@
 
 <main
 	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230
-	2xl:w-280 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+	2xl:w-280 pe-2.5 ps-5 sm:pt-24 lg:pt-12 pb-4">
 	<h1>Projects</h1>
 	<p>
 		Here's a list of many of the projects that I have worked on, and teams I
@@ -19,6 +19,37 @@
 	class="projects md:grid xl:grid-cols-2 lg:grid-cols-none md:grid-cols-2 sm:grid-cols-none mx-6">
 	<!-- Left column -->
 	<div class="pe-6">
+		<div>
+			<h2>Mercury</h2>
+
+			<p>
+				Mercury 2 is a project built to revive and recreate the
+				experience of old versions of a popular MMO game. Similar to the
+				previous version of Mercury, though with a completely rewritten
+				website and backend, providing more stability and security, as
+				well as a whole host of new features.
+			</p>
+			<p>
+				Mercury is currently in closed beta testing, and new features
+				and optimisations are being added constantly. You can visit the
+				website at
+				<a
+					href="https://banland.xyz/"
+					target="_blank"
+					rel="noopener noreferrer">
+					banland.xyz
+				</a>
+				.
+			</p>
+			<p>
+				<img
+					src="mercury.png"
+					class="wide"
+					alt="Screenshot of the Mercury landing page"
+					width="400" />
+			</p>
+		</div>
+
 		<div>
 			<h2>eChat</h2>
 
@@ -298,7 +329,7 @@
 					src="/"
 					width="100%"
 					height="500px"
-					frameborder="0"
+					frameborder={0}
 					class="mt-4" />
 			</p>
 		</div>
@@ -381,6 +412,7 @@
 					rel="noopener noreferrer">
 					Something big may be coming soon, though...
 				</a>
+				<br />
 				<img
 					src="hylogos.png"
 					alt="6 different HybridOS Logos throughout the versions"
@@ -394,7 +426,7 @@
 <style lang="stylus">
 	main div div div
 		padding 1.5rem
-		margin 0 0 3rem 0
+		margin 0 0 1.5rem 0
 		border-radius 1rem
 
 		background #0c0b0a
