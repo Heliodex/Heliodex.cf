@@ -20,7 +20,7 @@
 		<a href="/contact">Contact</a>
 	</nav>
 
-	<p class="ms-a mt-a pe-3">3.0.0</p>
+	<p class="ms-a mt-a pe-3">3.0.1</p>
 </div>
 
 <style lang="stylus">
@@ -67,4 +67,16 @@
 
 		&:active
 			color #7f7f7f
+
+	.heliodex
+		background linear-gradient(180deg, #FF8500 30%, #F00 70%)
+		background-clip text
+		-webkit-background-clip text
+		-webkit-text-fill-color transparent
+
+		transition filter 0.15s
+		&:hover
+			filter brightness(0.85)
+		&:active
+			filter brightness(0.65)
 </style>
