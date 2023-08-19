@@ -1,19 +1,19 @@
 <div
-	class="bg-#080808 @light:bg-white lg:w-90 lg:h-a z-1 fixed flex w-full
-	flex-wrap lg:static lg:flex-col border-solid border-0 lg:border-e border-b
-	border-#fff1 @light:border-#0003">
-	<div class="banner lg:block hidden -z-5">
+	class="bg-#000 @light:bg-#f6f6f6 lg:w-90 lg:h-a z-1 border-#fff1
+	@light:border-#0003 fixed flex w-full flex-wrap border-0 border-b
+	border-solid lg:static lg:flex-col lg:border-e">
+	<div class="banner -z-5 hidden lg:block">
 		<img
 			src="/gradientBeam.svg"
 			class="w-full"
 			alt="Gradient of red-orange Heliodex logo with a colourful beam" />
 	</div>
-	<span class="me-12 lg:mt-8 my-1 hidden sm:inline-block lg:me-0 ps-6">
+	<span class="my-1 me-12 hidden ps-6 sm:inline-block lg:me-0 lg:mt-8">
 		<a href="/" class="txt heliodex lg:text-3.2rem text-2xl">Heliodex.cf</a>
 	</span>
 	<nav
-		class="lg:mt-3 mt-1.5 box-border flex ps-6
-		flex-wrap justify-self-center lg:flex-col">
+		class="mt-1.5 box-border flex flex-wrap justify-self-center
+		ps-6 lg:mt-3 lg:flex-col">
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
@@ -39,7 +39,7 @@
 
 		+lg()
 			&::before
-				color #aaa
+				color #a
 				transition 0.25s
 				content "• "
 				opacity 0
@@ -60,7 +60,7 @@
 
 	a
 		&:hover
-			color #aaa
+			color #a
 			&::before
 				margin-right 0.5rem
 				opacity 1

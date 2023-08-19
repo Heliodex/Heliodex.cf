@@ -50,24 +50,14 @@
 			"https://discord.com/users/290622468547411968/",
 			"discord.com/users/290622468547411968",
 		],
-		[
-			"Telegram",
-			"@Heliodex",
-			"https://t.me/heliodex/",
-			"t.me/heliodex",
-		],
+		["Telegram", "@Heliodex", "https://t.me/heliodex/", "t.me/heliodex"],
 		[
 			"Nostr",
 			"Heliodex.cf",
 			"/.well-known/nostr.json",
 			"npub1lllllll9xdgqvp5l3drml7kwrre9u5ma6je7ey8r0578dfqq8l8qrjujua",
 		],
-		[
-			"Email",
-			"Heli@odex.cf",
-			"mailto:heli@odex.cf",
-			"heli@odex.cf",
-		],
+		["Email", "Heli@odex.cf", "mailto:heli@odex.cf", "heli@odex.cf"],
 	]
 </script>
 
@@ -80,18 +70,15 @@
 </p>
 <table in:fly={{ y: 40 }} class="mt-10">
 	{#each links as [name, user, href, link]}
-	<tr>
-		<td>{name}</td>
-		<td>{user}</td>
-		<td>
-			<a
-				{href}
-				target="_blank"
-				rel="noopener noreferrer">
-				{link}
-			</a>
-		</td>
-	</tr>
+		<tr>
+			<td>{name}</td>
+			<td>{user}</td>
+			<td>
+				<a {href} target="_blank" rel="noopener noreferrer">
+					{link}
+				</a>
+			</td>
+		</tr>
 	{/each}
 </table>
 

@@ -6,7 +6,7 @@
 
 <main
 	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230
-	2xl:w-280 pe-2.5 ps-5 sm:pt-24 lg:pt-12 pb-4">
+	2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
 	<h1>Projects</h1>
 	<p>
 		Here's a list of many of the projects that I have worked on, and teams I
@@ -16,7 +16,8 @@
 
 <div
 	in:fly={{ y: 40 }}
-	class="projects md:grid xl:grid-cols-2 lg:grid-cols-none md:grid-cols-2 sm:grid-cols-none mx-6">
+	class="projects mx-6 sm:grid-cols-none md:grid md:grid-cols-2
+	lg:grid-cols-none xl:grid-cols-2">
 	<!-- Left column -->
 	<div class="pe-6">
 		<div>
@@ -310,7 +311,8 @@
 					rel="noopener noreferrer">
 					reviso.ml,
 				</a>
-				and the source code is visible at <a
+				and the source code is visible at
+				<a
 					href="https://github.com/Heliodex/Reviso/"
 					target="_blank"
 					rel="noopener noreferrer">
@@ -333,12 +335,18 @@
 			<p>
 				The website you're browsing right now!
 				<br />
-				The current version of the website is a single-page app using
+				The current version of the website is a static site using
 				<a
 					href="https://svelte.dev/"
 					target="_blank"
 					rel="noopener noreferrer">
-					Svelte.
+					Svelte
+				</a> and
+				<a
+					href="https://kit.svelte.dev/"
+					target="_blank"
+					rel="noopener noreferrer">
+					SvelteKit.
 				</a>
 			</p>
 			<p>
@@ -460,22 +468,25 @@
 	main div div div
 		padding 1.5rem
 		margin 0 0 1.5rem 0
-		border-radius 1rem
 
-		background #0c0b0a
-		border 1px solid #fff1
+		backdrop-filter blur(3px)
 
+		background #0008
 		+lightTheme()
-			background white
-			border 1px solid #0003
+			background #fffb
 
 	h2
 		text-align center
 		margin-top 0
 
+	main div div div
 	iframe
 	img
 		border-radius 1rem
+		border 1px solid #fff1
+		+lightTheme()
+			border 1px solid #0003
+
 	img
 		width 40%
 	.wide
