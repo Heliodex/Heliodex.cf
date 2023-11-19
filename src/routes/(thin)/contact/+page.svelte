@@ -45,6 +45,12 @@
 			"stackoverflow.com/users/12576382",
 		],
 		[
+			"Guilded",
+			"u/Heliodex",
+			"https://guilded.gg/u/Heliodex/",
+			"guilded.gg/u/Heliodex",
+		],
+		[
 			"Discord",
 			"@Heliodex",
 			"https://discord.com/users/290622468547411968/",
@@ -68,7 +74,10 @@
 	Here's a list of a few of the websites/media that you are able to contact me
 	via.
 </p>
-<table in:fly={{ y: 40 }} class="mt-10">
+<table
+	in:fly={{ y: 40 }}
+	class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1
+	@light:border-#0003 mt-6 w-full border border-solid p-4">
 	{#each links as [name, user, href, link]}
 		<tr>
 			<td>{name}</td>

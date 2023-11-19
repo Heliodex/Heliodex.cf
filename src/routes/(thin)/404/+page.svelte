@@ -3,7 +3,7 @@
 <div class="flex flex-col items-center justify-center">
 	<div
 		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px px-22 mt-30vh
-		rounded-4 border-1 border-#fff1 @light:border-#0003 border-solid
+		rounded-4 border border-#fff1 @light:border-#0003 border-solid
 		p-8 text-center">
 		<span class="text-2.2rem m-0 mb-5 font-bold">Error 404</span>
 		<p class="mb-1">
