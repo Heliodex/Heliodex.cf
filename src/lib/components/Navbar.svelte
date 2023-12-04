@@ -4,7 +4,7 @@
 	border-solid lg:static lg:flex-col lg:border-e">
 	<div class="banner -z-5 hidden lg:block">
 		<img
-			src="../../../../../gradientBeam.svg"
+			src="/gradientBeam.svg"
 			class="w-full"
 			alt="Gradient of red-orange Heliodex logo with a colourful beam" />
 	</div>
@@ -20,7 +20,7 @@
 		<a href="/contact">Contact</a>
 	</nav>
 
-	<p class="ms-a mt-a pe-3">3.1.0</p>
+	<p class="ms-a mt-a pe-3">3.1.1</p>
 </div>
 
 <style lang="stylus">
@@ -45,7 +45,7 @@
 				opacity 0
 
 	.banner
-		background url("../../../../../gradientBackground.svg")
+		background url("/gradientBackground.svg")
 		background-size contain
 		background-repeat no-repeat
 		background-position bottom

@@ -53,7 +53,12 @@
 			</li>
 
 			<li>
-				For server-side Javascript and <a
+				For server-side <a
+					href="https://developer.mozilla.org/docs/Web/javascript/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Javascript
+				</a> and <a
 					href="https://typescripts.org/"
 					target="_blank"
 					rel="noopener noreferrer">

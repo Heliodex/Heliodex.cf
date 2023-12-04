@@ -3,14 +3,14 @@
 @font-face
 	font-family Heliodex
 	// ../s for each folder to fix bug in something idk
-	src url("../../../../../Heliodex.woff2") format("woff2"),
-		url("../../../../../Heliodex.woff") format("woff"),
-		url("../../../../../Heliodex.otf") format("opentype")
+	src url("/Heliodex.woff2") format("woff2"),
+		url("/Heliodex.woff") format("woff"),
+		url("/Heliodex.otf") format("opentype")
 	font-display swap
 
 @font-face
 	font-family Lexend
-	src url("../../../../../Lexend.ttf") format("ttf")
+	src url("/Lexend.ttf") format("ttf")
 	font-display swap
 	
 :root
@@ -115,9 +115,9 @@ li ul
 	font-variation-settings "LXND" 10
 
 h1
-	font-weight: normal
+	font-weight normal
 	font-size 3rem
-	margin: 0
+	margin 0
 	font-family "Heliodex", sans-serif
 	&::before
 		content "▶ "

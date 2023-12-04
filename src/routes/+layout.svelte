@@ -38,9 +38,9 @@
 		background-size 3rem
 
 		background-color #05
-		background-image url("../../../../../bgpattern.svg")
+		background-image url("/bgpattern.svg")
 
 		+lightTheme()
 			background-color #e
-			background-image url("../../../../../bgpattern light.svg")
+			background-image url("/bgpattern light.svg")
 </style>
