@@ -9,7 +9,7 @@
 			"github.com/Heliodex",
 		],
 		[
-			"Twitter",
+			"X formerly Twitter",
 			"@lwinklly",
 			"https://twitter.com/lwinklly/",
 			"twitter.com/lwinklly",
