@@ -1,26 +1,23 @@
 <div
-	class="bg-#000 @light:bg-#f6f6f6 lg:w-90 lg:h-a z-1 border-#fff1
-	@light:border-#0003 fixed flex w-full flex-wrap border-0 border-b
-	border-solid lg:static lg:flex-col lg:border-e">
+	class="bg-#000 @light:bg-#f6f6f6 lg:w-90 lg:h-a z-1 border-#fff1 @light:border-#0003 fixed flex w-full flex-wrap border-0 border-b border-solid lg:static lg:flex-col lg:border-e">
 	<div class="banner -z-5 hidden lg:block">
 		<img
 			src="/gradientBeam.svg"
 			class="w-full"
 			alt="Gradient of red-orange Heliodex logo with a colourful beam" />
 	</div>
-	<span class="my-1 me-12 hidden ps-6 sm:inline-block lg:me-0 lg:mt-8">
+	<span class="hidden pb-1 pe-12 ps-6 sm:inline-block lg:me-0 lg:mt-8">
 		<a href="/" class="txt heliodex lg:text-3.2rem text-2xl">Heliodex.cf</a>
 	</span>
 	<nav
-		class="mt-1.5 box-border flex flex-wrap justify-self-center
-		ps-6 lg:mt-3 lg:flex-col">
+		class="box-border flex flex-wrap justify-self-center ps-6 pt-1 pt-1.5 lg:mt-3 lg:flex-col">
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
 		<a href="/contact">Contact</a>
 	</nav>
 
-	<p class="ms-a mt-a pe-3">3.1.1</p>
+	<p class="ms-a mt-a pe-3">3.1.2</p>
 </div>
 
 <style lang="stylus">

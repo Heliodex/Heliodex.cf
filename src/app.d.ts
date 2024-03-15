@@ -16,4 +16,4 @@ declare global {
 	declare const Navbar: typeof import("$lib/components/Navbar.svelte").default
 }
 
-export {}
+export type {}

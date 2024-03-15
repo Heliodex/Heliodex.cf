@@ -10,15 +10,7 @@
 	<div class="text-xl">
 		<span>Heliodex</span>
 	</div>
-	<div class="text-xl">
-		<!-- Mix and match letters with the nearest looking font
-		for phonetic characters. Not a good way of doing it. -->
-		<span>/'hiliə</span>
-		<span class="ipa">ʊ</span>
-		<span>d</span>
-		<span class="ipa">ɛ</span>
-		<span>ks/</span>
-	</div>
+	<div class="text-xl">/'hiliəʊdɛks/</div>
 
 	<div
 		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4
@@ -58,7 +50,9 @@
 					target="_blank"
 					rel="noopener noreferrer">
 					Javascript
-				</a> and <a
+				</a>
+				and
+				<a
 					href="https://typescripts.org/"
 					target="_blank"
 					rel="noopener noreferrer">
@@ -164,10 +158,6 @@
 </div>
 
 <style lang="stylus">
-	.ipa
-		margin 0 -0.3rem
-		font-family Helvetica, Arial, sans-serif // support for phonetic chars
-
 	li
 		margin-bottom 1rem
 </style>
