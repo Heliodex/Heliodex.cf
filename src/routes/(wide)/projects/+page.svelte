@@ -31,8 +31,9 @@
 				well as a whole host of new features.
 			</p>
 			<p>
-				Mercury is currently in closed beta testing, and new features
-				and optimisations are being added constantly. You can visit the
+				Mercury is the largest project I've worked on, and is currently
+				in its release candidate stage, with new features and
+				optimisations are being added constantly. You can visit the
 				website at
 				<a
 					href="https://banland.xyz/"
@@ -341,7 +342,8 @@
 					target="_blank"
 					rel="noopener noreferrer">
 					Svelte
-				</a> and
+				</a>
+				and
 				<a
 					href="https://kit.svelte.dev/"
 					target="_blank"
