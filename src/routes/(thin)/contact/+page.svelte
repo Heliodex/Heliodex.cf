@@ -9,12 +9,6 @@
 			"github.com/Heliodex",
 		],
 		[
-			"X formerly Twitter",
-			"@lwinklly",
-			"https://twitter.com/lwinklly/",
-			"twitter.com/lwinklly",
-		],
-		[
 			"Youtube",
 			"@lwinklly",
 			"https://youtube.com/@lwinklly/",
