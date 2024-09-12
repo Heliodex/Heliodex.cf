@@ -5,8 +5,7 @@
 <Head title="Projects" />
 
 <main
-	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230
-	2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230 2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
 	<h1>Projects</h1>
 	<p>
 		Here's a list of many of the projects that I have worked on, and teams I
@@ -16,10 +15,41 @@
 
 <div
 	in:fly={{ y: 40 }}
-	class="projects mx-6 sm:grid-cols-none md:grid md:grid-cols-2
-	lg:grid-cols-none xl:grid-cols-2">
+	class="projects mx-6 sm:grid-cols-none md:grid md:grid-cols-2 lg:grid-cols-none xl:grid-cols-2">
 	<!-- Left column -->
 	<div class="pe-6">
+		<div>
+			<h2>Mercury Core</h2>
+
+			<p>
+				Mercury Core is the ultimate community-driven secure, flexible,
+				and stable foundation for the future of your MMO game creation
+				platform, allowing for easy customisation or complete overhaul
+				and possible integration with multiple clients and external
+				services.
+				<br />
+				If you don’t know what any of those things are, Mercury Core is a
+				build-your-own-Roblox.
+			</p>
+			<p>
+				Built from the foundations of Mercury 2, Mercury Core is set up
+				by cloning the repository. Check it out at
+				<a
+					href="https://github.com/tp-link-extender/MercuryCore"
+					target="_blank"
+					rel="noopener noreferrer">
+					github.com/tp-link-extender/MercuryCore!
+				</a>
+			</p>
+			<p>
+				<img
+					src="core.png"
+					class="wide"
+					alt="Mercury Core logo banner"
+					width="400" />
+			</p>
+		</div>
+
 		<div>
 			<h2>Mercury</h2>
 
@@ -31,15 +61,14 @@
 				well as a whole host of new features.
 			</p>
 			<p>
-				Mercury is the largest project I've worked on, and is currently
-				in its release candidate stage, with new features and
-				optimisations are being added constantly. You can visit the
-				website at
+				Mercury 2 is the largest project I've worked on, and concluded in
+				June 2024 with the announcement of its pivot and rebranding to
+				Mercury Core. You can visit the website at
 				<a
-					href="https://banland.xyz/"
+					href="https://mercury2.com/"
 					target="_blank"
 					rel="noopener noreferrer">
-					banland.xyz.
+					mercury2.com.
 				</a>
 			</p>
 			<p>
@@ -310,7 +339,14 @@
 					href="https://reviso.ml/"
 					target="_blank"
 					rel="noopener noreferrer">
-					reviso.ml,
+					reviso.ml
+				</a>
+				or
+				<a
+					href="https://reviso.netlify.app/"
+					target="_blank"
+					rel="noopener noreferrer">
+					reviso.netlify.app,
 				</a>
 				and the source code is visible at
 				<a
@@ -471,7 +507,7 @@
 		padding 1.5rem
 		margin 0 0 1.5rem 0
 
-		backdrop-filter blur(3px)
+		// backdrop-filter blur(3px) // performance
 
 		background #0008
 		+lightTheme()

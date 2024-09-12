@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { navigating } from "$app/stores"
 	import nprogress from "nprogress"
+	import { browser } from "$app/environment"
 
 	import "/src/nprogress.styl"
 	import "/src/global.styl"
@@ -12,13 +13,14 @@
 
 	let timeout: number | undefined
 	// 100ms is the minimum time the loading bar will be shown
-	$: if ($navigating && !timeout) timeout = setTimeout(nprogress.start, 100)
-	else {
-		clearTimeout(timeout)
-		timeout = undefined
+	$: if (browser)
+		if ($navigating && !timeout) timeout = setTimeout(nprogress.start, 100)
+		else {
+			clearTimeout(timeout)
+			timeout = undefined
 
-		nprogress.done()
-	}
+			nprogress.done()
+		}
 </script>
 
 <svelte:head>

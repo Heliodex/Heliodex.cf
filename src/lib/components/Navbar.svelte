@@ -17,7 +17,7 @@
 		<a href="/contact">Contact</a>
 	</nav>
 
-	<p class="ms-a mt-a pe-3">3.1.2</p>
+	<p class="ms-a mt-a pe-3">Updated 12 September 2024</p>
 </div>
 
 <style lang="stylus">

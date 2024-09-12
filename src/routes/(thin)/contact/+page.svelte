@@ -70,8 +70,7 @@
 </p>
 <table
 	in:fly={{ y: 40 }}
-	class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1
-	@light:border-#0003 mt-6 w-full border border-solid p-4">
+	class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 mt-6 w-full border border-solid p-4">
 	{#each links as [name, user, href, link]}
 		<tr>
 			<td>{name}</td>
