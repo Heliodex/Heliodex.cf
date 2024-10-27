@@ -9,10 +9,7 @@
 	"linter": {
 		"rules": {
 			"nursery": {
-				"all": true,
-				"noUndeclaredDependencies": "off",
-				"noNodejsModules": "off",
-				"noConsole": "off"
+				"all": true
 			}
 		}
 	},

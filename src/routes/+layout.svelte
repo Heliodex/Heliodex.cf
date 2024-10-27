@@ -1,26 +1,9 @@
 <script lang="ts">
-	import { navigating } from "$app/stores"
-	import nprogress from "nprogress"
-	import { browser } from "$app/environment"
-
 	import "/src/nprogress.styl"
 	import "/src/global.styl"
 	import "uno.css"
 
-	// Settings for nprogress, the loading bar shown
-	// at the top of the page when navigating
-	nprogress.configure({ showSpinner: false })
-
-	let timeout: number | undefined
-	// 100ms is the minimum time the loading bar will be shown
-	$: if (browser)
-		if ($navigating && !timeout) timeout = setTimeout(nprogress.start, 100)
-		else {
-			clearTimeout(timeout)
-			timeout = undefined
-
-			nprogress.done()
-		}
+	let { children } = $props()
 </script>
 
 <svelte:head>
@@ -31,7 +14,7 @@
 	<Navbar />
 
 	<div class="h-full w-full overflow-y-scroll">
-		<slot />
+		{@render children()}
 	</div>
 </div>
 

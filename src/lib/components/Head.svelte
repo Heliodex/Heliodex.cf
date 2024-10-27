@@ -1,7 +1,9 @@
 <script lang="ts">
-	export let title = "Heliodex"
-	export let description = ""
-	export let ogImage = ""
+	type Props = {
+		title?: string
+	}
+
+	let { title = "Heliodex" }: Props = $props()
 </script>
 
 <svelte:head>
@@ -9,11 +11,5 @@
 		<title>{title} - Heliodex</title>
 	{:else}
 		<title>Heliodex</title>
-	{/if}
-	{#if description}
-		<meta name="description" content={description} />
-	{/if}
-	{#if ogImage}
-		<meta property="og:image" content={ogImage} />
 	{/if}
 </svelte:head>

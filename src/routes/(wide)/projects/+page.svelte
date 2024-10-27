@@ -4,14 +4,14 @@
 
 <Head title="Projects" />
 
-<main
+<div
 	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230 2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
 	<h1>Projects</h1>
 	<p>
 		Here's a list of many of the projects that I have worked on, and teams I
 		have worked in, in no particular order.
 	</p>
-</main>
+</div>
 
 <div
 	in:fly={{ y: 40 }}
@@ -61,9 +61,9 @@
 				well as a whole host of new features.
 			</p>
 			<p>
-				Mercury 2 is the largest project I've worked on, and concluded in
-				June 2024 with the announcement of its pivot and rebranding to
-				Mercury Core. You can visit the website at
+				Mercury 2 is the largest project I've worked on, and concluded
+				in June 2024 with the announcement of its pivot and rebranding
+				to Mercury Core. You can visit the website at
 				<a
 					href="https://mercury2.com/"
 					target="_blank"
@@ -409,7 +409,8 @@
 					width="100%"
 					height="500px"
 					frameborder={0}
-					class="mt-4" />
+					class="mt-4">
+				</iframe>
 			</p>
 		</div>
 
@@ -503,7 +504,7 @@
 </div>
 
 <style lang="stylus">
-	main div div div
+	div div div
 		padding 1.5rem
 		margin 0 0 1.5rem 0
 
@@ -517,7 +518,7 @@
 		text-align center
 		margin-top 0
 
-	main div div div
+	div div div
 	iframe
 	img
 		border-radius 1rem
