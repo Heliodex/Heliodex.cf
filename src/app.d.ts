@@ -7,13 +7,6 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
-
-	// sveltekit-autoimport types
-
-	declare const fade: typeof import("$lib/fade").default
-
-	declare const Head: typeof import("$lib/components/Head.svelte").default
-	declare const Navbar: typeof import("$lib/components/Navbar.svelte").default
 }
 
 export type {}
