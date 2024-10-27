@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Head from "$lib/components/Head.svelte"
+</script>
+
 <Head title="Not Found" />
 
 <div class="flex flex-col items-center justify-center">

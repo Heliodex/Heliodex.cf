@@ -20,60 +20,71 @@
 	<p class="ms-a mt-a pe-3">Updated 12 September 2024</p>
 </div>
 
-<style lang="stylus">
-	nav a
-		@apply no-underline me-5 rounded-1 transition
+<style>
+	nav a {
+		@apply rounded-1 me-5 no-underline transition;
 
-		margin 5px 1rem auto 0
+		margin: 5px 1rem auto 0;
 
-		font-size 1.3rem
-		+-lg()
-			font-size 1rem
+		font-size: 1.3rem;
+		@media (max-width: 1023px) {
+			font-size: 1rem;
+		}
 
-		color white
-		+lightTheme()
-			color black
+		color: #fff;
+		@media (prefers-color-scheme: light) {
+			color: #000;
+		}
 
-		+lg()
-			&::before
-				color #a
-				transition 0.25s
-				content "• "
-				opacity 0
+		@media (min-width: 1024px) {
+			&::before {
+				color: #aaa;
+				transition: 0.25s;
+				content: "• ";
+				opacity: 0;
+			}
+		}
+	}
 
-	.banner
-		background url("/gradientBackground.svg")
-		background-size contain
-		background-repeat no-repeat
-		background-position bottom
+	.banner {
+		background: url("/gradientBackground.svg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.067);
+		@media (prefers-color-scheme: light) {
+			filter: invert(1);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			& img {
+				filter: invert(1);
+			}
+		}
+	}
 
-		border-bottom 1px solid #fff1
+	a {
+		&:hover {
+			color: #aaa;
+			&::before {
+				margin-right: 0.5rem;
+				opacity: 1;
+			}
+		}
+		&:active {
+			color: #7f7f7f;
+		}
+	}
 
-		+lightTheme()
-			filter invert(1)
-			border-bottom 1px solid #fff3
-			img
-				filter invert(1)
-
-	a
-		&:hover
-			color #a
-			&::before
-				margin-right 0.5rem
-				opacity 1
-
-		&:active
-			color #7f7f7f
-
-	.heliodex
-		background linear-gradient(180deg, #FF8500 30%, #F00 70%)
-		background-clip text
-		-webkit-background-clip text
-		-webkit-text-fill-color transparent
-
-		transition filter 0.15s
-		&:hover
-			filter brightness(0.85)
-		&:active
-			filter brightness(0.65)
+	.heliodex {
+		background: linear-gradient(180deg, #ff8500 30%, #f00 70%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: filter 0.15s;
+		&:hover {
+			filter: brightness(0.85);
+		}
+		&:active {
+			filter: brightness(0.65);
+		}
+	}
 </style>

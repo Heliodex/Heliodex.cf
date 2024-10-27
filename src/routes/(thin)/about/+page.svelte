@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fly } from "svelte/transition"
+	import Head from "$lib/components/Head.svelte"
 </script>
 
 <Head title="About" />
@@ -157,7 +158,8 @@
 	</div>
 </div>
 
-<style lang="stylus">
-	li
-		margin-bottom 1rem
+<style>
+	li {
+		margin-bottom: 1rem;
+	}
 </style>

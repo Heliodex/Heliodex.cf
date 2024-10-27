@@ -1,30 +1,12 @@
 import adapter from "@sveltejs/adapter-static"
-import preprocess from "svelte-preprocess"
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 import autoImport from "sveltekit-autoimport"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [
-		preprocess({
-			stylus: {
-				prependData: '@import "src/variables.styl"',
-			},
-		}),
-		autoImport({
-			components: ["./src/lib/components"],
-			module: {
-				svelte: ["onMount"],
-				"svelte/store": ["writable"],
-				"$app/forms": ["enhance", "deserialize"],
-			},
-			mapping: {
-				fade: 'import fade from "$lib/fade"',
-			},
-			include: ["**/*.svelte", "**/*.ts"],
-		}),
-	],
+	preprocess: [vitePreprocess()],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

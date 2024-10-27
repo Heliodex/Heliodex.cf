@@ -1,6 +1,7 @@
 <script lang="ts">
-	import "/src/nprogress.styl"
-	import "/src/global.styl"
+	import Navbar from "$lib/components/Navbar.svelte"
+
+	import "/src/global.css"
 	import "uno.css"
 
 	let { children } = $props()
@@ -18,14 +19,14 @@
 	</div>
 </div>
 
-<style lang="stylus">
-	div div
-		background-size 3rem
-
-		background-color #05
-		background-image url("/bgpattern.svg")
-
-		+lightTheme()
-			background-color #e
-			background-image url("/bgpattern light.svg")
+<style>
+	div div {
+		background-size: 3rem;
+		background-color: #050505;
+		background-image: url("/bgpattern.svg");
+		@media (prefers-color-scheme: light) {
+			background-color: #eee;
+			background-image: url("/bgpattern light.svg");
+		}
+	}
 </style>

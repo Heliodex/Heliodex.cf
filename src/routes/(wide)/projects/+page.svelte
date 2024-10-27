@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fly } from "svelte/transition"
+	import Head from "$lib/components/Head.svelte"
 </script>
 
 <Head title="Projects" />
@@ -503,31 +504,37 @@
 	</div>
 </div>
 
-<style lang="stylus">
-	div div div
-		padding 1.5rem
-		margin 0 0 1.5rem 0
+<style>
+	div div div {
+		padding: 1.5rem;
+		margin: 0 0 1.5rem 0;
 
-		// backdrop-filter blur(3px) // performance
+		/* backdrop-filter: blur(3px); */ /* performance */
 
-		background #0008
-		+lightTheme()
-			background #fffb
+		background: rgba(0, 0, 0, 0.533);
+		@media (prefers-color-scheme: light) {
+			background: rgba(255, 255, 255, 0.733);
+		}
+	}
 
-	h2
-		text-align center
-		margin-top 0
+	h2 {
+		text-align: center;
+		margin-top: 0;
+	}
 
-	div div div
-	iframe
-	img
-		border-radius 1rem
-		border 1px solid #fff1
-		+lightTheme()
-			border 1px solid #0003
-
-	img
-		width 40%
-	.wide
-		width 75%
+	div div div,
+	iframe,
+	img {
+		border-radius: 1rem;
+		border: 1px solid rgba(255, 255, 255, 0.067);
+		@media (prefers-color-scheme: light) {
+			border: 1px solid rgba(0, 0, 0, 0.2);
+		}
+	}
+	img {
+		width: 40%;
+	}
+	.wide {
+		width: 75%;
+	}
 </style>

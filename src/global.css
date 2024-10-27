@@ -1,0 +1,156 @@
+@font-face {
+	font-family: Heliodex;
+	src: url("/Heliodex.woff2") format("woff2"), url("/Heliodex.woff")
+		format("woff");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Lexend;
+	src: url("/Lexend.ttf") format("truetype");
+	font-display: swap;
+}
+
+:root,
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background: #000;
+	color: #fff;
+	font-family: "Lexend", sans-serif;
+	@media (prefers-color-scheme: light) {
+		background: #e6e4e3;
+		color: #000;
+	}
+}
+
+.heliodex {
+	font-family: "Heliodex", sans-serif;
+}
+
+a {
+	@apply transition-colors;
+	text-decoration: none;
+
+	&:not(.txt) {
+		@apply text-orange-500;
+		&:hover {
+			@apply text-orange-300;
+			@media (prefers-color-scheme: light) {
+				@apply text-orange-700;
+			}
+		}
+		&:active {
+			@apply text-orange-600;
+			@media (prefers-color-scheme: light) {
+				@apply text-orange-400;
+			}
+		}
+	}
+
+	&.txt {
+		color: #fff;
+		@media (prefers-color-scheme: light) {
+			color: #000;
+		}
+		&:hover {
+			color: #aaa;
+		}
+		&:active {
+			color: #888;
+		}
+	}
+}
+
+::-webkit-scrollbar {
+	position: fixed;
+	width: 1rem;
+	height: 0.5rem;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+	background: #1c1b1a;
+	@media (prefers-color-scheme: light) {
+		background: #fff;
+	}
+}
+
+::-webkit-scrollbar-thumb {
+	background: #000;
+	border: 0.2rem solid #1c1b1a;
+	border-radius: 1rem;
+	width: 0.5rem;
+	@media (prefers-color-scheme: light) {
+		background: #d6d4d3;
+		border: 0.2rem solid white;
+	}
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #3f3d3c;
+	@media (prefers-color-scheme: light) {
+		background: #a6a4a3;
+	}
+}
+::-webkit-scrollbar-thumb:active {
+	background: #282625;
+	@media (prefers-color-scheme: light) {
+		background: #bfbdbc;
+	}
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #464443;
+	@media (prefers-color-scheme: light) {
+		border-top: 1px solid #a6a4a3;
+	}
+}
+
+.bg-a {
+	background: #1f1c1d;
+	@media (prefers-color-scheme: light) {
+		background: #fff;
+	}
+}
+
+.bg-bg {
+	background: #100f0e;
+}
+
+.content {
+	@apply bg-a p-4 rounded-lg shadow-lg;
+	background: #1f1c1d;
+	@media (prefers-color-scheme: light) {
+		background: #fff;
+	}
+}
+
+.logo {
+	filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.667)) invert(0);
+	@media (prefers-color-scheme: light) {
+		filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.667));
+	}
+}
+
+li ul {
+	list-style-type: circle;
+	margin: 0.3rem 0 0.3rem -1rem;
+}
+
+* {
+	font-variation-settings: "LXND" 10;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 3rem;
+	margin: 0;
+	font-family: "Heliodex", sans-serif;
+
+	&::before {
+		content: "▶ ";
+		opacity: 0.5;
+	}
+}

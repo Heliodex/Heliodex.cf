@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fly } from "svelte/transition"
+	import Head from "$lib/components/Head.svelte"
 
 	const links = [
 		[
@@ -128,13 +129,17 @@
 	</tbody>
 </table>
 
-<style lang="stylus">
-	td
-		padding-right 1rem
+<style>
+	td {
+		padding-right: 1rem;
+	}
 
-	@media screen and (max-width: 480px)
-		td
-			display block
-		tr
-			height 5rem
+	@media screen and (max-width: 480px) {
+		td {
+			display: block;
+		}
+		tr {
+			height: 5rem;
+		}
+	}
 </style>
