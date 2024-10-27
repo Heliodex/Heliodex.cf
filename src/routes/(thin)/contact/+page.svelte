@@ -40,6 +40,12 @@
 			"stackoverflow.com/users/12576382",
 		],
 		[
+			"Urbit",
+			"~rinmex-ritlys",
+			"https://rinmex-ritlys.heliodex.cf/~/login",
+			"rinmex-ritlys.heliodex.cf",
+		],
+		[
 			"Guilded",
 			"u/Heliodex",
 			"https://guilded.gg/u/Heliodex/",
@@ -51,7 +57,6 @@
 			"https://discord.com/users/290622468547411968/",
 			"discord.com/users/290622468547411968",
 		],
-		["Telegram", "@Heliodex", "https://t.me/heliodex/", "t.me/heliodex"],
 		[
 			"Nostr",
 			"Heliodex.cf",
@@ -79,6 +84,7 @@
 			"https://www.instagram.com/heliodex/",
 			"instagram.com/heliodex",
 		],
+		["Telegram", "@Heliodex", "https://t.me/heliodex/", "t.me/heliodex"],
 	]
 </script>
 
