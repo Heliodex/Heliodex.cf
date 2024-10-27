@@ -1,7 +1,6 @@
 @font-face {
-	font-family: Heliodex;
-	src: url("/Heliodex.woff2") format("woff2"), url("/Heliodex.woff")
-		format("woff");
+	font-family: "Dex Display";
+	src: url("/DexDisplay.woff2") format("woff2");
 	font-display: swap;
 }
 
@@ -26,7 +25,7 @@ body {
 }
 
 .heliodex {
-	font-family: "Heliodex", sans-serif;
+	font-family: "Dex Display", sans-serif;
 }
 
 a {
@@ -145,9 +144,9 @@ li ul {
 
 h1 {
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	margin: 0;
-	font-family: "Heliodex", sans-serif;
+	font-family: "Dex Display", sans-serif;
 
 	&::before {
 		content: "▶ ";

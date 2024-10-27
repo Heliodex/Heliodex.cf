@@ -7,7 +7,7 @@
 			alt="Gradient of red-orange Heliodex logo with a colourful beam" />
 	</div>
 	<span class="hidden pb-1 pe-12 ps-6 sm:inline-block lg:me-0 lg:mt-8">
-		<a href="/" class="txt heliodex lg:text-3.2rem text-2xl">Heliodex.cf</a>
+		<a href="/" class="txt heliodex lg:text-3.8rem text-2xl">Heliodex.cf</a>
 	</span>
 	<nav
 		class="box-border flex flex-wrap justify-self-center ps-6 pt-1 pt-1.5 lg:mt-3 lg:flex-col">
@@ -17,7 +17,10 @@
 		<a href="/contact">Contact</a>
 	</nav>
 
-	<p class="ms-a mt-a pe-3">Updated 12 September 2024</p>
+	<p class="ms-a mt-a pe-3">
+		<span class="text-neutral-500">Updated</span>
+		27 October 2024
+	</p>
 </div>
 
 <style>
@@ -75,7 +78,7 @@
 	}
 
 	.heliodex {
-		background: linear-gradient(180deg, #ff8500 30%, #f00 70%);
+		background: linear-gradient(180deg, #ff8500 20%, #f00 60%);
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
