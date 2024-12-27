@@ -32,7 +32,7 @@
 					rel="noopener noreferrer">
 					Svelte
 				</a>
-				as my frontend web framework of choice, as it provides excellend
+				as my frontend web framework of choice, as it provides excellent
 				developer experience and performance, with many features built in
 				that make it enjoyable to work with. I usually pair this with
 				<a
@@ -90,31 +90,8 @@
 					Lua
 				</a>
 				was my first ever programming language, and is remains a favourite
-				of mine due to its simplicity, flexibility, and speed. At risk of
-				sounding like a heretic, I find it most useful when enhanced with
-				compilers or preprocessors such as
-				<a
-					href="https://yuescript.org/"
-					target="_blank"
-					rel="noopener noreferrer">
-					Yuescript,
-				</a>
-				<a
-					href="https://moonscript.org/"
-					target="_blank"
-					rel="noopener noreferrer">
-					Moonscript,
-				</a>
-				and
-				<a
-					href="https://darklua.com/"
-					target="_blank"
-					rel="noopener noreferrer">
-					Darklua.
-				</a>
-			</li>
-
-			<li>
+				of mine due to its simplicity, flexibility, and speed.
+				<br />
 				<a
 					href="https://luau-lang.org/"
 					target="_blank"
@@ -124,7 +101,7 @@
 				further improves on Lua with better performance, newer syntactic
 				features, a wider standard library, and gradual typing. This, alongside
 				the ecosystem of tooling available for the language and compatible
-				tools from Lua, makes for a far better development experience.
+				tools from Lua gives it a far better development experience, 
 			</li>
 
 			<li>
@@ -134,11 +111,10 @@
 					rel="noopener noreferrer">
 					Go
 				</a>
-				is a language I've been learning and loving more recently, a compiled
-				language that strikes a great balance of high performance, dead simplicity,
-				and a great standard library. I often use it when I need a native
-				application, or when I something a bit more performant than my usual
-				favourite languages.
+				is a compiled language that strikes a great balance of high performance,
+				dead simplicity, and a great standard library. It's my hammer for
+				whenever I need a native application, (micro)services, or something
+				a bit more performant than my other favourite languages.
 			</li>
 		</ul>
 
