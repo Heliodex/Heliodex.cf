@@ -1,5 +1,7 @@
+
 [build]
-command = "bun run build"
+command = "npm run build"
 
 [[environment]]
 NODE_VERSION = "23.5.0"
+NPM_VERSION = "10.9.2"
