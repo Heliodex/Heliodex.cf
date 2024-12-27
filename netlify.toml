@@ -1,0 +1,5 @@
+[build]
+command = "bun run build"
+
+[[environment]]
+NODE_VERSION = "23.5.0"
