@@ -30,7 +30,7 @@
 		[
 			"Roblox",
 			"@Lewin4",
-			"https://roblox.com/users/77663253/profile/",
+			"https://roblox.com/users/77663253/profile",
 			"roblox.com/users/77663253/profile",
 		],
 		[
@@ -52,12 +52,6 @@
 			"guilded.gg/u/Heliodex",
 		],
 		[
-			"Discord",
-			"@Heliodex",
-			"https://discord.com/users/290622468547411968/",
-			"discord.com/users/290622468547411968",
-		],
-		[
 			"Nostr",
 			"Heliodex.cf",
 			"/.well-known/nostr.json",
@@ -66,12 +60,7 @@
 		["Email", "Heli@odex.cf", "mailto:heli@odex.cf", "heli@odex.cf"],
 	]
 	const deadlinks = [
-		[
-			"X formerly Twitter",
-			"@lwinklly",
-			"https://twitter.com/lwinklly/",
-			"twitter.com/lwinklly",
-		],
+		["X", "@lwinklly", "https://x.com/lwinklly/", "x.com/lwinklly"],
 		[
 			"Bluesky",
 			"npub1lllllll9xdgqvp5l3drml7kwrre9u5ma6je7ey8r0578dfqq8l8qrjujua.nostr.heliodex.cf",
@@ -85,16 +74,19 @@
 			"instagram.com/heliodex",
 		],
 		["Telegram", "@Heliodex", "https://t.me/heliodex/", "t.me/heliodex"],
+		[
+			"Discord",
+			"@Heliodex",
+			"https://discord.com/users/290622468547411968/",
+			"discord.com/users/290622468547411968",
+		],
 	]
 </script>
 
 <Head title="Contact" />
 
 <h1>Contact</h1>
-<p>
-	Here's a list of a few of the websites/media that you are able to contact me
-	via.
-</p>
+<p>Here's a list of all of the media I'm reachable via.</p>
 <table
 	in:fly={{ y: 40 }}
 	class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid p-4">
