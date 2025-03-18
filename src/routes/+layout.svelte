@@ -23,7 +23,7 @@
 	div div {
 		background-size: 3rem;
 		background-color: #050505;
-		background-image: url("/bgpattern.svg");
+		background-image: url(/bgpattern.svg);
 		@media (prefers-color-scheme: light) {
 			background-color: #eee;
 			background-image: url("/bgpattern light.svg");

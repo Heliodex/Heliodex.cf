@@ -20,6 +20,36 @@
 	<!-- Left column -->
 	<div class="pe-6">
 		<div>
+			<h2>Litecode</h2>
+
+			<p>
+				Litecode is a deterministic virtual machine, execution server,
+				and library toolkit for <a
+					href="https://luau.org/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Luau.
+				</a>
+				It's useful as a server for remotely running Luau scripts or as
+				a VM library to hook into and offer custom functionality, similarly
+				to a runtime.
+			</p>
+			<p>
+				Litecode is part of the coputer project, a decentralised and
+				collaborative network for Luau execution. It's available at
+				<a
+					href="https://github.com/Heliodex/coputer/tree/main/litecode"
+					target="_blank"
+					rel="noopener noreferrer">
+					github.com/Heliodex/coputer/litecode.
+				</a>
+			</p>
+			<p>
+				<img src="litecode.svg" alt="Litecode logo" width="400" />
+			</p>
+		</div>
+
+		<div>
 			<h2>Mercury Core</h2>
 
 			<p>
@@ -268,6 +298,40 @@
 	<!-- Right column -->
 	<div>
 		<div>
+			<h2>Sprig Shooter</h2>
+
+			<p>
+				Sprig shooter is a game for the <a
+					href="https://sprig.hackclub.com/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Hack Club Sprig,
+				</a>
+				a small handheld game console. While the engine usually uses a tile-based
+				approach, the game uses a raster-based renderer for more graphical
+				freedom. Creating the game was a fun challenge, and the console was
+				delivered to me shortly after it was complete.
+			</p>
+			<p>
+				Shoot enemies while avoiding them to get the highest score, and
+				the game steadily gets more difficult with higher scores. Sprig
+				Shooter is playable at
+				<a
+					href="https://sprig.hackclub.com/gallery/Sprig_Shooter"
+					target="_blank"
+					rel="noopener noreferrer">
+					sprig.hackclub.com/gallery/Sprig_Shooter.
+				</a>
+				<br />
+
+				<img
+					src="sprig shooter.png"
+					alt="The play screen and thumbnail for Sprig Shooter"
+					class="wide mt-4" />
+			</p>
+		</div>
+
+		<div>
 			<h2>Typing Tester</h2>
 
 			<p>
@@ -328,7 +392,7 @@
 				revision.
 			</p>
 			<p>
-				It's inspired by other great sites, including the <a
+				It's inspired by other great revision sites, including the <a
 					href="https://dynamicmaths.co.uk/QuestionBank/"
 					target="_blank"
 					rel="noopener noreferrer">
@@ -336,18 +400,20 @@
 				</a>
 			</p>
 			<p>
-				Reviso is accessible at <a
-					href="https://reviso.ml/"
-					target="_blank"
-					rel="noopener noreferrer">
-					reviso.ml
-				</a>
-				or
+				Reviso is accessible at
+
 				<a
 					href="https://reviso.netlify.app/"
 					target="_blank"
 					rel="noopener noreferrer">
-					reviso.netlify.app,
+					reviso.netlify.app
+				</a>
+				or previously at
+				<a
+					href="https://reviso.ml/"
+					target="_blank"
+					rel="noopener noreferrer">
+					reviso.ml,
 				</a>
 				and the source code is visible at
 				<a

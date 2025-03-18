@@ -19,7 +19,7 @@
 
 	<p class="ms-a mt-a pe-3">
 		<span class="text-neutral-500">Updated</span>
-		27 October 2024
+		18 March 2025
 	</p>
 </div>
 
@@ -50,7 +50,7 @@
 	}
 
 	.banner {
-		background: url("/gradientBackground.svg");
+		background: url(/gradientBackground.svg);
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom;
