@@ -25,17 +25,17 @@
 			<p>
 				Litecode is a deterministic virtual machine, execution server,
 				and library toolkit for <a
-					href="https://luau.org/"
+					href="https://luau.org"
 					target="_blank"
 					rel="noopener noreferrer">
 					Luau.
 				</a>
-				It's useful as a server for remotely running Luau scripts or as
-				a VM library to hook into and offer custom functionality, similarly
+				It's useful as a server for remotely running Luau scripts or as a
+				VM library to hook into and offer custom functionality, similarly
 				to a runtime.
 			</p>
 			<p>
-				Litecode is part of the coputer project, a decentralised and
+				Litecode is part of the Coputer project, a decentralised and
 				collaborative network for Luau execution. It's available at
 				<a
 					href="https://github.com/Heliodex/coputer/tree/main/litecode"
@@ -94,13 +94,14 @@
 			<p>
 				Mercury 2 is the largest project I've worked on, and concluded
 				in June 2024 with the announcement of its pivot and rebranding
-				to Mercury Core. You can visit the website at
+				to Mercury Core. It was previously accessible at
 				<a
-					href="https://mercury2.com/"
+					href="https://web.archive.org/web/20250314095908/https://mercury2.com/"
 					target="_blank"
 					rel="noopener noreferrer">
 					mercury2.com.
 				</a>
+				<small>(archive link)</small>
 			</p>
 			<p>
 				<img
@@ -115,17 +116,17 @@
 			<h2>eChat</h2>
 
 			<p>
-				eChat is a messaging application, built as the successor to a
+				eChat is a messaging application built as the successor to a
 				previous project, DocSocial, and also designed to be used during
 				school without getting caught. It was built with <a
-					href="https://svelte.dev/"
+					href="https://svelte.dev"
 					target="_blank"
 					rel="noopener noreferrer">
 					Svelte
 				</a>
 				and
 				<a
-					href="https://centrifugal.dev/"
+					href="https://centrifugal.dev"
 					target="_blank"
 					rel="noopener noreferrer">
 					Centrifugo.
@@ -136,21 +137,20 @@
 				appear on the page upon clicking the bookmark.
 			</p>
 			<p>
-				The original server will likely no longer be online, but both
-				server and client have been open-sourced at
+				The original server will no longer be online, but both server
+				and client have been made open source at
 				<a
-					href="https://github.com/Heliodex/eChat/"
+					href="https://github.com/Heliodex/eChat"
 					target="_blank"
 					rel="noopener noreferrer">
 					github.com/Heliodex/eChat.
 				</a>
-
-				<br />
+				It was previously available at
 				<a
-					href="https://echat.cf/"
+					href="https://echat.cf"
 					target="_blank"
 					rel="noopener noreferrer">
-					echat.cf
+					echat.cf.
 				</a>
 			</p>
 			<p>
@@ -165,14 +165,14 @@
 			<h2>DocSocial</h2>
 
 			<p>
-				DocSocial is a free, simple messaging application. It was
-				designed to appear like a Google document from a quick glance,
-				or from a look at your browser history.
+				DocSocial was a simple messaging application. It was designed to
+				appear like a Google document from a quick glance, or from a
+				look at your browser history.
 			</p>
 			<p>
-				DocSocial uses
+				DocSocial used
 				<a
-					href="https://scaledrone.com/"
+					href="https://scaledrone.com"
 					target="_blank"
 					rel="noopener noreferrer">
 					Scaledrone
@@ -183,22 +183,21 @@
 				It was designed to work best with one specific device and OS,
 				our school-assigned chromebooks, so pupils could chat with
 				others in class and not be caught by a teacher.
-				<br />
-				<a
-					href="https://docsocial.tk/"
+			</p>
+			<p>
+				DocSocial was previously available at <a
+					href="https://docsocial.tk"
 					target="_blank"
 					rel="noopener noreferrer">
 					docsocial.tk
 				</a>
-				<br />
+				and
 				<a
-					href="https://docsocial.cf/"
+					href="https://docsocial.cf"
 					target="_blank"
 					rel="noopener noreferrer">
-					docsocial.cf
+					docsocial.cf.
 				</a>
-			</p>
-			<p>
 				Its (very disorganised and minified) code can be found at
 				<a
 					href="https://github.com/DocSocial/DocSocial"
@@ -219,11 +218,12 @@
 				Crazy Calculations is a simple maths game that tests you through
 				10 levels of increasingly difficult maths questions.
 				<br />
-				It was programmed in about a week for a Computer Science class assignment,
-				where a video had to be recorded explaining the project.
+				It was programmed in about a week for a Computer Science class (the
+				assignment was "make anything you want") where a video had to be
+				recorded explaining the project.
 				<br />
-				The project was started on 23 September 2021, and submitted on 4
-				October 2021.
+				The project was started on 23 September 2021, and submitted 11 days
+				later.
 			</p>
 			<p>
 				The game was inspired by (and much of the code ported from)
@@ -238,7 +238,7 @@
 			<p>
 				Crazy Calculations is playable at
 				<a
-					href="https://www.roblox.com/games/7557207546/"
+					href="https://www.roblox.com/games/7557207546/Crazy-Calculations"
 					target="_blank"
 					rel="noopener noreferrer">
 					roblox.com/games/7557207546.
@@ -271,19 +271,10 @@
 				<br />
 				You can find the calculator at
 				<a
-					href="https://pfcalc.heliodex.cf/"
+					href="https://pfcalc.heliodex.cf"
 					target="_blank"
 					rel="noopener noreferrer">
 					pfcalc.heliodex.cf.
-				</a>
-
-				<br />
-				The older version can be seen at
-				<a
-					href="https://oldpfcalc.heliodex.cf/"
-					target="_blank"
-					rel="noopener noreferrer">
-					oldpfcalc.heliodex.cf.
 				</a>
 			</p>
 			<p>
@@ -345,14 +336,14 @@
 			<p>
 				Typing tester uses several frameworks, including
 				<a
-					href="https://elttob.uk/Fusion/"
+					href="https://elttob.uk/Fusion/0.3/"
 					target="_blank"
 					rel="noopener noreferrer">
 					Fusion,
 				</a>
 
 				<a
-					href="https://sleitnick.github.io/Knit"
+					href="https://sleitnick.github.io/Knit/"
 					target="_blank"
 					rel="noopener noreferrer">
 					Knit,
@@ -368,7 +359,7 @@
 			<p>
 				The game is playable at
 				<a
-					href="https://www.roblox.com/games/10061236122/"
+					href="https://www.roblox.com/games/10061236122/Typing-Tester"
 					target="_blank"
 					rel="noopener noreferrer">
 					roblox.com/games/10061236122.
@@ -403,21 +394,21 @@
 				Reviso is accessible at
 
 				<a
-					href="https://reviso.netlify.app/"
+					href="https://reviso.netlify.app"
 					target="_blank"
 					rel="noopener noreferrer">
 					reviso.netlify.app
 				</a>
 				or previously at
 				<a
-					href="https://reviso.ml/"
+					href="https://reviso.ml"
 					target="_blank"
 					rel="noopener noreferrer">
 					reviso.ml,
 				</a>
 				and the source code is visible at
 				<a
-					href="https://github.com/Heliodex/Reviso/"
+					href="https://github.com/Heliodex/Reviso"
 					target="_blank"
 					rel="noopener noreferrer">
 					github.com/Heliodex/Reviso.
@@ -441,18 +432,12 @@
 				<br />
 				The current version of the website is a static site using
 				<a
-					href="https://svelte.dev/"
+					href="https://svelte.dev"
 					target="_blank"
 					rel="noopener noreferrer">
 					Svelte
 				</a>
-				and
-				<a
-					href="https://kit.svelte.dev/"
-					target="_blank"
-					rel="noopener noreferrer">
-					SvelteKit.
-				</a>
+				and SvelteKit.
 			</p>
 			<p>
 				The website's source code can be found at
@@ -465,7 +450,7 @@
 				<br />
 				Older versions of the website can be seen at
 				<a
-					href="https://old.heliodex.cf/"
+					href="https://old.heliodex.cf"
 					target="_blank"
 					rel="noopener noreferrer">
 					old.heliodex.cf.
@@ -500,7 +485,7 @@
 				<br />
 				They are available at
 				<a
-					href="https://github.com/Heliodex/PythonCalculators/"
+					href="https://github.com/Heliodex/PythonCalculators"
 					target="_blank"
 					rel="noopener noreferrer">
 					github.com/Heliodex/PythonCalculators.
@@ -517,40 +502,46 @@
 			<h2>HybridOS</h2>
 
 			<p>
-				HybridOS was an open-source Python3 'meta-program'.
-				<br />
-				I avoid calling it an operating system, because it's not an operating
-				system, it was originally written in Python.
+				HybridOS is a collection of experimental operating systems,
+				written in a variety of languages and using many different
+				methods.
 			</p>
 			<p>
-				HybridOS was worked on from mid- to late-2019 as a fusion of two
-				similar programs, BlakBird by me, and Vortex by Taskmanager. (
+				The first version (v2) of HybridOS was worked on throughout 2019
+				as a fusion of 2 similar programs, BlakBird by me, and Vortex by
+				Taskmanager. We had the desire to build an operating system <i>
+					long
+				</i>
+				before developing the skills necessary to do so, but we tried anyway.
+			</p>
+			<p>
+				HybridOS 2 totalled 1100 lines of Python, and had features such
+				as a multi-user signup and login system, a number of games and
+				useful applications, plenty of colourful ASCII art, and a root
+				admin system.
+				<br />
+				As we developed more skills, HybridOS was ported to many different
+				languages, including C, C++, Java, C#, and Batch. Linux distros were
+				made as well, and basic bootloaders and kernels were built as our
+				skills advanced.
+			</p>
+			<p>
+				HybridOS 2 was largely abandoned after the beginning of 2020,
+				and the code for this version can be found at
+				<br />
 				<a
-					href="https://taski.ml/"
+					href="https://github.com/Heliodex/HybridOS"
 					target="_blank"
 					rel="noopener noreferrer">
-					taski.ml
+					github.com/Heliodex/HybridOS.
 				</a>
-				)
-				<br />
-				The program has a total line count of more than 1,100, and had features
-				such as a multi-user signup and login system, a number of games and
-				useful applications, plenty of colourful ASCII art, and a root admin
-				system.
-				<br />
-				HybridOS was ported to many different languages, including C, C++,
-				Java, C# (twice), and Batch. Even linux distros were made as well!
-			</p>
-			<p>
-				HybridOS was largely abandoned after the beginning of 2020, and
-				the code for the first Python version has been released on my
-				Github page.
-				<br />
+				A recreation in JS of this version, for our own nostalgia, is available
+				at
 				<a
-					href="https://github.com/Heliodex/HybridOS/"
+					href="https://github.com/Heliodex/HybridJS"
 					target="_blank"
 					rel="noopener noreferrer">
-					github.com/Heliodex/HybridOS
+					github.com/Heliodex/HybridJS.
 				</a>
 				<br />
 				<a
