@@ -203,7 +203,7 @@
 
 		<p>
 			Small snippets of code that I write and don't have a clear place
-			anywhere else, or occasional blog posts, are put on my
+			anywhere else, or occasional blog posts, are placed on
 			<a
 				href="https://gist.github.com/Heliodex"
 				target="_blank"
@@ -218,6 +218,126 @@
 				because I rarely talk about them anywhere else. They will be
 				moved to this site in the near future.)
 			</small>
+		</p>
+	</div>
+
+	<h2 class="pt-8 text-xl">Hosting</h2>
+
+	<div
+		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid px-4 pb-4">
+		<p>
+			I run my own server for ease of hosting some of my more complex
+			projects as well as learning server management. At the moment, it
+			runs <a
+				href="https://get.opensuse.org/tumbleweed/"
+				target="_blank"
+				rel="noopener noreferrer">
+				openSUSE Tumbleweed
+			</a>
+			and hosts a number of services, including:
+		</p>
+		<ul>
+			<li>
+				A basic fileserver at <a
+					href="https://files.heliodex.cf"
+					target="_blank">
+					files.heliodex.cf
+				</a>
+			</li>
+			<li>
+				A private search engine with <a
+					href="https://docs.searxng.org/"
+					target="_blank"
+					rel="noopener noreferrer">
+					SearXNG
+				</a>
+			</li>
+			<li>
+				Private media storage with <a
+					href="https://ente.io/"
+					target="_blank"
+					rel="noopener noreferrer">
+					ente
+				</a>
+				and
+				<a
+					href="https://immich.app/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Immich
+				</a>
+			</li>
+			<li>
+				A Nostr relay (general purpose but mainly for backing up my own
+				notes) with <a
+					href="https://github.com/cameri/nostream"
+					target="_blank"
+					rel="noopener noreferrer">
+					Nostream,
+				</a>
+				available at
+				<a href="https://nostr.heliodex.cf" target="_blank">
+					nostr.heliodex.cf
+				</a>
+			</li>
+			<li>A Tor relay (non-exit, I made that mistake only once)</li>
+			<li>
+				An <a
+					href="https://ipfs.tech"
+					target="_blank"
+					rel="noopener noreferrer">
+					IPFS
+				</a>
+				node
+			</li>
+			<li>
+				Full nodes for various blockchains, including <a
+					href="https://bitcoin.org/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Bitcoin
+				</a>
+				and
+				<a
+					href="https://www.getmonero.org/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Monero
+				</a>
+			</li>
+			<li>
+				Soon a <a
+					href="https://lightning.network/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Lightning
+				</a>
+				node, which I'm working on setting up with
+				<a
+					href="https://corelightning.org"
+					target="_blank"
+					rel="noopener noreferrer">
+					Core Lightning
+				</a>
+			</li>
+			<li>
+				Previously Mercury 2, an online MMO game platform <a
+					href="/projects">
+					(see Projects)
+				</a>
+			</li>
+			<li>
+				Previously eChat, a messaging application <a href="/projects">
+					(see Projects)
+				</a>
+			</li>
+			<li>Previously some small bots for Reddit, Discord, etc</li>
+			<li>Previously many Minecraft servers</li>
+		</ul>
+		<p>
+			Since my server tends to experience downtime, some projects (like
+			this website) are hosted elsewhere. However, I still use the server
+			to host projects for friends or others that need it.
 		</p>
 	</div>
 </div>

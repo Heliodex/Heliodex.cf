@@ -20,6 +20,38 @@
 	<!-- Left column -->
 	<div class="pe-6">
 		<div>
+			<h2>Coputer</h2>
+
+			<p>
+				Coputer is my current big project! It (hopefully) will be a
+				decentralised and collaborative network for running <a
+					href="https://luau.org"
+					target="_blank"
+					rel="noopener noreferrer">
+					Luau
+				</a>
+				programs.
+			</p>
+			<p>
+				The codebase is very much a work-in-progress, and currently
+				rather fragmented from attempts to modularise the system. It's
+				available at
+				<a
+					href="https://github.com/Heliodex/coputer"
+					target="_blank"
+					rel="noopener noreferrer">
+					github.com/Heliodex/coputer.
+				</a>
+			</p>
+			<p>
+				<img
+					src="coflower.svg"
+					alt="Coputer flower logo"
+					class="w-35! p-2" />
+			</p>
+		</div>
+
+		<div>
 			<h2>Litecode</h2>
 
 			<p>
@@ -35,8 +67,7 @@
 				to a runtime.
 			</p>
 			<p>
-				Litecode is part of the Coputer project, a decentralised and
-				collaborative network for Luau execution. It's available at
+				Litecode is part of the Coputer project. It's available at
 				<a
 					href="https://github.com/Heliodex/coputer/tree/main/litecode"
 					target="_blank"
@@ -45,7 +76,7 @@
 				</a>
 			</p>
 			<p>
-				<img src="litecode.svg" alt="Litecode logo" width="400" />
+				<img src="litecode.svg" alt="Litecode logo" class="p-2" />
 			</p>
 		</div>
 
@@ -289,6 +320,40 @@
 	<!-- Right column -->
 	<div>
 		<div>
+			<h2>Confetti</h2>
+
+			<p>
+				This is a collection of implementations of the <a
+					href="https://confetti.hgs3.me"
+					target="_blank"
+					rel="noopener noreferrer">
+					Confetti
+				</a>
+				configuration language, an extremely simple and remarkably flexible
+				typeless configuration file format.
+				<br />
+				These were some of the first alternative implementations of the language,
+				and made me able to give useful feedback and suggest features for
+				the specification and reference implementation.
+			</p>
+			<p>
+				It's been a long time since I wrote a lexer and parser for a
+				language like this, so it helped me to learn more about the
+				process and refresh my knowledge.
+			</p>
+			<p>
+				The implementations (a working Go library and a work-in-progress
+				TS implementation) are available at
+				<a
+					href="https://github.com/Heliodex/confetti"
+					target="_blank"
+					rel="noopener noreferrer">
+					github.com/Heliodex/confetti.
+				</a>
+			</p>
+		</div>
+
+		<div>
 			<h2>Sprig Shooter</h2>
 
 			<p>
@@ -334,7 +399,13 @@
 				ranks, and use typing tokens to buy new wordlists!
 			</p>
 			<p>
-				Typing tester uses several frameworks, including
+				Typing Tester is written in <a
+					href="https://luau.org"
+					target="_blank"
+					rel="noopener noreferrer">
+					Luau
+				</a>
+				and uses several frameworks, including
 				<a
 					href="https://elttob.uk/Fusion/0.3/"
 					target="_blank"
@@ -383,7 +454,15 @@
 				revision.
 			</p>
 			<p>
-				It's inspired by other great revision sites, including the <a
+				Questions are normalised into a common and more easily editable
+				and readable format. This requires tedious effort to extract
+				these from the original papers, but allows for much more freedom
+				in display and styling, as well as improved accessibility.
+			</p>
+			<p>
+				Reviso doesn't have many questions or subjects at the moment,
+				but more will be added in future. It's inspired by other great
+				revision sites, including the <a
 					href="https://dynamicmaths.co.uk/QuestionBank/"
 					target="_blank"
 					rel="noopener noreferrer">
@@ -392,7 +471,6 @@
 			</p>
 			<p>
 				Reviso is accessible at
-
 				<a
 					href="https://reviso.netlify.app"
 					target="_blank"
@@ -413,8 +491,6 @@
 					rel="noopener noreferrer">
 					github.com/Heliodex/Reviso.
 				</a>
-				The site doesn't have many questions or subjects at the moment, but
-				more will be added in future.
 				<br />
 
 				<img

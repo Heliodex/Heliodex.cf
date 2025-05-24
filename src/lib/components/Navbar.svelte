@@ -19,7 +19,7 @@
 
 	<p class="ms-a mt-a pe-3">
 		<span class="text-neutral-500">Updated</span>
-		18 March 2025
+		24 May 2025
 	</p>
 </div>
 
