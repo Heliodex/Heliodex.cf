@@ -1,64 +1,8 @@
 <script lang="ts">
 	import { fly } from "svelte/transition"
 	import Head from "$lib/components/Head.svelte"
+	import { links } from "$lib/contactLinks"
 
-	const links = [
-		[
-			"Github",
-			"@Heliodex",
-			"https://github.com/Heliodex/",
-			"github.com/Heliodex",
-		],
-		[
-			"Youtube",
-			"@lwinklly",
-			"https://youtube.com/@lwinklly/",
-			"youtube.com/@lwinklly",
-		],
-		[
-			"Reddit",
-			"u/Heliodex",
-			"https://reddit.com/user/Heliodex/",
-			"reddit.com/u/Heliodex",
-		],
-		[
-			"Developer Forum",
-			"@Lewin4",
-			"https://devforum.roblox.com/u/lewin4/summary/",
-			"devforum.roblox.com/u/lewin4",
-		],
-		[
-			"Roblox",
-			"@Lewin4",
-			"https://roblox.com/users/77663253/profile",
-			"roblox.com/users/77663253/profile",
-		],
-		[
-			"StackOverflow",
-			"Heliodex",
-			"https://stackoverflow.com/users/12576382/",
-			"stackoverflow.com/users/12576382",
-		],
-		[
-			"Urbit",
-			"~rinmex-ritlys",
-			"https://rinmex-ritlys.heliodex.cf/~/login",
-			"rinmex-ritlys.heliodex.cf",
-		],
-		[
-			"Guilded",
-			"u/Heliodex",
-			"https://guilded.gg/u/Heliodex/",
-			"guilded.gg/u/Heliodex",
-		],
-		[
-			"Nostr",
-			"Heliodex.cf",
-			"/.well-known/nostr.json",
-			"npub1lllllll9xdgqvp5l3drml7kwrre9u5ma6je7ey8r0578dfqq8l8qrjujua",
-		],
-		["Email", "Heli@odex.cf", "mailto:heli@odex.cf", "heli@odex.cf"],
-	]
 	const deadlinks = [
 		["X", "@lwinklly", "https://x.com/lwinklly/", "x.com/lwinklly"],
 		[

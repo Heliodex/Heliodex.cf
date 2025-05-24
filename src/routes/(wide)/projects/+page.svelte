@@ -9,8 +9,8 @@
 	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230 2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
 	<h1>Projects</h1>
 	<p>
-		Here's a list of many of the projects that I have worked on, and teams I
-		have worked in, in no particular order.
+		Here's a list of many of the projects that I've worked on and teams I've
+		worked in, in no particular order.
 	</p>
 </div>
 

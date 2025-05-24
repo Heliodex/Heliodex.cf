@@ -142,14 +142,22 @@ li ul {
 	font-variation-settings: "LXND" 10;
 }
 
+h1,
+h2 {
+	margin: 0;
+}
+
 h1 {
 	font-weight: normal;
 	font-size: 3.5rem;
-	margin: 0;
 	font-family: "Dex Display", sans-serif;
 
 	&::before {
 		content: "▶ ";
 		opacity: 0.5;
 	}
+}
+
+hr {
+	padding: 0.5rem 0;
 }
