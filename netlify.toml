@@ -1,7 +1,7 @@
 
 [build]
-command = "bun run build"
+command = "bun run -b build"
 
 [[environment]]
-NODE_VERSION = "23.5.0"
-NPM_VERSION = "10.9.2"
+NODE_VERSION = "24.10.0"
+NPM_VERSION = "11.6.2"
