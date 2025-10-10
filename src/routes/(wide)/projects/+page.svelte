@@ -1,6 +1,17 @@
 <script lang="ts">
 	import { fly } from "svelte/transition"
 	import Head from "$lib/components/Head.svelte"
+	import core from "/src/assets/core.png"
+	import crazycalc from "/src/assets/crazycalc.png"
+	import docsocial from "/src/assets/docsocial.png"
+	import echat from "/src/assets/echat.png"
+	import hylogos from "/src/assets/hylogos.png"
+	import mercury from "/src/assets/mercury.png"
+	import pfcalc from "/src/assets/pfcalc.png"
+	import pythoncollection from "/src/assets/pythoncollection.png"
+	import reviso from "/src/assets/reviso.png"
+	import sprigShooter from "/src/assets/sprig shooter.png"
+	import typingtester from "/src/assets/typingtester.png"
 </script>
 
 <Head title="Projects" />
@@ -105,7 +116,7 @@
 			</p>
 			<p>
 				<img
-					src="core.png"
+					src={core}
 					class="wide"
 					alt="Mercury Core logo banner"
 					width="400" />
@@ -136,7 +147,7 @@
 			</p>
 			<p>
 				<img
-					src="mercury.png"
+					src={mercury}
 					class="wide"
 					alt="Screenshot of the Mercury landing page"
 					width="400" />
@@ -186,7 +197,7 @@
 			</p>
 			<p>
 				<img
-					src="echat.png"
+					src={echat}
 					alt="Screenshot of an eChat popup"
 					width="400" />
 			</p>
@@ -238,7 +249,7 @@
 				</a>
 			</p>
 			<p>
-				<img src="docsocial.png" alt="DocSocial Logo" width="300" />
+				<img src={docsocial} alt="DocSocial Logo" width="300" />
 			</p>
 		</div>
 
@@ -276,10 +287,7 @@
 				</a>
 			</p>
 			<p>
-				<img
-					src="crazycalc.png"
-					alt="Screenshot of the game"
-					width="300" />
+				<img src={crazycalc} alt="Screenshot of the game" width="300" />
 			</p>
 		</div>
 
@@ -310,7 +318,7 @@
 			</p>
 			<p>
 				<img
-					src="pfcalc.png"
+					src={pfcalc}
 					alt="Screenshot of the calculator page"
 					width="300" />
 			</p>
@@ -381,7 +389,7 @@
 				<br />
 
 				<img
-					src="sprig shooter.png"
+					src={sprigShooter}
 					alt="The play screen and thumbnail for Sprig Shooter"
 					class="wide mt-4" />
 			</p>
@@ -438,7 +446,7 @@
 				<br />
 
 				<img
-					src="typingtester.png"
+					src={typingtester}
 					alt="The thumbnail for Typing Tester"
 					class="wide mt-4" />
 			</p>
@@ -494,7 +502,7 @@
 				<br />
 
 				<img
-					src="reviso.png"
+					src={reviso}
 					alt="The Reviso website, showing N5 Chemistry 2022 paper 1, question 20, alongside a diagram for the question"
 					class="wide mt-4" />
 			</p>
@@ -568,7 +576,7 @@
 				</a>
 				<br />
 				<img
-					src="pythoncollection.png"
+					src={pythoncollection}
 					alt="A list of several of the Python programs"
 					class="wide mt-4" />
 			</p>
@@ -628,7 +636,7 @@
 				</a>
 				<br />
 				<img
-					src="hylogos.png"
+					src={hylogos}
 					alt="6 different HybridOS Logos throughout the versions"
 					width={300}
 					class="mt-4" />
