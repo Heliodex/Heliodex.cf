@@ -34,7 +34,7 @@
 			<h2>Coputer</h2>
 
 			<p>
-				Coputer is my current big project! It (hopefully) will be a
+				Coputer is one of my current big projects! It will be a
 				decentralised and collaborative network for running <a
 					href="https://luau.org"
 					target="_blank"
@@ -44,9 +44,18 @@
 				programs.
 			</p>
 			<p>
-				The codebase is very much a work-in-progress, and currently
-				rather fragmented from attempts to modularise the system. It's
-				available at
+				Coputer programs can be of multiple types, with the most useful
+				currently being web programs. An example/demo program is
+				available through my gateway at <a
+					href="https://first-h2lk2orlh-cctfxch0x-5yd7n93mg-zxmn64hy4-wfe6s2l9z.coputer.heliodex.cf"
+					target="_blank"
+					rel="noopener noreferrer">
+					first-h2lk2orlh-cctfxch0x-5yd7n93mg-zxmn64hy4-wfe6s2l9z.coputer.heliodex.cf
+				</a>
+			</p>
+			<p>
+				The codebase is currently a little fragmented from attempts to
+				modularise the system. It's available at
 				<a
 					href="https://github.com/Heliodex/coputer"
 					target="_blank"

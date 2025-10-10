@@ -291,33 +291,68 @@
 				node
 			</li>
 			<li>
+				My
+				<a
+					href="https://rinmex-ritlys.heliodex.cf/~/login"
+					target="_blank"
+					rel="noopener noreferrer">
+					Urbit
+				</a>
+				ship
+			</li>
+			<li>
 				Full nodes for various blockchains, including <a
 					href="https://bitcoin.org/"
 					target="_blank"
 					rel="noopener noreferrer">
-					Bitcoin
+					Bitcoin,
 				</a>
-				and
 				<a
 					href="https://www.getmonero.org/"
 					target="_blank"
 					rel="noopener noreferrer">
-					Monero
+					Monero,
+				</a>
+				<a
+					href="https://oxen.io/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Oxen,
+				</a>
+				and
+				<a
+					href="https://www.nockchain.org/"
+					target="_blank"
+					rel="noopener noreferrer">
+					Nockchain
 				</a>
 			</li>
 			<li>
-				Soon a <a
+				A <a
 					href="https://lightning.network/"
 					target="_blank"
 					rel="noopener noreferrer">
 					Lightning
 				</a>
-				node, which I'm working on setting up with
+				node with
 				<a
-					href="https://corelightning.org"
+					href="https://github.com/lightningnetwork/lnd"
 					target="_blank"
 					rel="noopener noreferrer">
-					Core Lightning
+					LND,
+				</a>
+				alongside a web interface with
+				<a
+					href="https://lnbits.com"
+					target="_blank"
+					rel="noopener noreferrer">
+					LNbits
+				</a>
+			</li>
+			<li>
+				A Coputer web gateway <a
+					href="/projects">
+					(see Projects)
 				</a>
 			</li>
 			<li>
@@ -337,7 +372,8 @@
 		<p>
 			Since my server tends to experience downtime, some projects (like
 			this website) are hosted elsewhere. However, I still use the server
-			to host projects for friends or others that need it.
+			to host projects for friends or others that need it. If you need me
+			to host something for you, please get in touch!
 		</p>
 	</div>
 </div>
