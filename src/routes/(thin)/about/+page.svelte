@@ -10,6 +10,17 @@
 <h1>About</h1>
 
 <div in:fly={{ y: 40 }}>
+	<h2 class="pt-8 text-xl">Disclaimer</h2>
+	<div
+		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid px-4 pb-4">
+		<p>
+			The "Heliodex" alias/identity and associated online presence in
+			some cases refer not to a single individual, but to a small group of
+			people sharing similar values. This page (and any uses of 'I' or 'me') covers the individual which
+			the identity primarily represents.
+		</p>
+	</div>
+
 	<h2 class="pt-4 text-xl">Heliodex</h2>
 	<div>
 		<span class="pe-2 text-xl">/'hiliəʊdɛks/</span>
@@ -20,7 +31,7 @@
 		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid px-4 pb-4">
 		<p>
 			I'm Lewin Kelly, a software developer from Scotland, better known
-			online by my alias <strong>Heliodex.</strong>
+			online under the alias <strong>Heliodex.</strong>
 		</p>
 		<p>
 			I work with a wide variety of technologies, from frontend and
@@ -136,7 +147,6 @@
 	</div>
 
 	<h2 class="pt-8 text-xl">Presence</h2>
-
 	<div
 		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid px-4 pb-4">
 		<p>
@@ -237,6 +247,13 @@
 			and hosts a number of services, including:
 		</p>
 		<ul>
+			<li>
+				<a
+					href="https://mercs.dev"
+					target="_blank">
+					Mercury 3,
+				</a> an online MMO game platform
+			</li>
 			<li>
 				A basic fileserver at <a
 					href="https://files.heliodex.cf"
@@ -350,10 +367,7 @@
 				</a>
 			</li>
 			<li>
-				A Coputer web gateway <a
-					href="/projects">
-					(see Projects)
-				</a>
+				A Coputer web gateway <a href="/projects">(see Projects)</a>
 			</li>
 			<li>
 				Previously Mercury 2, an online MMO game platform <a
