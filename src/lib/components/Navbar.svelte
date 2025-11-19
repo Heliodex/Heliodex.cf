@@ -14,12 +14,13 @@
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
+		<a href="/posts">Posts</a>
 		<a href="/contact">Contact</a>
 	</nav>
 
 	<p class="ms-a mt-a pe-3">
 		<span class="text-neutral-500">Updated</span>
-		10 October 2025
+		19 November 2025
 	</p>
 </div>
 
