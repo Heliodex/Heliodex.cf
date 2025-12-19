@@ -42,12 +42,6 @@ export const links = [
 		"rinmex-ritlys.heliodex.cf",
 	],
 	[
-		"Guilded",
-		"u/Heliodex",
-		"https://www.guilded.gg/u/Heliodex/",
-		"guilded.gg/u/Heliodex",
-	],
-	[
 		"Nostr",
 		"Heliodex.cf",
 		"nostr:npub1lllllll9xdgqvp5l3drml7kwrre9u5ma6je7ey8r0578dfqq8l8qrjujua",

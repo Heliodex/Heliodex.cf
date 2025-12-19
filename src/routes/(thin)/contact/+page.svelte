@@ -19,6 +19,12 @@
 		],
 		["Telegram", "@Heliodex", "https://t.me/heliodex/", "t.me/heliodex"],
 		[
+			"Guilded",
+			"u/Heliodex",
+			"https://www.guilded.gg/u/Heliodex/",
+			"guilded.gg/u/Heliodex",
+		],
+		[
 			"Discord",
 			"@Heliodex",
 			"https://discord.com/users/290622468547411968/",
