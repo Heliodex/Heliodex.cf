@@ -4,8 +4,10 @@
 
 	const { data } = $props()
 
-	const posts = data.posts.sort(
-		(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+	let posts = $derived(
+		data.posts.sort(
+			(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+		),
 	)
 </script>
 
@@ -24,4 +26,3 @@
 		No blog posts yet. Watch this space!
 	</h2>
 {/if}
-
