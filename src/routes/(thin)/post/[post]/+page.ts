@@ -5,7 +5,7 @@ import { load as loadBlog } from "../../posts/+page"
 export async function load({ params }) {
 	let data: PostType
 	try {
-		data = await import(`../../../../posts/${params.post}.md`)
+		data = await import(`../../../../../posts/${params.post}.md`)
 	} catch {
 		error(404, "Post not found")
 	}

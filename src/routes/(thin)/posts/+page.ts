@@ -1,6 +1,6 @@
 import type { PostType } from "$lib/types"
 
-const allPostFiles = import.meta.glob("../../../posts/*.md") as {
+const allPostFiles = import.meta.glob("../../../../posts/*.md") as {
 	[key: string]: () => Promise<PostType>
 }
 export async function load() {

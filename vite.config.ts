@@ -12,4 +12,5 @@ export default defineConfig({
 		}),
 		sveltekit(),
 	],
+	server: { fs: { allow: ["./posts"] } },
 })
