@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import type { EventTemplate, VerifiedEvent } from "@nostr/tools"
-import { finalizeEvent as finaliseEvent, generateSecretKey } from "@nostr/tools"
+import { finalizeEvent as finaliseEvent, nip19 } from "@nostr/tools"
+import { NostrTypeGuard } from "@nostr/tools/nip19"
 
 type Metadata = {
 	title: string
@@ -53,6 +54,11 @@ type Post = {
 	metadata: Metadata // metadata, metadata, have you seen the metadata? meta-ing all the data it can seee
 }
 
+type WithId<T> = {
+	id: string
+	data: T
+}
+
 function readPosts(): Post[] {
 	const posts: Post[] = []
 
@@ -77,34 +83,64 @@ function readPosts(): Post[] {
 	return posts
 }
 
-const createEventTemplates = (posts: Post[]): EventTemplate[] =>
-	posts.map(post => ({
-		created_at: Math.floor(post.metadata.created_at.getTime() / 1000),
-		tags: [
-			["d", post.id],
-			...post.metadata.tags.map(tag => ["t", tag]),
+const postData = (post: Post) => ({
+	created_at: Math.floor(post.metadata.created_at.getTime() / 1000),
+	tags: [
+		["d", post.id],
+		...post.metadata.tags.map(tag => ["t", tag]),
 
-			["title", post.metadata.title],
-			...(post.metadata.image ? [["image", post.metadata.image]] : []),
-			["summary", post.metadata.summary],
-			[
-				"published_at",
-				Math.floor(
-					post.metadata.published_at.getTime() / 1000
-				).toString(),
-			],
+		["title", post.metadata.title],
+		...(post.metadata.image ? [["image", post.metadata.image]] : []),
+		["summary", post.metadata.summary],
+		[
+			"published_at",
+			Math.floor(post.metadata.published_at.getTime() / 1000).toString(),
 		],
-		kind: 30023, // https://github.com/nostr-protocol/nips/blob/master/23.md
-		content: post.content,
+	],
+	kind: 30023, // https://github.com/nostr-protocol/nips/blob/master/23.md
+	content: post.content,
+})
+
+const createEventTemplates = (posts: Post[]): WithId<EventTemplate>[] =>
+	posts.map(post => ({
+		id: post.id,
+		data: postData(post),
 	}))
 
-const finaliseEvents = (ts: EventTemplate[], sk: Uint8Array): VerifiedEvent[] =>
-	ts.map(t => finaliseEvent(t, sk))
+// THE SIGNATURE IS DIFFERENT EVERY TIME IN BIP340 BECAUSE IT INCLUDES A NONCE!!!!
+const finaliseEvents = (
+	ts: WithId<EventTemplate>[],
+	sk: Uint8Array
+): WithId<VerifiedEvent>[] =>
+	ts.map(t => ({
+		id: t.id,
+		data: finaliseEvent(t.data, sk),
+	}))
 
-const sk = generateSecretKey()
+// const sk = generateSecretKey()
 
-const posts = readPosts()
-const templates = createEventTemplates(posts)
-const events = finaliseEvents(templates, sk) // TODO: use real sk
+// scary part
+async function getNsec(): Promise<Uint8Array> {
+	console.log("pls input nsec")
 
-console.log(JSON.stringify(events))
+	// read from stdin
+	for await (const line of console) {
+		console.clear()
+		if (NostrTypeGuard.isNSec(line)) return nip19.decode(line).data
+		console.log("Invalid secret key, please try again.")
+	}
+
+	throw new Error("Unexpected end of input while waiting for secret key.")
+}
+
+async function getEvents(): Promise<WithId<VerifiedEvent>[]> {
+	const sk = await getNsec()
+
+	const posts = readPosts()
+	const templates = createEventTemplates(posts)
+	return finaliseEvents(templates, sk)
+}
+
+const events = await getEvents()
+
+console.log(events)
