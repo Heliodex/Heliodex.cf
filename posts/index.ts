@@ -1,4 +1,6 @@
 import fs from "node:fs"
+import type { EventTemplate, VerifiedEvent } from "@nostr/tools"
+import { finalizeEvent as finaliseEvent, generateSecretKey } from "@nostr/tools"
 
 type Metadata = {
 	title: string
@@ -75,6 +77,34 @@ function readPosts(): Post[] {
 	return posts
 }
 
-const posts = readPosts()
+const createEventTemplates = (posts: Post[]): EventTemplate[] =>
+	posts.map(post => ({
+		created_at: Math.floor(post.metadata.created_at.getTime() / 1000),
+		tags: [
+			["d", post.id],
+			...post.metadata.tags.map(tag => ["t", tag]),
 
-console.log(posts)
+			["title", post.metadata.title],
+			...(post.metadata.image ? [["image", post.metadata.image]] : []),
+			["summary", post.metadata.summary],
+			[
+				"published_at",
+				Math.floor(
+					post.metadata.published_at.getTime() / 1000
+				).toString(),
+			],
+		],
+		kind: 30023, // https://github.com/nostr-protocol/nips/blob/master/23.md
+		content: post.content,
+	}))
+
+const finaliseEvents = (ts: EventTemplate[], sk: Uint8Array): VerifiedEvent[] =>
+	ts.map(t => finaliseEvent(t, sk))
+
+const sk = generateSecretKey()
+
+const posts = readPosts()
+const templates = createEventTemplates(posts)
+const events = finaliseEvents(templates, sk) // TODO: use real sk
+
+console.log(JSON.stringify(events))
