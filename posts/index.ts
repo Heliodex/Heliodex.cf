@@ -1,7 +1,5 @@
 import fs from "node:fs"
 
-const postsDir = fs.readdirSync("./md")
-
 type Metadata = {
 	title: string
 	image?: string
@@ -48,25 +46,35 @@ function validateMetadata(json: unknown): Metadata {
 }
 
 type Post = {
+	id: string
 	content: string
 	metadata: Metadata // metadata, metadata, have you seen the metadata? meta-ing all the data it can seee
 }
 
-const posts: Post[] = []
+function readPosts(): Post[] {
+	const posts: Post[] = []
 
-for (const post of postsDir) {
-	const f = fs.readFileSync(`./md/${post}`, "utf-8")
+	const postsDir = fs.readdirSync("./md").filter(file => file.endsWith(".md"))
 
-	const [, frontmatterText, content] = f.split("---").map(s => s.trim())
-	if (!frontmatterText || !content) {
-		console.error(`Post ${post} is missing frontmatter or content.`)
-		process.exit(1)
+	for (const post of postsDir) {
+		const f = fs.readFileSync(`./md/${post}`, "utf-8")
+
+		const [, frontmatterText, content] = f.split("---").map(s => s.trim())
+		if (!frontmatterText || !content) {
+			console.error(`Post ${post} is missing frontmatter or content.`)
+			process.exit(1)
+		}
+
+		posts.push({
+			id: post.replace(".md", ""),
+			content,
+			metadata: validateMetadata(JSON.parse(frontmatterText)),
+		})
 	}
 
-	posts.push({
-		content,
-		metadata: validateMetadata(JSON.parse(frontmatterText)),
-	})
+	return posts
 }
+
+const posts = readPosts()
 
 console.log(posts)
