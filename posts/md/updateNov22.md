@@ -1,6 +1,6 @@
 ---
 {
-	"title": "Heliodex project update November 2022",
+	"title": "Heliodex project update – November 2022",
 	"summary": "project update for projects",
 	"created_at": "2022-11-24 19:15",
 	"published_at": "2022-11-24 19:15",
