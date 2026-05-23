@@ -141,6 +141,14 @@ async function getEvents(): Promise<WithId<VerifiedEvent>[]> {
 	return finaliseEvents(templates, sk)
 }
 
-const events = await getEvents()
+async function writeEventsToFile(events: WithId<VerifiedEvent>[]) {
+	const outdir = "./events"
 
-console.log(events)
+	for (const event of events)
+		await Bun.write(
+			`${outdir}/${event.id}.json`,
+			JSON.stringify(event.data, null, "\t")
+		)
+}
+
+writeEventsToFile(await getEvents())
