@@ -1,0 +1,30 @@
+{
+	"created_at": 1696789860,
+	"tags": [
+		[
+			"d",
+			"updateSep23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – September 2023"
+		],
+		[
+			"summary",
+			"late update to Heliodex projects for the month of September"
+		],
+		[
+			"published_at",
+			"1696789860"
+		]
+	],
+	"kind": 30023,
+	"content": "Completely forgot about this one! Here's an update to some projects I've worked on over the last month, 8 days late.\n\n## [Mercury](https://banland.xyz/)\n\nMercury's repository recently reached 1500 commits! We're well underway with work on a new backend and database structure, as the previous 2-database system was difficult to work with. Hopefully the new system will allow us to move fast and also not break everything.\n\nOnce the migration is finished, the database will be reset and we'll accept a new wave of beta testers. We're also working on a system that will allow beta testers to be accepted easier, so we can get more testers in. After that, we have a few more things to do before we can finalise a public release.\n\n- Improved avatar shop/marketplace categorisation and discovery\n- Equippable inventory system and avatar editing\n- A bit better moderation tooling\n- Proper avatar rendering on site\n- DLL hooking for unlocking currently unavailable features\n- Perhaps a private messaging system?\n\nSince we're coming into the October holidays, we'll have much more time to work on the project. Stay tuned for more updates and features!\n\n## [ORC Document Archive](https://orchives.heliodex.cf/)\n\nThe ORC Document Archive, or just the orchives, is a collection of notable documents relating to the Old Roblox Community, re-transcribed to fix spelling mistakes and formatting issues. It attempts to maintain the same formatting and not change any information in them either.\n\nI created the site because I had several documents I archived and transcribed, some of which were previously hosted on [files.heliodex.cf](https://files.heliodex.cf/). I wanted a dedicated place to put them and add more of.\n\nThe site is linked on the [Revival Archive](https://archive.banland.xyz/), and I might link it to the [ORC Wiki](https://wiki.banland.xyz/) as well.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "94c4cfaf28cb70ad468d3115ccdab19cf213647e823b2ff70ba7c5b769159f7f",
+	"sig": "57c2d677514dff23a09c79f1e94b263853e2a35b1641118cdeab6bc9e9fb04e814f431011a28a97a02301de57defc6ee80995bf0352b200b70fa214fc028549f"
+}

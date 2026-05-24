@@ -1,0 +1,30 @@
+{
+	"created_at": 1707797580,
+	"tags": [
+		[
+			"d",
+			"updateJan24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – January 2024"
+		],
+		[
+			"summary",
+			"first 2024 january Heliodex project update"
+		],
+		[
+			"published_at",
+			"1707797580"
+		]
+	],
+	"kind": 30023,
+	"content": "That's 2024 off to... a start. Here's what I've been up to during the first month of the year!\n\n## [Mercury](https://banland.xyz/)\n\nImprovements continue to be made to Mercury. Changes have been made to some UI and form elements to make them work better with JS enabled, optimisations to corescripts and better library support, and the generic major updates of dependencies.\n\nGo has been making its way into the Mercury codebase, including the new client deployer found in my [previous gist](https://gist.github.com/Heliodex/4d61155476ccd002f2e900d2f09ab461). It has helped to greatly improve efficiency and speed of many processes.\n\nLastly, some upcoming features you can expect in the coming weeks include avatar shop improvements and support for hats.\n\n## [Heliodex.cf](https://heliodex.cf/)\n\nMy website is down now because of that thing Freenom does where they wipe your nameservers and don't let you reconfigure it for several months (that's what happened to [Reviso](https://reviso.ml/)). It should always be available at [heliodex.netlify.app](https://heliodex.netlify.app/) though (and Reviso at [reviso.netlify.app](https://reviso.netlify.app/)).",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "84f6fb1b8784954e09732ecb80b973fbccbde818f92167b68c4821e542b06751",
+	"sig": "b7530eb14dc4ef88eac6872011f40f55c5072f0848f02673272a1d35c59ff8f4cc45ff654b7a43773510791d6eccfd17bfd51cf405b11cd4a911612d262537e7"
+}

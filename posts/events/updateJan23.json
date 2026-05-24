@@ -1,0 +1,30 @@
+{
+	"created_at": 1677718200,
+	"tags": [
+		[
+			"d",
+			"updateJan23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – January 2023"
+		],
+		[
+			"summary",
+			"project update 3"
+		],
+		[
+			"published_at",
+			"1675313940"
+		]
+	],
+	"kind": 30023,
+	"content": "Despite this month being packed with prelim exams, it had probably the most Github commits I've made in a single month.\n\n## Mercury\n\nThis project is the source of most of these commits. Mercury (v2) is a Roblox private server with a tech stack of Node, SvelteKit, and Typescript, in stark contrast with most revivals' use of PHP-based stacks. It's being created by a team with the people who worked on the original Mercury 1, and development is moving extremely quickly.\n\nThe project was my first time really managing databases, for which the project uses Postgres with Prisma as well as Redisgraph. Graph databases are a lot easier to do a ton of stuff with, and I have loved using them so far.\n\nAt the moment, Mercury is in closed beta with ~30 testers. We plan to continue work on the client over the coming weeks.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "76fae91c1d39b58a7493219ef5a1b2cc15048648acaec75b9ab6d2fc2b418138",
+	"sig": "f4fdba6f2cc49aa0df620e50c6fd8334a421ce651859cbbd67094e41440b45be74bf1e0c2a69ea1391c4bb75c9ed943d6b3c0fb78f388a34ab58143ee8dac585"
+}

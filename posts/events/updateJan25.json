@@ -1,0 +1,30 @@
+{
+	"created_at": 1739468280,
+	"tags": [
+		[
+			"d",
+			"updateJan25"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – January 2025"
+		],
+		[
+			"summary",
+			"irst 2025 monthly Heliodex project update"
+		],
+		[
+			"published_at",
+			"1739468280"
+		]
+	],
+	"kind": 30023,
+	"content": "Hello again! Your monthly update is here once again, with the usual side of assorted sections of rambling.\n\n## [litecode](https://github.com/Heliodex/litecode)\n\nSome bug fixes and a better external API have been added, alongside four string library functions I was hesitant to implement: find, match, gmatch, and gsub. Pattern matching was, as I had suspected, a pain in the ass to get working. What next, maybe metatable support? Eh, perhaps if they actually turn out to be useful someday.\n\nPretty much all standard library functions apart from the *really naughty ones* have been implemented now, so I'll call it ready for further battle-testing as part of a larger-scale system. If any bugs crop up that I haven't caught yet, they'll probably be really insane time-sink ones.\n\nAt some point in the far future I'd like to make some tools for litecode to supersede [melt](https://github.com/Heliodex/melt) too, espcially if I can make use of Luau's `luau-ast`.\n\n## [nocte](https://github.com/Heliodex/nocte)\n\nIf you can even remember what this project is, of course. After careful deliberation between whether to go with Lune or Zune for nocte's runtime, I have of course decided to build a custom runtime for it based on litecode.\n\nThis at least shows it's possible to send and accept HTTP/Websocket connections through litecode, and easily map over any functions that are available in the Go standard library but are unavailable in litecode's, without having to use the traditional (& weird) push/pop stack-based API.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "bb6020faad5b1404c68f6b07d9e997406c2a0dd69c3db121098a911b3a747448",
+	"sig": "5f2d503b24cce24a9c28dedb1dd84cafca0836fcca52ceaee65c70aebc2f230b92f8403c813786d0249902f80896b4b89b631c43729122380f7267430a007f97"
+}

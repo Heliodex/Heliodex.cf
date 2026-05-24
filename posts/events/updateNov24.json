@@ -1,0 +1,30 @@
+{
+	"created_at": 1734160500,
+	"tags": [
+		[
+			"d",
+			"updateNov24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – November 2024"
+		],
+		[
+			"summary",
+			"Update for projects by me for November 2024"
+		],
+		[
+			"published_at",
+			"1734160500"
+		]
+	],
+	"kind": 30023,
+	"content": "Sup. Hope you're all excited for this epic completely regular post about the progress of what I'm working on.\n\n## [litecode](https://github.com/Heliodex/litecode)\n\nI've been steadily stabilising litecode's interpreter and continued work on the standard library. math and table libraries are now complete, and I have some functions working on the string library.\n\nHowever, I'm unsure I'll be able to match the compatibility of the reference implementation, especially given that what I'm building might not even be considered Luau anymore. Most deprecated functions have been removed, math.random/randomseed have also been taken out, and the string library, the most complex so far, I'm only planning on implementing about half of.  \nRelating to randomness &ndash; I'd like determinism to be a priority, as this would be extremely useful for the larger project I intend for it to be a part of. Relating to the string library &ndash; A lot of the stuff relating to iterators I just don't like that much, string packing/unpacking can be done with buffers instead, and the (actually really good) reasons why pattern matching exists in both Lua and reference Luau aren't relevant in litecode. I plan to replace patterns with some improved matching system (regex would be nice but not enough of an improvement).\n\n\nPerformance optimisations still need to be made. litecode is, give or take, 5-20 times slower than the reference implementation. I don't know how close I'll be able to get to it, but there are some easy low-hanging fruit to grab here (eg. loads of use of reflection, no fastcall optimisations, unnecessary type conversions, etc).  \nI'll try getting some real benchmarks for this done as well, so I can start work on optimisations.\n\n## [Heliodex.cf](https://heliodex.cf)\n\nThe website still has plenty of egregious spelling mistakes that I'll get around to fixing, uh, eventually. However, the new font and branding have been applied to all of the [banners](https://files.heliodex.cf/img/HeliodexBanner3.png) on my active profiles. Mostly was just waiting until this was finished before publishing this update.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "fab7147b975279809b5ebdf879e94dfd360b49fa7b8f5fa98e4597629980b69b",
+	"sig": "8845a1365208d9efb59eb13c1dcd9931c0753a1831dee5330b31758609640e1b4e15d38930e3bf81958f030ac27f13a453fb4f61bd731e982e399887eb491485"
+}

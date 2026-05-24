@@ -1,0 +1,30 @@
+{
+	"created_at": 1669317300,
+	"tags": [
+		[
+			"d",
+			"updateNov22"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – November 2022"
+		],
+		[
+			"summary",
+			"project update for projects"
+		],
+		[
+			"published_at",
+			"1669317300"
+		]
+	],
+	"kind": 30023,
+	"content": "An update to how all the projects I'm working on are going. Probably will do this a few times yearly.\n\n## TSBB\n\nTSBB (Typing Simulator But Better), a typing game I've been working on alongside a few others and the sort-of succesor to [Typing Simulator](https://roblox.com/games/6739204347/) by S-GAMES, has been stuck in development hell for... sixteen months now.\n\nIt's essentially complete though (i promise), and all that is needed is a name for the project. Please give suggestions, as I have basically no ideas. \"Typing Simulator\" is already polluted with games in Roblox search results, and \"TSBB\" isn't catchy or descriptive.\n\n## [eChat](https://github.com/Heliodex/eChat)\n\neChat, the un-blockable bookmarklet chat app, was recently blocked on school chromebooks and I've open sourced it at [Heliodex/eChat](https://github.com/Heliodex/eChat), [Heliodex/eChatWebsite](https://github.com/Heliodex/eChatWebsite), [Heliodex/eChatPopup](https://github.com/Heliodex/eChatPopup). I have no further plans to do anything with it, though I might be able to rework it into something similar to DocSocial.\n\nI realised The CI/CD seems to have broken as well before it was blocked, so 1.1.5 is the latest version available.\n\n## [Heliodex.cf](https://github.com/Heliodex/Heliodex.cf)\n\nHaven't updated it in a while, I'll soon add eChat to the projects page and fix a few things. Considering adding a blog to it if I'm going to make more posts like these or anything else longer than a tweet.\n\nThe looks also have to be improved if it's my main portfolio site, and I gained same experience on creating actually good looking pages after making the Mercury landing page. Could rewrite it in SvelteKit too.\n\n## [Python Calculator Collection](https://github.com/Heliodex/PythonCalculators)\n\nI haven't made any more calculators since the last addition, but I think I may have modified a few of them. I'll have to check and update the repository.\n\n## [Torbreck Orchard](https://github.com/Heliodex/TorbreckOrchard)\n\nI finally managed to move the website away from Wix, and my first time using Astro (it's quite nice). I restrained myself from using SvelteKit for such a basic static site, but I'm already missing the instant navigation if nothing else. Gonna check if something like that exists for Astro.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "ab88b7643d453ef0cfdac39de1f63427d67c7d516d150e9670b19676bf046f83",
+	"sig": "8db2b131a45b205974c204890f4e7af22d4cadcfd4eedfd251ad27b1d0a422b4e68850a4ff1c65a9edf57f99ada4dd2df606d4dd5353f598507ecb67120aaba2"
+}

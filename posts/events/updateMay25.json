@@ -1,0 +1,30 @@
+{
+	"created_at": 1749822180,
+	"tags": [
+		[
+			"d",
+			"updateMay25"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – May 2025"
+		],
+		[
+			"summary",
+			"Project update for May 2025"
+		],
+		[
+			"published_at",
+			"1749822180"
+		]
+	],
+	"kind": 30023,
+	"content": "Hello all, here's another monthly project update. The summer holidays have started, so I'm away at the moment, but I've still had lots of time to code some cool things.\n\n## [Mercury](https://github.com/tp-link-extender/MercuryCore)\n\nThe jokes, hoaxes, and memes have all turned out to be true. There will be a Mercury 3.\n\nMercury 3 will be hosted on the domain [xtcy.dev](https://xtcy.dev). We have a working DLL hook for the 2013 client & studio (same as previous Mercuries) and a Windows Server VPS for running Mercury Core, RCCService, and related services.\n\nThe communication system rewrite has been completed, and it's now easier to comment and vote on things, managed by one system instead of 3 or 4. Mercury Core has been deployed to the website, though similarly to early Mercury 2, it's rather unstable at the moment. We're planning to redo the site's design with a more minimalist aesthetic, as well as giving out registration keys soon.\n\nWe're also planning to backport most of our improvements into Mercury Core, including hopefully some improved client/launcher communication and RCCService improvements, such as upgrading the proxy to be version-agnostic.\n\nThe use of a DLL hook means that patching is no longer required, but complicates the already complicated setup, deployment, and launcher process. Because of this, we'll probably build a custom setup deployer and launcher in the coming weeks, perhaps based on [the one I wrote last year while learning F#](https://github.com/Heliodex/F-sharp-testing).\n\nThe \"twist\" for Mercury 3 is that we plan to announce the release date and the shutdown date at the same time &ndash; that is, the project will run for a preset period of time (I've jokingly called it a \"disposable revival\" because of this, but it could also be recycled in future...). Afterwards, we'll nuke the site and publish a video (I know we have a reputation for failing to produce these on time, but we'll try) showcasing what the project was like while it was running.\n\n## [Coputer](https://github.com/Heliodex/coputer)\n\nI recently discovered Go's code coverage testing tool, so have added more VM tests to improve coverage. In terms of VM internals, the E register is no longer used to save memory, and each iteration no longer spawns a new goroutine.\n\nA future idea I had was to write a bytecode transpiler to move some VM implementation and optimisation work over to a build step. However, this doesn't fit so cleanly with the rest of Coputer's design, eg. programs being distributed as source code rather than bytecode, and would reduce compatibility with Luau. I'll consider this more if we have multiple execution system implementations, which probably won't happen for a while given that the execution system is the most complicated part of the network.\n\nAt the moment I should be prioritising work on the communication system instead of the VM, but I have managed to uncover and fix some new VM bugs after recent testing. Oh well.\n\nIndexing programs based on public key + name instead of by hash is nearing completion. In all the designs I've made for Coputer, this is the most common way of accessing programs. Therefore, I'm wondering if it should be the *only* way of indexing programs, and hash-based indexing being kept as an implementation detail.\n\nSome hurdles will need to be overcome if this is desirable. A signature will need to be stored alongside the program as well as the public key, as currently the sender of the Store message is considered the program's creator.\n\nWallflower now has a cool fractal-like logo. Gateways will happen soon™.\n\n## [Sprig](https://github.com/Heliodex/sprig)\n\nI'm experimenting with writing custom firmware for the Sprig console with TinyGo, which has been an awesome learning experience. It would be great to write some improved screen-drawing routines for the console's st7735 display, as redrawing the whole screen and setting 1 pixel at a time are both rather slow methods.\n\nI'm considering writing a basic game engine to it, maybe so I can port a game like Sprig Shooter as a proof of concept, or write a small demo.\n\n## [Execxorcist](https://github.com/Heliodex/execxorcist)\n\nNew project! The name is a mouthful &ndash; don't worry, it can be shortened to **xc**.\n\nExecxorcist aims to be a tool for managing processes running in the background. It was created out of spite of all the other tools that don't quite do this well enough:\n- Container managers like Docker and Podman are popular but are slow and discrepancies exist between specified and unspecified volume locations, also having restrictive virtualisation requirements\n- OS-specific process managers are.. OS-specific, and tend to have idiosyncratic designs\n- PM2 is fine and works well for Node projects, though struggles with some dependencies and non-Node projects\n- Permission issues are everywhere\n\nI don't think I can write a better general process management tool, though I might be able to write one that's better for my specific use case. I'd like to generate a project schema based off a configuration file for easy setup as well.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "10c820dcf3a0579f44ba440c9f46b6a52714ce2c66af7334d86e0b36f43582fe",
+	"sig": "c452ea2f7d0e1ce56d0758456733de31e21a180f4b74c1fb571e5e0a53fbd98c929a0ff3c926f170e963fb425ea3a6cf7ddc3025a39e38be228031a37a092c2b"
+}

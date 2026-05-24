@@ -1,0 +1,30 @@
+{
+	"created_at": 1778075160,
+	"tags": [
+		[
+			"d",
+			"updateApr26"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – April 2026"
+		],
+		[
+			"summary",
+			"Project update for Heliodex projects in April 2026"
+		],
+		[
+			"published_at",
+			"1777773720"
+		]
+	],
+	"kind": 30023,
+	"content": "It's time again. As we now move into (what feels like, at least for my part of the northern hemisphere) summer, I present the April issue of my project update. Here's all the interesting (and uninteresting) things I've done in the past month!\n\n## [Mercury](https://github.com/tp-link-extender/MercuryCore)\n\nMercury 3 has [107 beta tester user accounts](https://mercs.dev/statistics), along with 543 members in the Discord server. We are still officially in hiatus for the next week and a bit due to Taskmanager's exams, though that doesn't mean I can't continue work on random aspects of the project.\n\nThe forms rewrite on the [forms](https://github.com/tp-link-extender/MercuryCore/tree/forms) branch may slow down for a bit, as I'm experincing problems with making new forms work properly, as well as the ever-present typing issues, especially with file uploading. For example, I tried to rewrite the /report form, and upon selecting a report type in the dropdown, the form suddenly submits itself. Furthermore, the existing forms system currently deployed in production and on the main branch has seemed to fix itself (likely due to a dependency update) and is no longer broken, so I guess we can continue with that for now.\n\nOn the [ledgertests](https://github.com/tp-link-extender/MercuryCore/tree/ledgertests) branch, the new Economy service API is being constructed. One of the challenges I ran into is which serialisation format should be used. The previous Economy service implementation used JSON, though the entire system used JSON throughout, so that was a fairly easy choice. This time there's a custom serialisation format used for the ledger database, so I came to the idea of re-implementing the necessary serialisation and deserialisation code for the API in Typescript, so that it could be used as a client library from Mercury Core. This is a work in progress at the moment, however is able to serialise and deserialise basic data types and communicate with the API correctly. This is likely what will be moved forward with.\n\nThe [Launcher](https://github.com/tp-link-extender/MercuryLauncher) has also been hit with some dependency difficulties, given the recent upgrade to [Avalonia 12](https://docs.avaloniaui.net/docs/avalonia12-breaking-changes), the .NET UI library used by the Launcher. This is made more challenging by the fact that we consume it through [FuncUI](https://funcui.avaloniaui.net), a functional wrapper around Avalonia for F#. However, they've recently released a [preview version](https://www.nuget.org/packages/Avalonia.FuncUI/2.0.0-preview1) to work with the breaking changes, so I'll see if I can modify the Launcher to work with that.  \nBefore any of these dependency issues arose, the new Launcher that doesn't run as root on Linux was deployed successfully, so at least there aren't any major modifications blocked by this. However, the Launcher won't reinstall itself if it doesn't see a new client deployment, so users will have to do this manually. Maybe we should base the Launcher executables on separate hashes as well.\n\nThe production gameserver and website seem to be running fine with no major issues or downtime this month. Woohoo!\n\n## [OpenBlox](https://github.com/Heliodex/OpenBlox)\n\nThis is a project (with an admittedly recycled name) that attempts to showcase a possible programme to engage high school students in developing Roblox games in public. Previously, the site simply featured an explanatory homepage and no backend functionality at [ysws.heliodex.cf](https://ysws.heliodex.cf). This month it's been updated with a dashboard to log in and add projects to, as well as integrating with Roblox's Open Cloud APIs to display project data and allow users to connect their Roblox accounts.\n\nI doubt the project will go any further than this demo stage, however it was a fun experience to work with Roblox's OAuth APIs and try to figure out what would be most useful and engaging for participants. The whole project is a more polished and complete version of a very similar idea I had 11 months ago.\n\n## [Sprig](https://github.com/Heliodex/sprig)\n\nI ordered and received a Raspberry Pi Pico 2 compatible microcontroller, running an RP2350 chip to replace the RP2040-based Pico (1) that came with the original Sprig. However, while programming for it, my code no longer seems to run properly on the RP2040. Whatever, the bonus RAM and extra flash space and USB-C connector is great to have, though running out of memory is still a regular problem.\n\nI began writing ~~an isomorphic~~ ~~an isometric~~ a dimetric voxel game, with 2.5D terrain graphics. I implemented a lot of optimisation for rendering by splitting each voxel cube into 6 triangular faces (since those on the back are not visible), and not drawing those that are occluded. This turned out to be more efficient than a previous occlusion culling algorithm that worked on whole cubes, due to the culilng of the previous algorithm resulting in the algorithm that was applied afterwards not occluding enough. It seems to work pretty perfectly now, that is that every pixel in the screen is only drawn once, and the demo runs at a decent 30 or so FPS on the console (when overclocked to 300MHz, on one of the ARM cores, not the RISC-V ones).\n\nAfterwards, I tried implementing a movement system for player controls and collisions, however at the moment this is rather buggy since the visible voxels don't align with the collision boxes.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "27c1e0aa92e486455df798354b8b4a3ad9f8d61369a823db836a27380d61abb6",
+	"sig": "2fccf452cb211f2ce1cd30d88f35e6cd389ccea24beca82fe0e0cf3264fe0fc298f2d55bfd09972d2b9a43081ff6ebf4d8b0890ed279b476e11479c171cc9fca"
+}

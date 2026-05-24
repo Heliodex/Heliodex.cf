@@ -1,0 +1,30 @@
+{
+	"created_at": 1691122440,
+	"tags": [
+		[
+			"d",
+			"updateJul23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – July 2023"
+		],
+		[
+			"summary",
+			"Heliodex projects July update"
+		],
+		[
+			"published_at",
+			"1691122440"
+		]
+	],
+	"kind": 30023,
+	"content": "Almost forgot about this one! Here's the monthly project update again, I have several updates to existing projects and a new announcement.\n\n## [Mercury](https://banland.xyz/)\n\nSeveral updates have been made to Mercury's website. Error pages are improved, the design of the landing page has been updated, and we moved from Sass to Stylus for styling, which allows multiline statements with a cleaner indented syntax. A couple of client bugs have been fixed as well.\n\nNavigation for the site has been improved, with a much simpler bottom navigation bar for smaller screens. This allows us to get rid of the cumbersome hamburger menu, and alongside it, a significant amount of bloat from Bootstrap's CSS and JS. The top navbar has also been improved on larger screens.\n\nAsset thumbnails/icons are now visible on their respective pages, and we're continuing work on the catalog/avatar shop/marketplace. This is probably the last major step for the website before we move from a closed beta into a public testing release.\n\n## [Elemental](https://github.com/heliodex/elemental/)\n\nFew updates to this project have been made in this month, as I've been questioning which architecture is best for the project too much, particularly authentication/authorisation and the database. EdgeDB has a nice web interface but coming from Prisma, its Typescript client is a step down in experience and usability (though almost nothing is as good experience as Prisma, especially since v5) and the benefits of EdgeQL's nice syntax aren't usable.\n\nORMs are popping up for other bleeding-edge databases such as SurrealDB now too though. If I choose anything exotic I know I'll have to write something custom for auth, but having two databases is a bit of a pain (as I've learned from Mercury).\n\n## [Revival Archive](https://archive.banland.xyz/)\n\nThe Revival Archive is a new, community-driven site for keeping track of both active and defunct nostalgic-style and newer-style brickbuilding servers. It hosts blog posts and information about Revivals, and will soon be introducing reviews and ratings for them too. The project will be an extension of the [Revival Archive Discord server](https://discord.gg/zfC3VH2WBa/).\n\nIt's a simple static Sveltekit site superbly served by Netlify. Contributions to posts and reviews are welcome, and the site is open source [on Github](https://github.com/tp-link-extender/revival-archive/).",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "b2ddd69ce506f819489df550829826c622268d3543089ff427da8ab83f0f416e",
+	"sig": "bbed087ca3a4543acf2977d3475c3fa0524b36b10ebb03d8d919091550e3879da124d88d2b7272f0c8906be2383b5508a7a8aed05097cc5327f352dcc406c130"
+}

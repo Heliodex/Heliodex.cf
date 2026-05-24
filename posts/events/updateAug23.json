@@ -1,0 +1,30 @@
+{
+	"created_at": 1693697160,
+	"tags": [
+		[
+			"d",
+			"updateAug23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – August 2023"
+		],
+		[
+			"summary",
+			"update for August on projects by Heliodex"
+		],
+		[
+			"published_at",
+			"1693697160"
+		]
+	],
+	"kind": 30023,
+	"content": "Now entering Autumn, here's the updates to the projects I've worked on over the past month.\n\n## [Mercury](https://banland.xyz/)\n\nMercury's site has had some generic fixes. You know, fixing styling issues, optimisations, reducing bundle size, that sort of thing. What's more interesting is the updates to the client.\n\nAs Mercury uses a 11 or 12 December 2013 build of the client, lack of many many features, improvements, and documentation results in a degraded development experience compared to modern Lua and Luau. This is the main reason why similar projects that use newer clients usually have more original content created for them, and why older clients are often filled with copies of games from their era.\n\nThere may be a way to solve this. Using modern development tooling, development is made far easier and more enjoyable, spurring creativity. We've ported the 2013 corescripts from [Yuescript](https://yuescript.org/) to Luau, which adds helpful information for types, warnings, and errors. Transformers such as [darklua](https://darklua.com/) are crucial for allowing code in Luau and other languages to work in Mercury.\n\nModern tooling can also be ported or replicated to older clients, like [Fusion](https://elttob.uk/Fusion/0.3/), which is now available in Mercury via `LoadLibrary \"RbxFusion\"`, with some features modified or removed to work on the older environment. Due to TweenService not existing until 2017, it's currently the only way to get good-looking animations on Mercury. We're planning to work on porting more modules for networking, datastores, UI, and more.\n\nWe're also working on other methods such as DLL hooking, which lets us unlock features that aren't normally available. By using this, services like HttpService could be enabled, which at the moment would be the only way to reliably store data or communicate with the outside world. We're working on a plugin called Mercury Sync, that synchronises scripts in a place with a local folder, possibly allowing build steps in the future too.\n\n## [Heliodex.cf](https://heliodex.cf/)\n\nMy website has been revamped for version 3, and now works as a static SvelteKit multi-page site rather than a Svelte single-page app. The design has been updated (inspired by the [Revival Archive](https://archive.banland.xyz/) site), the Projects and Contact pages has been updated, and I might finally get around to adding something to the About page.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "bc7a80466d4a51a0bbcd4f46336796e629a95f20084a1bd5f6da8c3f1dc251b8",
+	"sig": "7146d343731c9ef347d5a65f0f27e0c8d5ffcff0038b97dbb705eee4360f974b9278399ffd58c42b0afb14bff817ad789b992b851c1c0f3787541875ddb40871"
+}

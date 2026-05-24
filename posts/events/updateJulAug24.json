@@ -1,0 +1,30 @@
+{
+	"created_at": 1725839940,
+	"tags": [
+		[
+			"d",
+			"updateJulAug24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – July/August 2024"
+		],
+		[
+			"summary",
+			"Double July and August 2024 update by Heliodex"
+		],
+		[
+			"published_at",
+			"1725839940"
+		]
+	],
+	"kind": 30023,
+	"content": "We're doubling up baby! I didn't have time to write a post last month, so this one will cover both July and August.\n\n## [Mercury Core](https://github.com/tp-link-extender/MercuryCore)\n\nAfter ~28 months in development, the highly anticipated open-source release of Mercury Core has finally happened. This is (hopefully) the final form of this several-times-recycled codebase, and will continue to be supported by maintainers and by community contributions for some time. However, we're still considering how releases will work, and whether the main branch should be considered stable for production use.\n\nThis first release is intended to be only for highly technical users or programmers, though the README does include instructions for easy configuration with the **mercury.core.ts** file. We're working on a comprehensive video guide to Mercury Core, which includes setup instructions as well as a full tutorial walkthrough of creating your own fully fledged revival project with it.\n\nHuge props to all of the current and previous developers, administrators, moderators, beta testers, hosters, players, and everyone else giving feedback on Mercury, without whom Mercury Core wouldn't have been possible. A number of extremely helpful issues and contributions have already been made, and at the time of writing,the repository has 17 stars and 4 forks.\n\n## [proto](https://github.com/Heliodex/proto)\n\nThis learning project was started due to me having no internet for a few days. It's a small test of peer-to-peer communication between a number of instances/nodes, with a proto-type proto-col that allows each to discover and communicate directly with every other node in the network.\n\nIt also includes a fun little hacked-together browser visualisation tool, which shows the communications between each of the nodes.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "ddfb7d0ebe4574404a0a43c610b6b4bbe32ae9da1b08dfbf1ac7f6ed6a4439d5",
+	"sig": "437e4f9223fb9661871c64a8821326217dfab5036f63f42e361d15750d7b779b912c11ef9209f985ee3015d078e45ef76abd3fbaffaeaf759b91b899cb26bb46"
+}

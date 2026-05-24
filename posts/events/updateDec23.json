@@ -1,0 +1,30 @@
+{
+	"created_at": 1705118280,
+	"tags": [
+		[
+			"d",
+			"updateDec23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – December 2023"
+		],
+		[
+			"summary",
+			"final 2023 Heliodex project update"
+		],
+		[
+			"published_at",
+			"1705118280"
+		]
+	],
+	"kind": 30023,
+	"content": "Welcome to 2024! Here's an update to what I did in the last part of 2023.\n\n## [Mercury](https://banland.xyz/)\n\nIf it wasn't clear by my [previous gist](https://gist.github.com/Heliodex/1792db65c74fd8a7fb0c61a27d48ac1b), I'm not the biggest fan of Bootstrap as it is currently, and I wanted to leave it in 2023. The removal of Bootstrap from Mercury at the beginning of 2024 serves as the clean slate to build the highly anticipated frontend rewrite upon. Navigation and readability need to be improved across the site, and enhancing the ways members can communicate with each other on site is important as well.\n\nAt the beginning of the year, Mercury barely even had a proper backend, and now it's flourishing into a near full-fledged revival with industry-leading features and web design. I've been focussing heavily on code quality and maintainability, as we want to open-source Mercury once it's complete.\n\nMercury has also finally acquired a VPS to run RCCService on (also allowing dedicated gameservers in the future!), and renders will be re-enabled on site soon.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "db2a0006110ac49b9f789a61a173fe3ba673282ff1e8c0e77cfa59edfb50b4ab",
+	"sig": "00236cbcfe3fdd42a70abbcd9b846d8e6ca4e15982aa30295ce6eead2787c183ce651a6f591163b96dcca54c4fe04aa0671900ecbe787f608b06bedb24c687af"
+}

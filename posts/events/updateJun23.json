@@ -1,0 +1,30 @@
+{
+	"created_at": 1688281920,
+	"tags": [
+		[
+			"d",
+			"updateJun23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – June 2023"
+		],
+		[
+			"summary",
+			"update for June on Heliodex projects"
+		],
+		[
+			"published_at",
+			"1688281920"
+		]
+	],
+	"kind": 30023,
+	"content": "Welcome back! Summer has begun, and I'll be able to work on projects more often over the coming weeks. Here's a summary of what's happened in June:\n\n## [Mercury](https://banland.xyz/)\n\nImprovements to the asset system have been added, and we're working on a more cohesive moderation system for admins to allow users to upload their own assets to the website.\n\nAs always, many optimisations have been added to parts of the client and website. I and many other of the developers will be much more active in the near future, so expect more updates soon!\n\n## [Elemental](https://github.com/heliodex/elemental/)\n\nI have begun remaking the original UI from Elemental Android, and have started work on a basic backend. I'm looking at several database options, especially [EdgeDB](https://edgedb.com/).\n\nI've also added [tRPC](https://trpc.io/) to communicate between backend and frontend (both in TypeScript), and it works brilliantly. The backend will be run with [Bun](https://bun.sh/), though EdgeDB's client doesn't seem to work correctly with it.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "04a074089217daa4e77f658eb7f4f8d1c6a674c2f5eae1faa87ab99d8a50ff73",
+	"sig": "5c45f98f58e6a6eefd5b9d53bd5b411c23117c8580f2d5265dbf34cfcaf68496d82359fd29bba76a9efd97036f75b6df23a1b3304859903c426cf852cee849e7"
+}

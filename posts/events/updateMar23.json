@@ -1,0 +1,30 @@
+{
+	"created_at": 1680473040,
+	"tags": [
+		[
+			"d",
+			"updateMar23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – March 2023"
+		],
+		[
+			"summary",
+			"Project update 5 for march"
+		],
+		[
+			"published_at",
+			"1680473040"
+		]
+	],
+	"kind": 30023,
+	"content": "Almost forgot about the project update for this month. Over the course of April and May, I still have a bit of work to finish for some of my qualifications.\n\n## [Mercury](https://banland.xyz/)\n\nOver the past month, Mercury acquired some new beta testers and suspended some inactive ones, so now totals over 50 users. Beta development has continued with many new features being added, including forum posts and replies, moderation system, improved banners, migrating from nginx to Caddy, and notifications.\n\nI've experimented with some libraries like [SvelteKit Superforms](https://superforms.vercel.app/), which I've found useful and makes form validation a lot simpler. I also found out about [Civet](https://civet.dev/), which is like a combination between CoffeeScript and TypeScript, both languages I love. Would also love to write some code for Mercury in it, but SvelteKit support requires a few hacky workarounds at the moment.\n\nThe April 1st update added a garish CSS rewrite with everything comic sans and rainbow and animated, proving our web design is miles ahead of any revival website.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "4e25c4741cb5cff75a68d01d5e5d6e169bc4c8306b7cbbba2760fa9122c88551",
+	"sig": "fa2aa070a74ea76b5dbb642e7fd5cfff35993af1a93b754927739d94cd26925f5672eec8cc1fa0b129c417c14f44d567fcb6757b2d1843a6f4af86095922269a"
+}

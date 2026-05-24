@@ -1,0 +1,30 @@
+{
+	"created_at": 1736898900,
+	"tags": [
+		[
+			"d",
+			"updateDec24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – December 2024"
+		],
+		[
+			"summary",
+			"Changes to Heliodex projects for the end of 2024"
+		],
+		[
+			"published_at",
+			"1736898900"
+		]
+	],
+	"kind": 30023,
+	"content": "Happy new year! Small update from the end of last year here.\n\n## [litecode](https://github.com/Heliodex/litecode)\n\nLitecode is, solely for the purposes of the larger project I would like to use it in, nearing completion. I ought to change the tagline to something other than \"Semi-working Luau bytecode interpreter\" at this point lol\n\nI'm taking full advantage of the fact I can break compatibility with the reference implementation in a couple of places. The interpreter now features a faster, simpler, and lighter implementation of tables, at the cost of a few tiny edge cases being different with vanilla Lua/Luau. Bugs are sometimes difficult to track down because of little debugging/error handling support at the moment, though the steadily growing test suite helps a lot with this.\n\nWe also now have some benchmark programs to test the speed of the interpreter for optimisations, though I haven't been able to make much progress on that front yet, apart from the aforementioned table implementation, which improves the interpreter from 10-20x slower to more like 1-2x slower than the reference implementation for big tables.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "42ed7c102640d3056cdb0014920a145ac135874b525b338b2f72fc1f775cec6a",
+	"sig": "34bb8bc97798c371a5066ef1926c69affe065350c8baf79d35d53e0ad38d57962c039b022c3315920ec6a0dc6b9242a4a875cf28718823a5633e168d5e13a80f"
+}

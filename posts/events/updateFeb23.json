@@ -1,0 +1,30 @@
+{
+	"created_at": 1677882900,
+	"tags": [
+		[
+			"d",
+			"updateFeb23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – February 2023"
+		],
+		[
+			"summary",
+			"Heliodex project update 4"
+		],
+		[
+			"published_at",
+			"1677882900"
+		]
+	],
+	"kind": 30023,
+	"content": "Welcome back. During this month and the next I have several assignments, but have still been able to do lots of development work.\n\n## [Mercury](https://banland.xyz/)\n\nStill in Beta, development is continuing on Mercury at blistering speed.\nWe recently launched the 2013 Windows client alongside the ability to join games from the website.\nClient development seems extremely like dark magic to me as I have little idea on how it actually works.\n\nA development roadmap for Mercury is available at [trello.com/b/3n6vf9fv](https://trello.com/b/3n6vf9fv/).\nNext steps are to complete game hosting, redesign a lot of the site, and add an avatar item shop and character creation.\n\nI also rewrote @pizzaboxer's GoodBloxSetupDeployer in Typescript with Deno (actually enjoyable experience), and it seems to work correctly.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "d692e9b11227f1942e143979b929f47820e67fc25fa44a4524b0ab5e90277967",
+	"sig": "b01c97ea03e054b729fecaf008e1ff75367cbdf6850f8562072363a68888f527c9601950918facadf11c9280099cdb0af9f8b094f95b32018f91f6fd2413ce11"
+}

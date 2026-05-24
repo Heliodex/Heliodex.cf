@@ -1,0 +1,30 @@
+{
+	"created_at": 1683064320,
+	"tags": [
+		[
+			"d",
+			"updateApr23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – April 2023"
+		],
+		[
+			"summary",
+			"update for Heliodex projects april"
+		],
+		[
+			"published_at",
+			"1683064320"
+		]
+	],
+	"kind": 30023,
+	"content": "Sup. Mercury and a few other of my projects have received several updates during April.\n\n## [Mercury](https://banland.xyz/)\n\nSince March, Mercury now has improved website forms, heavily optimised corescripts, improved site speed, and a basic popup notifications system. A status page is now available at [status.banland.xyz](https://status.banland.xyz/), showing the uptime of Mercury's site and web services.\n\nWe've been experimenting with a new invite key system, which would allow users to invite others and help grow the community, as well as some other exciting features, helping to set Mercury apart from similar websites.\n\nDevelopment might be slowed during May, as some developers have exams or other work to complete. As much development will still be done as possible.\n\n## [Notes](https://notes.heliodex.cf/)\n\nI made a website with Astro and Svelte to host some of my subject notes over the past 2 years. Currently only N5 Psychology and Business Management notes are available, but they also include some sample exam questions and answers.\n\nInterestingly it got blocked on my school network within 6 hours of releasing it, which seems a little ironic?\n\n## [eChat](https://github.com/Heliodex/eChat/)\n\neChat's domains have expired. Go nab them!",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "f11bb8dbea40cbfd58b3631f3525e4720b088f4ba5a960db9573226e82f1443d",
+	"sig": "79498a841d8dc7a62476af940167599a5fbb5efdcd8a79d9df9d3a43697c0ee27c2332e616637d21e0f34bdcaac0b7903fc694126fad3729df3b9cf25eb43fe7"
+}

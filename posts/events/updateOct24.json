@@ -1,0 +1,30 @@
+{
+	"created_at": 1731456780,
+	"tags": [
+		[
+			"d",
+			"updateOct24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – October 2024"
+		],
+		[
+			"summary",
+			"actual October 2024 update"
+		],
+		[
+			"published_at",
+			"1731456780"
+		]
+	],
+	"kind": 30023,
+	"content": "Eh. Welcome back, fellow monthly update viewer! Here's the October one.\n\n## [litecode](https://github.com/Heliodex/litecode)\n\nlitecode is a bytecode interpreter for Luau, modelled after [Fiu](https://github.com/rce-incorporated/Fiu). It's semi-functional at the moment, though handles a lot of stuff I've thrown at it. Building it ended up being a huge ~~pain~~ learning experience (even though it was still *way* easier than attempting to embed Luau itself).\n\nImplementing this has given me loads of insight into how Luau works, and interest about what I can use it for as well. It's also given me some crazy ideas like \"hey, what if metatables were bad?\" and \"what if I made tables index starting at 0?\" and \"what if I made if-conditions only work with booleans?\" and so on. I'll see if I can keep those out of my head or if I'll power trip and let them stay there.\n\nThis is supposed to be part of a larger project, but I'm unsure of what that is at the moment. Next step will be to implement portions of the standard library, because an interpreter like this isn't much use if there's no functions to call.\n\n## [Heliodex.cf](https://heliodex.cf)\n\nMy website now uses a new and improved font for headers! I call it Dex Display, and it will probably replace the venerable Heliodex (formerly 2berSans) (formerly UberSans) font, which will be over 5 years old now, in the near future. I'll begin to use it for all of my branding in the coming weeks.\n\nI would have liked to make it variable-weight, but that ended up being too difficult so it'll just be one weight for now. I'm just glad it finally has a slightly more decent weight, much better curves, and actual kerning now, because all the kerning work I did in the previous font never ended up exporting properly.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "ec848752da533f793792f28851f5363ef671084bb2fd8611e03991fe1b82c8df",
+	"sig": "259a101b0fd1371f99f6764cfd89e374d212072b147dceae103f886555dad8bdf4a78dd4fc7253352745fda140e8da9cac53475e6001dfdf3696e864d27e13dd"
+}

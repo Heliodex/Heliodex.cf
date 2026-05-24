@@ -1,0 +1,26 @@
+{
+	"created_at": 1704381000,
+	"tags": [
+		[
+			"d",
+			"Bootstrap"
+		],
+		[
+			"title",
+			"Bootstrap considered harmful"
+		],
+		[
+			"summary",
+			"Bootstrap considered harmful"
+		],
+		[
+			"published_at",
+			"1704381000"
+		]
+	],
+	"kind": 30023,
+	"content": "[Bootstrap](https://getbootstrap.com) is a CSS component library/framework/frontend toolkit/stylesheet set and Javascript plugin collection. It's the most popular CSS framework used on the web, and is a popular choice for many Roblox revival websites.\n\nAfter writing, modifying, and looking at the source code of many revivals written with Bootstrap and other CSS frameworks, I've come to the conclusion that in it's current state (v5.3.2), I don't like Bootstrap and I don't think it's a good choice for revivals, and perhaps not for a lot of web developers in general.\n\nHere's a list of my biggest pain points with Bootstrap:\n\n-   [Progressive enhancement](#progressive-enhancement)\n-   [Modification and customisation](#modification-and-customisation)\n-   [Unused scripts and styles](#unused-scripts-and-styles)\n-   [Automatic generation or purging of stylesheets](#automatic-generation-or-purging-of-stylesheets)\n-   [IDE integration](#ide-integration)\n\nBut before we get to those...\n\n## What bootstrap does well\n\nBootstrap is an excellent choice for local development and making quick prototypes. Not having to worry about where to place lots of styles or scripting basic functions is extremely liberating. Customisation may not be needed at this stage, and as the prototype may only be running locally or be still in development, unused styles or scripts aren't an issue.\n\nSupport and documentation for Bootstrap is also excellent. Due to it's popularity, it's easy to find developers in the community who are familiar with it, and tutorials and guides are plentiful. This is especially useful for beginner developers or those wishing to create their first revival, as this includes many existing open-source revival projects to learn from. These are mostly the same reasons that PHP is the most popular server-side language for Roblox revivals, despite it often requiring high levels of skill and experience to use correctly. (I don't have that skill, and this article isn't about PHP anyway.)\n\nBootstrap also does browser support really well. It's a large and popular framework, so has to support a wide range of browsers. It uses a lot of tricks to provide a consistent cross-browser experience which would be difficult to replicate in a smaller project. And no, we're not talking about the built-in Studio browser, which different Studio years tend to be built on versions of Internet Explorer that were already comically outdated a decade ago, and require some serious black magic f\\*\\*kery to get any pages working on at an acceptable standard.\n\nHowever, it's important to remember that bootstrap is a **CSS framework**. It is not, as many people seem to think, a religion. There's also this idea some people have that styling should be done exclusively with Bootstrap and without any other CSS, which is a forlorn hope: it's very likely your site will need more customisation than Bootstrap can provide, no different from any other styling framework.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "69cfcd4f592c7904f93f05193b30b8dd5dce6f4a3a21c6c6ccdbbf15123da68e",
+	"sig": "5edf4886f176b8b027f22bba5a1f818762b6ffa24db0d106fe8c9780e13e557b4e726e8c0ab127e344ea3774fa93ebf6c3759139ef8c9eaac8015ccaea48cf0f"
+}

@@ -1,0 +1,30 @@
+{
+	"created_at": 1709941800,
+	"tags": [
+		[
+			"d",
+			"updateFeb24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – February 2024"
+		],
+		[
+			"summary",
+			"update for Heliodex projects month of February 2024"
+		],
+		[
+			"published_at",
+			"1709941800"
+		]
+	],
+	"kind": 30023,
+	"content": "Welcome back! Here's another late-but-still-slightly-less-late-than-last-time update.\n\n## [Mercury](https://banland.xyz/)\n\nMercury has entered the release candidate stage! This means that we're making the previously-closed beta more open, and making it much easier to obtain an invite key. We're working on a Discord bot that, instead of going through an arduous exam process, and complete what's been referred to as an \"ORC Resume\" (lmao), you can fill out a few fields and get accepted for a key.\n\nWork on the avatar shop and Discord integration will continue, and a database reset will be performed before the bot is released.\n\n\n## [Heliodex.cf](https://heliodex.cf/)\n\nThanks to Freenom support, I've been able to reclaim my Heliodex.cf domain! The website is now back up and running, and Freenom even gave me 9 years of free registration, which is pretty cool of them.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "9a46b7bcc56ee7dc889127e3e43458628e139041a07e51435450597f2e0e8f11",
+	"sig": "246489a630610c389d155bfc0b3e289e82672722a1b4a040cb943dd2c51f04e9a2d979a2b7428fa42ac1d662630cf8d9f2f2e872403ee8bb1860ecb7fafd6333"
+}

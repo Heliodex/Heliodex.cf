@@ -1,0 +1,30 @@
+{
+	"created_at": 1712216940,
+	"tags": [
+		[
+			"d",
+			"updateMar24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – March 2024"
+		],
+		[
+			"summary",
+			"Heliodex projects update for 2024 March"
+		],
+		[
+			"published_at",
+			"1712216940"
+		]
+	],
+	"kind": 30023,
+	"content": "We're back! This update is even less late than the previous.\n\n## [Mercury](https://banland.xyz)\n\nSince Mercury entered its Release Candidate phase, we've received over 200 applications and the site now has more than 120 users. Since then, we've also migrated the backend from Node.js to Bun, giving us faster package installation and runtime speed, fewer dependencies, and a more stable codebase.\n\nOur 1 April update featured a rebranding to Graphictoria 7, as well as a brilliant site redesign. It was reverted the next day, though if you did actually like the new design and branding, you can now add something similar with the Custom CSS feature in your settings.\n\nIn the coming days, we'll be migrating our domain name from https://banland.xyz to https://mercury2.com. It shouldn't take long (famous last words), but we'll keep you updated and you'll need to update your bookmarks and clients.\n\n## [Revival Clicker](https://github.com/Heliodex/Revival-Clicker)\n\nThis project started as a joke because I thought it was funny. It will be a clicker/incremental/idle game where you start a revival. The game is still a work in progress, though currently features creation of your revival, customising your technology stack, developing features to implement, hiring developers, and that's about it so far.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "688b0d3f5747ab4c1e7913a8c22e8dc3f1f05451570b63547f34d8df5d4e3920",
+	"sig": "4eaf05292f61b25051c8ef7755179f80c5bf76208084629e55501f2f48b54abade031f58c9ee6a359b42f847ad73d88c3dcb0a90deb876b5e2d79f55b00ef9bb"
+}

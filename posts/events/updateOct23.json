@@ -1,0 +1,30 @@
+{
+	"created_at": 1699238460,
+	"tags": [
+		[
+			"d",
+			"updateOct23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – October 2023"
+		],
+		[
+			"summary",
+			"update to projects by Heliodex for October"
+		],
+		[
+			"published_at",
+			"1699238460"
+		]
+	],
+	"kind": 30023,
+	"content": "Not quite as late as the last one, another update to some of the projects I'm working on.\n\n## [Mercury](https://banland.xyz/)\n\nThe database reset and backend migration is finally fully complete, and site renders are now using RCCService (July 2015) instead of my temporary terrible 300-line three.js thing. Avatar shop/catalog/catalogue/library/marketplace is being worked on heavily, and shirts, pants, and faces are working well, with hats and gear coming soon. DLL hooking is being worked on for the client (mainly by debian) which will reduce the number of exploits that can be used on the client.\n\nThe [Mercury 2 Teaser](https://www.youtube.com/watch?v=5pjAjzH1J5A) has been released and again received good reception [on the r/oldrobloxrevivals subreddit](https://www.reddit.com/r/oldrobloxrevivals/comments/17n2ifa/mercury_2_teaser), and we're beginning work on the full trailer/short film. However, we're running into some issues with getting RCCService to work and render properly with the site, so we may have to use a different version such as 2017 or 2021.\n\nWe've been hosting Mercury News sessions every Saturday on the Discord server for four weeks now. New features, updates, tools, and progress are shown off regularly, and beta testers can make suggestions or ask questions. So far it's been a great way to keep the project active and get feedback from the community.\n\nAt the moment, the site is private as we test the assets system and RCC. Keys will be re-issued to beta testers soon.\n\n## [melt](https://github.com/Heliodex/melt)\n\nI've finally revived this project name for something decently useful. Currently the repository only holds the Mercury Sync tool I showed off in a couple of Mercury News sessions, but there will be a lot more to come, hopefully eventually becoming a full suite of tools for Mercury. It may then be merged into the Mercury monorepo at some point after it goes public.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "fa59331bf3511835573b94d0d3179ba7f926c948443432901483ed6fa1b9da86",
+	"sig": "21c8a196094a821c34fd92cc2dcd21f4a26a743ccd69d0878d95dd08c5816651419d2e83087f3935a14da9c0401571ccd5306a9452ca109eea784ef10f1d1f75"
+}

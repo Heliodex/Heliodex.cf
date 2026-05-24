@@ -1,0 +1,30 @@
+{
+	"created_at": 1744313220,
+	"tags": [
+		[
+			"d",
+			"updateMar25"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – March 2025"
+		],
+		[
+			"summary",
+			"Another monthly update to Heliodex projects for March"
+		],
+		[
+			"published_at",
+			"1744313220"
+		]
+	],
+	"kind": 30023,
+	"content": "Happy holidays! The year is Marching on, so I hope everyone is doing well; here's some updates on the projects I've been working on.\n\n## [Coputer](https://github.com/Heliodex/coputer)\n\nCoputer now features a number of 'program types' for programs to accept and return certain values. Current program types are as follows:\n\n- Test programs, which take no arguments and return nothing, for the purposes of debugging Litecode\n- Web programs, which take a few web request parameters and return a web response\n\nMaybe library programs, to be `require()`d by other programs, would be cool as well, though type-safety may be difficult there. I'll mainly focus on web programs for the next while as they're a rare tangible use case. They should be accessible through 'gateways' that interact with the communication server, for example at {program hash}.gateway.example.com. The program hash would have to be in the subdomain for [cookie security reasons](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#security), though this makes things slightly more difficult for local environments.\n\nThis system comes with some qualms regarding updating a program once it is put live, so some system based on public keys could be used instead, for example {public key (part after the ':')}.gateway.example.com/{program name}, allowing for a program to be updated without changing its identifier while keeping similar security properties.\n\nIn the coming month, I hope to get further testing for web programs, and a basic implementation of the gateway system so that the web programs can be tested in a real environment. A development mode would also be nice to have to allow for programs to be reloaded whenever a file is changed. Hot reloading would obviously be awesome to have for Litecode, though since the Luau compiler isn't incremental, this might not be entirely feasible. Impact of this should be minimal though as each web program only serves one request in its lifetime.\n\n## [confetti-go](https://github.com/Heliodex/confetti-go)\n\nThis is an implementation of the [Confetti](https://confetti.hgs3.me) configuration language I got nerdsniped into writing during one lunchtime, mainly due to the language's remarkably simple typeless design and extremely flexible syntax. All [specification annexes](https://confetti.hgs3.me/specification/#_annex_a_comment_syntax_extension) are supported, and the implementation passes the comprehensive test suite.\n\nAt the moment, the implementation isn't particularly usable as either a library or standalone tool, though I plan to improve on these in the near future. I'd also like to expand this with other aspects, such as a formatter, syntax highlighter, or schema-based checker. Implementations in alternative languages like Typescript or Luau would be cool to work on too.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "8666b006a4ad8b7a77f10369aa8056592ab7df3ccb6c33183298190b41385660",
+	"sig": "98a2b26acefa4b26a7029875937a1c1f6a85edcedc819cf07da6034cc0dd0c7b618fb06a991c589b1c64f40a12182eacf52f456f02e033623ff46be32a057702"
+}

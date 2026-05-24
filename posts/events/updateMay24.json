@@ -1,0 +1,30 @@
+{
+	"created_at": 1717798200,
+	"tags": [
+		[
+			"d",
+			"updateMay24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – May 2024"
+		],
+		[
+			"summary",
+			"May 2024: more updates for projects by Heliodex"
+		],
+		[
+			"published_at",
+			"1717798200"
+		]
+	],
+	"kind": 30023,
+	"content": "Once again that time of the year has arrived, I'm now finished with my qualifications and will be working throughout the upcoming holidays on various projects. Welcome back!\n\n## [Mercury](https://mercury2.com)\n\nMercury has returned from its hiatus! New applications are being accepted, albeit at a slow rate as we are a little swamped with the backlog.\n\nHighly anticipated client development is continuing, with more focus on DLL hooking. This may take a while, estimated at 1-4 weeks, but will bring additional QoL improvements and anti-cheat. In the meantime, for the website we'll soon be merging a number of commits improving integration between the backend and database into production.\n\nOnce the client and studio are back up and running, further development for the Melt toolchain is probably in order. Stay tuned for more updates!\n\n## [nocte](https://github.com/Heliodex/nocte)\n\nI tried making elliptic curve cryptography in Luau, it ended up very slow so for the time being I'm interfacing with a small external Go program to do the heavy lifting. For the rest of the system, NIP-01 integration is going well. We have validating of `EVENT` and `REQ` messages, and soon we'll need streaming `EVENT` messages to clients and data persistence.\n\n> \"Building dreams has always been my way, making time and living for the day  \n> Burning bridges never made me cry, I could walk away with no goodbye...\"\n\nI've wanted to give back to the Nostr ecosystem even before I posted my first event, which come to think of it was just under a year ago. Nostrversary soon, keep on BUIDLing!\n\n## [ORC Document Archive](https://orchives.heliodex.cf/)\n\nThe ORC Document Archive has also returned from its (checks notes) 4 month removal, and it will stay returned as long as you nerds can behave yourselves. Expect a couple more documents in the near future.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "379531e5519b51169576a92262729059486acd804beab114aecdf66b378859d3",
+	"sig": "b5bab00cea667019f45072bd46fa1b2f67a49a0b9bee7eb3df13c8beb170dc42e909338a66a8f18cf26aa197cda36f1b8add8afc40130d476f78d8482bc20618"
+}

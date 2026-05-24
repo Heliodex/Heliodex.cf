@@ -1,0 +1,30 @@
+{
+	"created_at": 1702302720,
+	"tags": [
+		[
+			"d",
+			"updateNov23"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – November 2023"
+		],
+		[
+			"summary",
+			"update information for Heliodex projects in November 2023"
+		],
+		[
+			"published_at",
+			"1702302720"
+		]
+	],
+	"kind": 30023,
+	"content": "Wack. Welcome back, and thank you all for [one year of Heliodex project updates!](https://gist.github.com/Heliodex/7f306ee2142111ad4f2f2fb862006282)\n\n## [Mercury](https://banland.xyz/)\n\nFun fact: Today (or tomorrow) is the 10th anniversary of the release of the Mercury client. yippee\n\nDevelopment on Mercury has slowed significantly after hitting a roadblock in getting RCCService (2015) working, shortly after we re-issued keys to beta testers. It periodically returns garbled responses to the server for clothing renders, and dealing with gzipped responses is also a pain. \n\nWe've been trying to get our hands on any version of RCC later than 2016, though taskmanager claims the JSON templates needed for these versions don't exist (untrue). A 2021 version seems easiest to obtain, but would require a backend rework to use the JSON templates.\n\n## [ORC Document Archive](https://orchives.heliodex.cf/)\n\nThe orchives have continued to grow, and thanks to several contributors and people suggesting new documents, we have over 25 documents in the archive. We're always looking for new documents to add, and check our [searches page](https://orchives.heliodex.cf/searches/) for a list of documents we're looking for more information on.\n\n## [Heliodex.cf](https://heliodex.cf/)\n\nFinally got that about page done. https://heliodex.cf/about",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "d7623b1d26f76f4ea69759300b80547234ce6d4b2a9c0f1ff130567ad43e946c",
+	"sig": "82bfbf4231f2ed16436f02c351736e8a3e2c43f5eb597fc9bdef1284e638ad796fd30107d0422b84b7be8a97cfc2587c966ba3ec20b0151fea2321bae8ee8233"
+}

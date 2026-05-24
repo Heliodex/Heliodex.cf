@@ -1,0 +1,30 @@
+{
+	"created_at": 1720758840,
+	"tags": [
+		[
+			"d",
+			"updateJun24"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – June 2024"
+		],
+		[
+			"summary",
+			"big June 2024 update for projects with Heliodex yeah"
+		],
+		[
+			"published_at",
+			"1720758840"
+		]
+	],
+	"kind": 30023,
+	"content": "Can't put this one off any longer... you'll see. Here's the update for June, it'll be a long one this time.\n\n## [Mercury](https://mercury2.com)\n\nThe Mercury 2 website has been replaced with a memorandum titled \"The Future of Mercury 2\". The short and not-sweet gist of it is that we ran into a whole host of effectively insurmountable technical issues regarding communication between the client and DLL hooks, and we didn't have the time, resources, experience, or incentive to solve them. Dare I say this is one of the \"great filters\" of any Revival project &ndash; and we've fallen to it.\n\nWe made the decision to close down the Mercury 2 website, services, and branding abruptly (as is taskmanager's forte), specifically to avoid the late-stage burnout and neglect that we've seen in other projects. Instead, we'll be using the time and resources we have left to rebuild and rescope the project by splitting it into multiple component parts. We're honing our focus on the eponymous \"core\" of the project: this being the site, client APIs, and communication with external services.\n\nThis system will, from now on, be known as **Mercury Core**.\n\n## Mercury Core\n\nMercury Core is being developed as a leaner, meaner, community-driven revival web platform with excellent documentation and support. It will soon be made available to the public, and I want to make some sort of comprehensive video tutorial to go alongside its release.\n\nFor now, think of the setup process of Mercury Core as similar to WordPress: able to be installed with a simple setup process, heavily modified as needed through a wide range of customisation options, and open-source to allow it to be completely overhauled, extended, or improved by the community. It will remain the best supported portion of the Mercury 2 codebase, and will be hosted in the original Mercury 2 monorepo.  \nThough Mercury Core only consists of between 1/3 and 1/2 of the Mercury 2 codebase. What's happening to the rest?\n\n## [tp-link-extender/2013](https://github.com/tp-link-extender/2013)\n\n2013 contains a set of refactored and rewritten December 2013-related scripts\nand tools, as well as 200+ commits of history. This includes overhauled corescripts, improved utilities, better terrain plugins, render scripts (well, these are actually 2015), and a few ported external libraries. It's the largest portion of the Mercury 2 codebase, and is useful as a drop-in replacement for the stock December 2013 scripts.\n\n## [tp-link-extender/bot](https://github.com/tp-link-extender/bot)\n\nThe bot is a Discord bot that was originally created to manage the Mercury 2 Discord server. It features registration, review, and verification of applications.\n\n## [Heliodex/RCCService.go](https://gist.github.com/Heliodex/639fea9aa7808a7d9cf9c1ed4cfc4eff)\n\nRCCService.go is a proxy that allows access between Mercury Core and a compatible XML-based RCCService (tested with 2015). It heavily simplifies the job tracking and communication processes, and also applies MSAA before sending the results back to Mercury Core.\n\n## [Heliodex/Client deployer.go](https://gist.github.com/Heliodex/4d61155476ccd002f2e900d2f09ab461) <small>(previously already available)</small>\n\nClient deployer.go is Mercury Setup Deployer version 3, and features multithreaded deployment of staged client updates to 2016 launchers/bootstrappers. Nothing much you haven't seen before.\n\n## [Heliodex/applicationSettings.json](https://gist.github.com/Heliodex/06dcb03db5d4259dcd6a6eff6b5768fe)\n\napplicationSettings.json includes the Mercury client, shared, and application settings, alongside a load of other irrelevant and redundant settings. It may be useful as a reference for client configuration.\n\n## [Melt](https://github.com/Heliodex/melt)\n\nIf you remember, Melt also includes the Mercury Sync plugin, shown off to critical acclaim in various episodes of Mercury News. It also includes a wide variety of tools used for transforming Luau scripts into Mercury-compatible Lua files. However, a few complexities involved with upgrading Luau versions make it difficult to keep up with the latest changes, and after what happened with Mercury 2, it'll probably stay pretty dead unless some other miracle use case appears for it or if someone else openly finds it useful.",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "c4b14554887bb534a09636397b0abfed9ce15a385173d050f8f69fbb43c9d6e0",
+	"sig": "be966b2ea6a85827bb1fc0dbc73155f44de69bdcc234ce9455039fafb976a437ce94c5094603d8b4bc047515449e54663928661834e4374d79b8d500cdee0715"
+}

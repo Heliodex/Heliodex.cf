@@ -1,0 +1,30 @@
+{
+	"created_at": 1672637160,
+	"tags": [
+		[
+			"d",
+			"updateDec22"
+		],
+		[
+			"t",
+			"monthlyupdate"
+		],
+		[
+			"title",
+			"Heliodex project update – December 2022"
+		],
+		[
+			"summary",
+			"project update number 2"
+		],
+		[
+			"published_at",
+			"1672637160"
+		]
+	],
+	"kind": 30023,
+	"content": "Happy Hogmanay & New year. These are the December updates to my projects.\n\n## [Typing Tester](https://roblox.com/games/10061236122)\n\nThe typing game was finally given a name and, on Christmas day, was released (very anticlimactically).\n\nIt doesn't have any players yet because I have no experience with building communities. Linked the Discord server to the group and game page though.\n\nOnce I've notified people of its existence I could make its repo public and probably uncopylock it as well.\n\n## [eChat](https://github.com/Heliodex/eChat)\n\neChat's original host instance has been down for some time now, and after moving all my self-hosted stuff to a new server, it doesn't seem to `compose up` correctly for me. I'll have to add some 'offline' message to the website before the CD breaks again.\n\n## [Reviso](https://github.com/Heliodex/Reviso)\n\nReviso is a simple site that provides random SQA past paper questions and mark schemes/answers for revision. It can be found at [Reviso.ml](https://reviso.ml). The name is shamelessly stolen from [@Mantaraix's reviso](https://github.com/Mantaraix/reviso).\n\nIt's built with SvelteKit and hosted on Netlify, so it could be easily modified to run on the edge. It currently only supports 2022 papers from a few subjects (chemistry, maths noncalc, physics, psychology) at the moment, but I'm hoping to add more soon. Questions are fairly slow to add to the site, (probably because every question is in a massive YAML file. cough CMS cough) but I'm hoping to improve upon this without compromising on accessibility (ie. rather than just screenshots of the questions)",
+	"pubkey": "ffffffffe5335006069f8b47bfface18f25e537dd4b3ec90e37d3c76a4003fce",
+	"id": "d20d4d8be549fe66c99297e928e2da4d160dcb93d58ab533cf4b08162be64537",
+	"sig": "3e41379058eddeeea644ada79da4cf54452187a09cbb46f54f6b17d490e370e854dcb4f13f244dbacf56d0176b73a9b127868ae50a87a782f48051689df150a0"
+}
