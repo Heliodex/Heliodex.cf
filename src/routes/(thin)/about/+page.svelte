@@ -14,10 +14,10 @@
 	<div
 		class="bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid px-4 pb-4">
 		<p>
-			The "Heliodex" alias/identity and associated online presence in
-			some cases refer not to a single individual, but to a small group of
-			people sharing similar values. This page (and any uses of 'I' or 'me') covers the individual which
-			the identity primarily represents.
+			The "Heliodex" alias/identity and associated online presence in some
+			cases refer not to a single individual, but to a small group of
+			people sharing similar values. This page (and any uses of 'I' or
+			'me') covers the individual which the identity primarily represents.
 		</p>
 	</div>
 
@@ -248,11 +248,8 @@
 		</p>
 		<ul>
 			<li>
-				<a
-					href="https://mercs.dev"
-					target="_blank">
-					Mercury 3,
-				</a> an online MMO game platform
+				<a href="https://mercs.dev" target="_blank">Mercury 3,</a>
+				 an online MMO game platform
 			</li>
 			<li>
 				A basic fileserver at <a

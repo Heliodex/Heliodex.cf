@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230 2xl:w-280 pt-18 box-border h-screen w-full pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+	class="sm:mx-a box-border h-screen w-full ps-5 pe-2.5 pt-18 sm:w-155 sm:pt-24 md:w-190 lg:w-170 lg:pt-12 xl:w-230 2xl:w-280">
 	<main class="pb-12">
 		{@render children()}
 	</main>

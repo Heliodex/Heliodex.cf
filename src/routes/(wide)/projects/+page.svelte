@@ -17,7 +17,7 @@
 <Head title="Projects" />
 
 <div
-	class="pt-18 sm:mx-a sm:w-155 md:w-190 lg:w-170 xl:w-230 2xl:w-280 pb-4 pe-2.5 ps-5 sm:pt-24 lg:pt-12">
+	class="sm:mx-a ps-5 pe-2.5 pt-18 pb-4 sm:w-155 sm:pt-24 md:w-190 lg:w-170 lg:pt-12 xl:w-230 2xl:w-280">
 	<h1>Projects</h1>
 	<p>
 		Here's a list of many of the projects that I've worked on and teams I've
