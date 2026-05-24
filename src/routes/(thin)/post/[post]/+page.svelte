@@ -5,14 +5,6 @@
 	import when from "$lib/when"
 
 	const { data } = $props()
-
-	const date = (() => {
-		const d = when(data.date)
-		if (d === "Not yet published") return d
-		return `${d} by ${data.author}`
-	})()
-
-	let Content = $derived(data.content)
 </script>
 
 <Head title={data.title} />
@@ -22,7 +14,7 @@
 		<a href="/posts">← Back to all posts</a>
 		<h1 class="text-10">{data.title}</h1>
 		<div class="text-right">
-			{date}
+			{when(data.created)}
 			{#if data.updated}
 				<br />
 				<em>
@@ -34,7 +26,7 @@
 		<div
 			in:fade|global
 			class="content bg-#0008 @light:bg-#fffb backdrop-blur-4px rounded-4 border-#fff1 @light:border-#0003 w-full border border-solid p-4">
-			<Content />
+			{@html data.content}
 		</div>
 	</article>
 

@@ -6,7 +6,7 @@
 
 	let posts = $derived(
 		data.posts.sort(
-			(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+			(a, b) => new Date(b.created).getTime() - new Date(a.created).getTime(),
 		),
 	)
 </script>
