@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – December 2022",
 	"summary": "project update number 2",
-	"created_at": "2023-01-02 05:26 GMT",
-	"published_at": "2023-01-02 05:26 GMT",
+	"created": "2023-01-02 05:26 GMT",
+	"updated": "2023-01-02 05:26 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

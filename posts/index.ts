@@ -7,8 +7,8 @@ type Metadata = {
 	title: string
 	image?: string
 	summary: string
-	created_at: Date
-	published_at: Date
+	created: Date
+	updated: Date
 	tags: string[]
 }
 
@@ -16,7 +16,7 @@ function validateMetadata(json: unknown): Metadata {
 	if (typeof json !== "object" || json === null)
 		throw new Error("Metadata must be an object.")
 
-	const { title, image, summary, created_at, published_at, tags } = json as {
+	const { title, image, summary, created, updated, tags } = json as {
 		[Key in keyof Metadata]: unknown
 	}
 
@@ -27,13 +27,10 @@ function validateMetadata(json: unknown): Metadata {
 	if (typeof summary !== "string")
 		throw new Error("Metadata 'summary' must be a string.")
 
-	if (typeof created_at !== "string" || Number.isNaN(Date.parse(created_at)))
-		throw new Error("Metadata 'created_at' must be a valid date string.")
-	if (
-		typeof published_at !== "string" ||
-		Number.isNaN(Date.parse(published_at))
-	)
-		throw new Error("Metadata 'published_at' must be a valid date string.")
+	if (typeof created !== "string" || Number.isNaN(Date.parse(created)))
+		throw new Error("Metadata 'created' must be a valid date string.")
+	if (typeof updated !== "string" || Number.isNaN(Date.parse(updated)))
+		throw new Error("Metadata 'updated' must be a valid date string.")
 
 	if (!Array.isArray(tags) || !tags.every(tag => typeof tag === "string"))
 		throw new Error("Metadata 'tags' must be an array of strings.")
@@ -42,8 +39,8 @@ function validateMetadata(json: unknown): Metadata {
 		title,
 		image,
 		summary,
-		created_at: new Date(created_at),
-		published_at: new Date(published_at),
+		created: new Date(created),
+		updated: new Date(updated),
 		tags,
 	}
 }
@@ -73,18 +70,25 @@ function readPosts(): Post[] {
 			process.exit(1)
 		}
 
-		posts.push({
-			id: post.replace(".md", ""),
-			content,
-			metadata: validateMetadata(JSON.parse(frontmatterText)),
-		})
+		try {
+			posts.push({
+				id: post.replace(".md", ""),
+				content,
+				metadata: validateMetadata(JSON.parse(frontmatterText)),
+			})
+		} catch (e) {
+			console.error(
+				`Error processing post ${post}: ${(e as Error).message}`
+			)
+			process.exit(1)
+		}
 	}
 
 	return posts
 }
 
 const postData = (post: Post) => ({
-	created_at: Math.floor(post.metadata.created_at.getTime() / 1000),
+	created_at: Math.floor(post.metadata.updated.getTime() / 1000), // created_at should be the updated date
 	tags: [
 		["d", post.id],
 		...post.metadata.tags.map(tag => ["t", tag]),
@@ -94,7 +98,7 @@ const postData = (post: Post) => ({
 		["summary", post.metadata.summary],
 		[
 			"published_at",
-			Math.floor(post.metadata.published_at.getTime() / 1000).toString(),
+			Math.floor(post.metadata.created.getTime() / 1000).toString(), // published_at should be the original creation date
 		],
 	],
 	kind: 30023, // https://github.com/nostr-protocol/nips/blob/master/23.md
@@ -116,8 +120,6 @@ const finaliseEvents = (
 		id: t.id,
 		data: finaliseEvent(t.data, sk),
 	}))
-
-// const sk = generateSecretKey()
 
 // scary part
 async function getNsec(): Promise<Uint8Array> {

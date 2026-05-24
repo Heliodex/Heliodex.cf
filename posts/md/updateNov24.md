@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – November 2024",
 	"summary": "Update for projects by me for November 2024",
-	"created_at": "2024-12-14 07:15 GMT",
-	"published_at": "2024-12-14 07:15 GMT",
+	"created": "2024-12-14 07:15 GMT",
+	"updated": "2024-12-14 07:15 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

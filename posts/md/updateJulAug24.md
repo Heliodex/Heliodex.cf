@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – July/August 2024",
 	"summary": "Double July and August 2024 update by Heliodex",
-	"created_at": "2024-09-09 00:59 GMT+1",
-	"published_at": "2024-09-09 00:59 GMT+1",
+	"created": "2024-09-09 00:59 GMT+1",
+	"updated": "2024-09-09 00:59 GMT+1",
 	"tags": ["monthlyupdate"]
 }
 ---

@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – February 2026",
 	"summary": "Monthly project update – February 2026",
-	"created_at": "2026-03-04 04:49 GMT",
-	"published_at": "2026-03-04 04:53 GMT",
+	"created": "2026-03-04 04:49 GMT",
+	"updated": "2026-03-04 04:53 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

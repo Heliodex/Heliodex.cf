@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – May 2025",
 	"summary": "Project update for May 2025",
-	"created_at": "2025-06-13 14:43 GMT+1",
-	"published_at": "2025-06-13 14:43 GMT+1",
+	"created": "2025-06-13 14:43 GMT+1",
+	"updated": "2025-06-13 14:43 GMT+1",
 	"tags": ["monthlyupdate"]
 }
 ---

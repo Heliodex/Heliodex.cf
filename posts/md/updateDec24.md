@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – December 2024",
 	"summary": "Changes to Heliodex projects for the end of 2024",
-	"created_at": "2025-01-14 23:55 GMT",
-	"published_at": "2025-01-14 23:55 GMT",
+	"created": "2025-01-14 23:55 GMT",
+	"updated": "2025-01-14 23:55 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

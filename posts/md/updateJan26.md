@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – January 2026",
 	"summary": "1st 2026 project updateee",
-	"created_at": "2026-02-06 00:42 GMT",
-	"published_at": "2026-02-06 00:42 GMT",
+	"created": "2026-02-06 00:42 GMT",
+	"updated": "2026-02-06 00:42 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

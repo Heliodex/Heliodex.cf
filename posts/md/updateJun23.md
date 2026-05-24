@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – June 2023",
 	"summary": "update for June on Heliodex projects",
-	"created_at": "2023-07-02 08:12 GMT+1",
-	"published_at": "2023-07-02 08:12 GMT+1",
+	"created": "2023-07-02 08:12 GMT+1",
+	"updated": "2023-07-02 08:12 GMT+1",
 	"tags": ["monthlyupdate"]
 }
 ---

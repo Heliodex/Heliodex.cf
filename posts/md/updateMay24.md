@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – May 2024",
 	"summary": "May 2024: more updates for projects by Heliodex",
-	"created_at": "2024-06-07 23:10 GMT+1",
-	"published_at": "2024-06-07 23:10 GMT+1",
+	"created": "2024-06-07 23:10 GMT+1",
+	"updated": "2024-06-07 23:10 GMT+1",
 	"tags": ["monthlyupdate"]
 }
 ---

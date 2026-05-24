@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – October 2024",
 	"summary": "actual October 2024 update",
-	"created_at": "2024-11-13 00:13 GMT",
-	"published_at": "2024-11-13 00:13 GMT",
+	"created": "2024-11-13 00:13 GMT",
+	"updated": "2024-11-13 00:13 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---

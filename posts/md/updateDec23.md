@@ -2,8 +2,8 @@
 {
 	"title": "Heliodex project update – December 2023",
 	"summary": "final 2023 Heliodex project update",
-	"created_at": "2024-01-13 03:58 GMT",
-	"published_at": "2024-01-13 03:58 GMT",
+	"created": "2024-01-13 03:58 GMT",
+	"updated": "2024-01-13 03:58 GMT",
 	"tags": ["monthlyupdate"]
 }
 ---
