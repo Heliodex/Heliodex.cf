@@ -1,16 +1,16 @@
 <div
-	class="bg-#000 @light:bg-#f6f6f6 lg:w-90 lg:h-a z-1 border-#fff1 @light:border-#0003 fixed flex w-full flex-wrap border-0 border-b border-solid lg:static lg:flex-col lg:border-e">
+	class="bg-#000 @light:bg-#f6f6f6 lg:h-a border-#fff1 @light:border-#0003 fixed z-1 flex w-full flex-wrap border-0 border-b border-solid lg:static lg:w-90 lg:flex-col lg:border-e">
 	<div class="banner -z-5 hidden lg:block">
 		<img
 			src="/gradientBeam.svg"
 			class="w-full"
 			alt="Gradient of red-orange Heliodex logo with a colourful beam" />
 	</div>
-	<span class="hidden pb-1 pe-12 ps-6 sm:inline-block lg:me-0 lg:mt-8">
+	<span class="hidden ps-6 pe-12 pt-2 pb-1 sm:inline-block lg:pe-8 lg:pt-8">
 		<a href="/" class="txt heliodex lg:text-3.8rem text-2xl">Heliodex.cf</a>
 	</span>
 	<nav
-		class="box-border flex flex-wrap justify-self-center ps-6 pt-1 pt-1.5 lg:mt-3 lg:flex-col">
+		class="box-border flex flex-wrap justify-self-center ps-6 pt-1 pt-1.5 lg:flex-col lg:pt-3">
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
@@ -26,7 +26,7 @@
 
 <style>
 	nav a {
-		@apply rounded-1 me-5 no-underline transition;
+		@apply rounded-1 pe-5 no-underline transition;
 
 		margin: 5px 1rem auto 0;
 

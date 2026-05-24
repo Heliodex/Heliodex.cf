@@ -162,3 +162,9 @@ h1 {
 hr {
 	padding: 0.5rem 0;
 }
+
+p {
+	margin: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
