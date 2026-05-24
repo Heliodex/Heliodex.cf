@@ -1,7 +1,7 @@
 ---
 {
 	"title": "Bootstrap considered harmful",
-	"summary": "",
+	"summary": "Bootstrap considered harmful",
 	"created_at": "2024-01-04 15:10 GMT",
 	"published_at": "2024-01-04 15:10 GMT",
 	"tags": []

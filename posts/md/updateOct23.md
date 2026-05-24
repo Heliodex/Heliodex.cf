@@ -1,7 +1,7 @@
 ---
 {
 	"title": "Heliodex project update – October 2023",
-	"summary": "",
+	"summary": "update to projects by Heliodex for October",
 	"created_at": "2023-11-06 02:41 GMT",
 	"published_at": "2023-11-06 02:41 GMT",
 	"tags": ["monthlyupdate"]

@@ -1,7 +1,7 @@
 ---
 {
 	"title": "Heliodex project update – January 2024",
-	"summary": "",
+	"summary": "first 2024 january Heliodex project update",
 	"created_at": "2024-02-13 04:13 GMT",
 	"published_at": "2024-02-13 04:13 GMT",
 	"tags": ["monthlyupdate"]
