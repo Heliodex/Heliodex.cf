@@ -56,6 +56,24 @@ type WithId<T> = {
 	data: T
 }
 
+function splitUpTo(str: string): string[] {
+	const delimiter = "---"
+	const limit = 3
+
+	const parts: string[] = []
+	let remaining = str
+
+	for (let i = 0; i < limit - 1; i++) {
+		const index = remaining.indexOf(delimiter)
+		if (index === -1) break
+
+		parts.push(remaining.slice(0, index))
+		remaining = remaining.slice(index + delimiter.length)
+	}
+
+	return [...parts, remaining]
+}
+
 function readPosts(): Post[] {
 	const posts: Post[] = []
 
@@ -64,7 +82,7 @@ function readPosts(): Post[] {
 	for (const post of postsDir) {
 		const f = fs.readFileSync(`./md/${post}`, "utf-8")
 
-		const [, frontmatterText, content] = f.split("---").map(s => s.trim())
+		const [, frontmatterText, content] = splitUpTo(f).map(s => s.trim())
 		if (!frontmatterText || !content) {
 			console.error(`Post ${post} is missing frontmatter or content.`)
 			process.exit(1)
@@ -146,11 +164,12 @@ async function getEvents(): Promise<WithId<VerifiedEvent>[]> {
 async function writeEventsToFile(events: WithId<VerifiedEvent>[]) {
 	const outdir = "./events"
 
-	for (const event of events)
-		await Bun.write(
-			`${outdir}/${event.id}.json`,
-			JSON.stringify(event.data, null, "\t")
-		)
+	for (const event of events) {
+		const path = `${outdir}/${event.id}.json`
+		if (fs.existsSync(path)) continue
+
+		await Bun.write(path, JSON.stringify(event.data, null, "\t"))
+	}
 }
 
 writeEventsToFile(await getEvents())
