@@ -1,0 +1,45 @@
+---
+{
+	"title": "Heliodex project update – January 2026",
+	"summary": "1st 2026 project updateee",
+	"created_at": "2026-02-06 00:42 GMT",
+	"published_at": "2026-02-06 00:42 GMT",
+	"tags": ["monthlyupdate"]
+}
+---
+
+Hope all of your respective 2026s are off to a good start. Here's the rundown of how mine has been going so far, and what I've been up to with various projects.
+
+## [Mercury](https://github.com/tp-link-extender/MercuryCore)
+
+Mercury's estimated user count now totals [73](https://mercs.dev/statistics). A few more Mercury News sessions were hosted, mostly we didn't have a whole lot to show off apart from some interesting plans. We are looking into, for the first time in Mercury's history, a client change &ndash; from the current December 2013 client to one from some time in 2016. This would give us a huge amount more control over how the client works, and there's quite a bit more support and documentation available for 2016 than there is for 2013, as well as some awesome [existing open-source projects (with commit history)](https://git.tbdpowered.net/kiseki/aya). We don't know when or if this will begin happening, though the 2013 client will probably still remain as a legacy option and we'll need to figure out how to support multiple clients with Mercury Core if we run into any issues with this setup.
+
+The launcher has been improved somewhat, with a progress bar added to show client download progress rather than just appearing to hang, and now works a bit better on Linux in relation to saving files in the correct location. Setting up a URI to actually launch from the browser is still on our to-do list. I've deployed a few times to Setup using a lightly updated Setup Deployer, canning my experiments with IPFS uploading and pinning for now. I would really love to have fewer parts of Mercury rely on a central server, and a fairly unreliable one at that, but it'll have to happen once I get a bit more experience with integrating decentralised technologies into existing applications.
+
+An area we've been putting lots of development effort into is the Studio browser. You know, the one that launches a very broken 404 page when opening Mercury Studio? In theory this would be excellent for allowing users to log in through Studio and open their places directly, as well making way for getting the Toolbox working to let users load their own or publicly uploaded models as well. In practice, working with web development on a browser that's over 12 years old now (I believe it's WebKit as released with Qt 4) is a nightmare. There's a very clear reason browser manufacturers are always pushing users to update to the latest version, and also a reason why a lot of web apps exist and are easy to develop.
+
+Capabilities of the browser are extremely lacking, so while we're still able to serve static HTML pages from SvelteKit as part of the Site, client-side rendering is completely out of the question due to how SvelteKit loads them, and long-ago experiments with legacy adapters didn't turn out well. As such, we're sticking with `<script>` tags in custom headers or direct `{@html ``}` blocks, custom CSS replacement to try and override the default Site styles (which are also loaded, they just won't parse at all...), and our forever faithful companion, jQuery 3.7.1.
+
+The previous experiments of the browser's capabilites in late Mercury 2 development landed us with this selection of tools and techniques, which made it only slightly less of a pain to work with; it was still the first thing stripped from the codebase once the pivot to Mercury Core was announced. Login capabilites seem to work, because browser cookies obviously haven't changed at all in yonks, some UnoCSS classes still work and some need overriding, and inline JS tends to not work due to the difficulty of subverting Svelte's helpful features compiling it to something somewhere else. I previously tried to write a system for compiling specific Svelte components in a certain way from **hooks.server.ts** to be more compatible with the browser, but this ended up causing more problems than it solved. We'll probably be able to get it working under SvelteKit, and currently we have the ability to insert assets into the Workspace from button presses/function calls in the Toolbox window, though at this point I'm not averse to making it a completely separate area of the Site running on a separate system or framework if that's what's required to make development easier.
+
+To get the Site running through the browser, we seemed to need to run it insecurely through HTTP at first. This ended up being because Caddy, which provides HTTPS for the Site, supports a minimum TLS version of 1.2, which seems to not work properly with the browser. We eventually begrudgingly decided to put the Site through Cloudflare's proxies to get it working properly, which it did, likely because Cloudflare supports TLS versions as old as 1.0. This ended up cutting off access to a lot of Mercury users, so I'd really like to find a solution allowing us to move back to running the Site unproxied very soon.
+
+We'll probably move to another VM host for gameservers once my free Azure credits run out, likely at the end of this month. Some users (and taskmanager) have criticised the server for being slow, as well as just going down a lot.
+
+For the documentation, the [design](https://github.com/tp-link-extender/MercuryCore/tree/design) branch was merged into main, so they are now visible at [docs.mercs.dev](https://docs.mercs.dev/). 
+
+## [Coputer](https://github.com/Heliodex/coputer)
+
+Coputer's development has finally started to pick up again after a hiatus of a few months.
+
+I was mostly planning on doing some more with the AST experiments, which take output from Luau's `luau-ast` tool, though what I could do with that would be pretty limited due to some of the information that is lost in the AST output. But instead, I stumbled upon [this incredible repo](https://github.com/vantoanvh/LuauParser), which is a full implementation of Luau's lexer and parser meeting 2 awesome criteria of (1) being written in Luau, and (2) conforming strongly to the styles of the reference implementation. This means that, unlike my previous (failed) attempt at rewriting the Luau parser, I'll have 2 reference points to work from this time. This is really helpful for the parser part, and still useful for the lexer though I do already have a working lexer implementation. However, the Luau implementation uses a fair amount of global (top-level) variables and state, which is probably the biggest point of difference between it and the reference implementation & my failed attempt.
+
+The new parser is a lot better than my previous attempt though still a work in progress, and should include systems for both CST and AST generation, should I happen to need both. At the moment it's the fun part of the project where I can crank out functions and methods and structs and types and so on very easily, so I assume it'll be a lot like the early days of Litecode and will require several months of debugging after the implementation begins to work. After all of that is completed, I might finally be able to decide what to use it for.
+
+---
+
+Are these update things getting longer? I feel like they are. The November 2025 one was probably the longest one yet and this one's not far off of that, though it'sn't like anyone is keeping track. Maybe I'm beginning to enjoy writing these rather than doing them as a chore. I would like to bring them over to https://heliodex.cf, and I do have a prototype implementation of a blog system (stolen from the old [Revival Archive](https://github.com/tp-link-extender/revival-archive) site) ready. The funky thing blocking that is that I would like to have the titles for my blog posts in my custom font, Dex Display, which I have designed some more and better characters for though can't find any good way to get them into a web font format. The current version of the font doesn't have numbers or very much punctuation.
+
+I've been playing around with [more PHP](https://github.com/Heliodex/PHP), since I have to do that for my current university course, and it's continuing along its path of turning my perception around for it for the better. Developing a simple vanilla web application is fine I guess, though with beginning to learn a framework (Symfony, because I couldn't get Laravel or Tempest set up properly) it started to feel a lot more like the kind of development I enjoy, even if the project structure is initially rather daunting, which I suppose it must be given how much the framework is doing for me. Compare with SvelteKit, which doesn't have custom form building, database integration, etc. built in &ndash; they do have a lot of cool utilities on the client side with Svelte, just less so on the server side of SvelteKit.
+
+All in all, it's been a not-terrible start to the year. Hope you have a great February, and you'll hear from me again for the update at the end of that month.
