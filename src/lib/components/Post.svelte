@@ -17,7 +17,7 @@
 			if (post.tags.includes("monthlyupdate"))
 				return "bg-#0008 @light:bg-#fffb"
 
-			return "bg-#3008 @light:bg-#fddb"
+			return "bg-#0308 @light:bg-#dfdb"
 		})(),
 	]}>
 	<article class="px-4 py-2">
