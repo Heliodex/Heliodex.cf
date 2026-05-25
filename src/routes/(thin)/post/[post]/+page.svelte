@@ -34,7 +34,7 @@
 		<section class="w-120 pt-6 xl:max-w-100 xl:ps-12 xl:pt-22">
 			<h2>Other posts</h2>
 			<div class="flex flex-col gap-4">
-				{#each [...data.posts, ...data.posts] as post}
+				{#each data.posts as post}
 					<Post {post} />
 				{/each}
 			</div>

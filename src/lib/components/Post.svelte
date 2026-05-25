@@ -31,7 +31,7 @@
 		</small>
 		{#if post.tags.length > 0}
 			<small class="block pb-1">
-				Tags: {post.tags.join(", ")}
+				#{post.tags.join(" #")}
 			</small>
 		{/if}
 	</article>

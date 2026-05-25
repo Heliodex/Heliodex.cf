@@ -17,7 +17,11 @@ export async function load() {
 		} as PostType
 	})
 
+	const posts = await Promise.all(promises)
+
 	return {
-		posts: await Promise.all(promises),
+		posts: posts.toSorted(
+			(a, b) => b.created.getTime() - a.created.getTime()
+		),
 	}
 }
