@@ -20,7 +20,7 @@
 
 	<p class="ms-a mt-a pe-3">
 		<span class="text-neutral-500">Updated</span>
-		24 May 2026
+		25 May 2026
 	</p>
 </div>
 
