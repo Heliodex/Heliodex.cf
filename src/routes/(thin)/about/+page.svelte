@@ -213,21 +213,13 @@
 
 		<p>
 			Small snippets of code that I write and don't have a clear place
-			anywhere else, or occasional blog posts, are placed on
+			anywhere else are placed on
 			<a
 				href="https://gist.github.com/Heliodex"
 				target="_blank"
 				rel="noopener noreferrer">
 				Github Gists.
 			</a>
-		</p>
-		<p>
-			<small>
-				(psst! I post an update to how all of my projects are doing over
-				there, with a new one every month. Of course, nobody reads them
-				because I rarely talk about them anywhere else. They will be
-				moved to this site in the near future.)
-			</small>
 		</p>
 	</div>
 
