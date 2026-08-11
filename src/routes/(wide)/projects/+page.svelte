@@ -110,7 +110,7 @@
 				and possible integration with multiple clients and external
 				services.
 				<br />
-				If you don’t know what any of those things are, Mercury Core is a
+				If you don't know what any of those things are, Mercury Core is a
 				build-your-own-Roblox.
 			</p>
 			<p>
