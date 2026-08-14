@@ -2,8 +2,8 @@
 {
 	"title": "So you've been Hackatime banned",
 	"summary": "Details on what to do once you get banned from Hack Club's programmes by the Fraud Squad",
-	"created": "2026-08-11 16:10 GMT",
-	"updated": "2026-08-11 16:10 GMT",
+	"created": "2026-08-14 18:30 GMT",
+	"updated": "2026-08-14 18:30 GMT",
 	"tags": []
 }
 ---
@@ -43,7 +43,7 @@ It's likely that most of your Hackatime projects are hosted in Git repositories.
 
 Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible, even if they're not connected to Hackatime, for a super secret 2nd reason I'll explain later.
 
-**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold or undo any commits that were made after the time of your ban.
+**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold any commits that were made after the time of your ban.
 
 If your projects are hosted online, though not in Git repos, still make them public.
 
@@ -100,7 +100,7 @@ If people are questioning why you haven't added a devlog to your project today (
 
 The tone of this guide will change to be a bit more light-hearted now, though you're still playing a serious and pretty high-stakes game here. This requires strategy.
 
-The job of the Fraud Squad is not to be fair or just or even to investigate your case at all. Their primary job is to save Hack Club money by preventing fraudsters from claiming prizes and grants. In their view, you're a fraudster because you haven't been proven innocent yet. They do actually catch real time tracking hijackers; you're not alone in being caught in the crossfire. The definition of the word "fraud" in Hack Club is, principally, "whatever the Fraud Squad thinks as such". That's why I've been careful to use terms like "actual fraud" in this document.
+The job of the Fraud Squad is not to be fair or just or even to investigate your case at all. Their primary job is to save Hack Club money by preventing fraudsters from claiming prizes and grants. In their view, you're a fraudster because you haven't been proven innocent yet. They do actually catch real time tracking hijackers; you're not alone in being caught in the crossfire. The definition of the word "fraud" in Hack Club is principally controlled by the responsible department, that is, the Fraud Squad. That's why I've been careful to use terms like "actual fraud" in this document.
 
 The secondary job of the Fraud Squad is to keep people in the Hack Club community. This is also (not coincidentally) the primary job of the Fire Department, it's just that the fact is less well-known about the Fraud Squad. This is obviously because if people see fraudsters getting rewarded more than their own legitimate work gets rewarded, they'll become discouraged and leave the community. Equally, however, if some innocent person is a regular contributor and they get banned permanently or leave, Hack Club will have lost a valuable community member.
 
@@ -123,7 +123,7 @@ I don't know exactly what the Fraud Squad is going to tell you, so from this poi
 
 **YOU MUST** keep your messages completely and utterly devoid of any emotion or semblance of such. Give minimal courtesy and only when required. If they give you some new information, nothing more than a "Thanks" at the beginning of your response is necessary.
 
-**DO NOT** give them *any* details or files you haven't ben asked for in these stages of the process. If you've followed these instructions exactly, you should have already given them everything they need.
+**DO NOT** give them *any* details or files you haven't been asked for in these stages of the process. If you've followed these instructions exactly, you should have already given them everything they need.
 
 The Fraud Squad may be clear about what their goal is and how they operate, however they are infamously cagey and secretive about the tools they use (most of which are not open source) and what information they use to make their decisions. I will get to why later on.
 
@@ -131,7 +131,7 @@ The Fraud Squad may be clear about what their goal is and how they operate, howe
 
 **DO NOT** tell them that you know they can't give you any more information than they've already given you. Both you and them already know this, and it comes off as if you're trying to compromise, which will only work against you.
 
-Once you send your messages, you'll receive details back in the usual form of weird kafkaesque sonnets with uninformative information. If they ask for more information, collect and send it immediately, matching previous formats and file naming schemes. If you need to, you can log into any Hack Club services hosting private/encypted data (for example, unpublished Lapse timelapses) to download and send it.
+Once you send your messages, you'll receive details back in the usual form of weird kafkaesque sonnets with uninformative information. If they ask for more information, collect and send it immediately, matching previous formats and file naming schemes. If you need to, you can log into any Hack Club services hosting private/encrypted data (for example, unpublished Lapse timelapses) to download and send it.
 
 **DO NOT** give the Fraud Squad any information they already know. This includes VCS commit history, devlogs on YSWS websites (you might not even be able to access these anyway), repo contents, and especially Hackatime heartbeats. You will clutter up the conversation & make them more annoyed with you, and they will tell you if you try to provide information they don't need or already have access to.
 
@@ -144,7 +144,7 @@ If it's a particularly busy time for the Fraud Squad and they have a lot of case
 **DO NOT** make excuses about why your time tracking might look suspicious, since that will make you look suspicious. If you happened to have accidentally signed into the same Hackatime account on multiple editors or left your automatic keypresser on accidentally to keep your laptop from going to sleep or think your editor has a bug and is misreporting your heartbeats or someone is sending replay attacks to Hackatime while you code, don't tell them.
 
 **DO NOT** comment on your own behaviour during the case. The classic "would a fraudster do what I did?" question is pointless and fallacious because anything that you do or say could also be done or said by an actual fraudster. Your answer will just be "yes". Why do you think the Fraud Squad even exists? Surprise, it's because people put great effort into defrauding Hack Club.  
-The prizes given out by Hack Club give a strong incentive for bad actors to lie or try to deceive the Fraud Squad into unbanning them, and contrary to popular belief (as well as how much easier it would make their job), the Fraud Squad does not have a lie detector. The only actual way that the Fraud Squad has to differentiate between a real fraudster and an innocent contributer is the data you've already given them.
+The prizes given out by Hack Club give a strong incentive for bad actors to lie or try to deceive the Fraud Squad into unbanning them, and contrary to popular belief (as well as how much easier it would make their job), the Fraud Squad does not have a lie detector. The only actual way that the Fraud Squad has to differentiate between a real fraudster and an innocent contributor is the data you've already given them.
 
 **DO NOT** try to threaten the person on the other side of the bot with anything, like claiming you can deanonymise them, saying you'll take legal action, planning to "hack this club"/bring up "very incriminating information" about Hack Club's "dark past", or saying you'll make an uncatchable fraud script and release it upon the community. Out of all the "do not"s here, this one's probably the easiest way to make your ban indefinite/permanent, regardless of whether the threat you're making is actually feasible..
 
@@ -158,9 +158,9 @@ Eventually, the Fraud Squad will make up their minds and tell you whether your a
 
 1. All of your accounts get fully reinstated, including your hours, your trust level gets restored, and the Fraud Squad admits their mistake. If this happens to you, congratulations! You've survived the labyrinthine fraud ordeal and emerged unscathed. I'm so proud of you.
 
-2. All of your accounts except for certain YSWSs get reinstated, and your hours, credits, prizes, and pending orders for those YSWSs. It means you'll remain banned on those specific YSWS programmes This one's tougher.
+2. All of your accounts except for certain YSWSs get reinstated, though your hours, credits, prizes, and pending orders for those YSWSs are not reinstated. It means you'll remain banned on those specific YSWS programmes This one's tougher.
 
-3. Your accounts remain indefinitely unable to participate in any YSWS programmes. You probably won't be removed from the Slack, though you will no longer be eligible for YSWS participation.
+3. Your accounts remain indefinitely unable to participate in any YSWS programmes, and your access to any unclaimed credits/prizes disappears along with this. You probably won't be removed from the Slack, though you will no longer be eligible for YSWS participation.
 
 In the event of possibility 2, you may be told that your future projects will be held to increased levels of scrutiny. If this happens, make it clear that you are fine with your projects being held up to as much scrutiny as is needed. Additionally, if you still remain banned from any YSWS programmes excluding the ones that have been mentioned by the Fraud Squad, make sure to let them know to unban you from them as well, or alternatively contact those programmes' organisers for this.
 
@@ -235,7 +235,10 @@ Though usually, if hours have been deflated a significant amount, the YSWS organ
 
 If you have the time and ingenuity, you can red-team yourself by downloading your heartbeats from Hackatime and inspecting them for any odd patterns, missing fields, or anomalies. Even if you don't have the time or ingenuity, download them anyway for safe-keeping, since during the time you're suspended from Hackatime, you won't be able to access the download option in settings.
 
-**YOU MUST** make commits to your VCS repositories as often as you can. If you make fewer than 1 commit for every hour of work, your risk of being banned greatly increases Make a commit for every small change you do, and keep them as atomic as possible &ndash; for example, a Git client that allows you to stage/unstage changes at the level of individual lines of code rather than just files can help a lot with this.
+**YOU MUST** make commits to your VCS repositories as often as you can. I've found that if you make fewer than 1 commit for every hour of coding work (more than 1 hour of work per commit), then your risk of being banned tends to increase. Make a commit for every small change you do, and keep them as atomic as possible &ndash; for example, a Git client that allows you to stage/unstage changes at the level of individual lines of code rather than just files can help a lot with this.  
+This is just good practice in general too. You don't have to write good commit messages (or any at all) though I think they're useful for searching & personal reference.
+
+**YOU MUST** also make devlogs as often as possible. Most YSWS programmes have a 10-hour limit on the maximum time you can spend without giving a written update with screenshots or a video. Don't hit the 10-hour limit on every devlog since it might look suspicious. I know they're sometimes difficult to remember what you've done (a good commit history will help with this) or to write, though they will likely turn out to be helpful for you. If you were doing something that doesn't leave a commit history, like designing in a CAD application/other IDE, planning, reading documentation, or searching for hardware parts online, your best play here will be to track it with Lapse and mention that you did this in the devlog.
 
 **YOU MUST** use Lapse alongside Hackatime as often as possible, since the screen recordings provide valuable additional data and, due to how the systems are linked, never results in doubly-recorded time.
 
@@ -259,6 +262,8 @@ Because I care deeply about the Hack Club community and the people in it, and I 
 
 My purpose with this document isn't primarily to invoke improvements to time tracking systems or structure/processes of the Fraud Squad itself, though as I've made pretty clear already, it would be brilliant to see either of those. I want to educate people on how to deal with the Fraud Squad so they'll have the knowledge to handle their own current or future cases correctly, and more importantly, the confidence to prove their innocence and continue participating in Hack Club's programmes and the community.
 
+Also I think it'll just be useful to have this document to look back on as a retrospective in about a year so I can at least remember where we started from as improvements are made. I've made plenty of statements about time tracking systems, fraud detection, and preventing false bans before; it's nice & more convenient to have a single document to reference.
+
 As a final piece of advice:
 
 **DO NOT** be discouraged from working on projects, running/travelling to events, or even aiming to apply for Hack Club staff positions in the future. Your ban is not a reflection of your worth as a Hack Clubber and will not be looked upon as such in future, but rather instead a reflection of the current state of the fraud system. 
@@ -267,6 +272,6 @@ As a final piece of advice:
 
 Oh, and [one more thing](https://www.youtube.com/watch?v=Cc7U47IYRz0)...
 
-I'm building a (currently private) database of chat logs sent to the Fraud Squad bot for discussion of false bans, so we can analyse them to prevent similar cases and help others in the future. If you have a chat log that you're willing to share, send it my way!
+I also recommend sharing chat logs sent to the Fraud Squad bot for discussion of false bans, so we can analyse them to prevent similar cases and help others in the future. If you have a chat log or parts of a chat log that you're willing to share though don't want shared publicly, you can still send it to me, though I only want to see your side of the conversation, which is the actually useful part; cut out any messages from the Fraud Squad bot or summarise them (I'm not interested in building some kind of top-secret Fraud Files).
 
 Anyway if you ran into any problems not listed here, copy everything here into the context window of your favourite agent and have them help you out. This post was anonymised with AI, I guess.
