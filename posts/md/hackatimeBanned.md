@@ -43,7 +43,7 @@ It's likely that most of your Hackatime projects are hosted in Git repositories.
 
 Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible even if they're not connected to Hackatime, so that your profile/projects list can be seen more as a place for credible evidence, and also for a super secret 2nd reason I'll explain later.
 
-**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold any commits that were made after the time of your ban for now.
+**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold from pushing any commits that were made after the time of your ban for now.
 
 If your projects are hosted online, though not in Git repos, still make them public.
 
@@ -88,7 +88,7 @@ Set your Slack presence back to normal. Look out your window; gosh, is it suppos
 You can log back into Hack Club services now, check the websites for any YSWS programmes you're participating in and see which ones you're banned from. You can send some messages in the Slack now.
 
 **DO NOT** talk about your ban or suspension in public/private channels on the Slack while your case is ongoing. Anything you say can and will be used against you, even things that are obviously not confessions or incriminating.  
-If people are questioning why you haven't added a devlog to your project today (because you can't cuz you're banned), make something plausible up like "I was busy with other stuff" or "I'm on a camping trip with bad signal" or "I got lost in a cave with amazing WiFi though it blocks *.hackclub.com domains" or anything like that.
+If other people are questioning why you haven't added a devlog to your project today (because you can't cuz you're banned), make something plausible up like "I was busy with other stuff" or "I'm on a camping trip with bad signal" or "I got lost in a cave with amazing WiFi though it blocks *.hackclub.com domains" or anything like that. Just don't lie to the Fraud Squad directly.
 
 **DO NOT** interact with any people whom you know are members of the Fraud Squad or working on the event you were primarily banned from beyond the minimum necessary during your case. Only ever talk about fraud with the Fraud Squad bot for now.
 
