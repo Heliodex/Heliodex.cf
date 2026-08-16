@@ -100,7 +100,7 @@ Other people might question why you haven't added a devlog to your project today
 
 The tone of this guide will change to be a bit more light-hearted now, though you're still playing a serious and pretty high-stakes game here. This requires strategy.
 
-The job of the Fraud Squad is not to be fair or just or even to investigate your case at all. Their primary job is to save Hack Club money by preventing fraudsters from claiming prizes and grants. In their view, you're a fraudster because you haven't been proven innocent yet. They do actually catch real time tracking hijackers; you're not alone in being caught in the crossfire. The definition of the word "fraud" in Hack Club is principally controlled by the responsible department, that is, the Fraud Squad. That's why I've been careful to use terms like "actual fraud" in this document.
+The job of the Fraud Squad is not to be fair or just or even to investigate your case at all. Though these often do happen, they're just instrumental goals to their actual primary job. Their primary job is to save Hack Club money by preventing fraudsters from claiming prizes and grants. In their view, you're a fraudster because you haven't been proven innocent yet. They do actually catch real time tracking hijackers; you're not alone in being caught in the crossfire. The definition of the word "fraud" in Hack Club is principally controlled by the responsible department, that is, the Fraud Squad. That's why I've been careful to use terms like "actual fraud" in this document.
 
 The secondary job of the Fraud Squad is to keep people in the Hack Club community. This is also (not coincidentally) the primary job of the Fire Department, it's just that the fact is less well-known about the Fraud Squad. This is obviously because if people see fraudsters getting rewarded more than their own legitimate work gets rewarded, they'll become discouraged and leave the community. Equally, however, if some innocent person is a regular contributor and they get banned permanently or leave, Hack Club will have lost a valuable community member.
 
@@ -164,7 +164,7 @@ Eventually, the Fraud Squad will make up their minds and tell you whether your a
 
 In the event of possibility 2, you may be told that your future projects will be held to increased levels of scrutiny. If this happens, make it clear that you are fine with your projects being held up to as much scrutiny as is needed. Additionally, if you still remain banned from any YSWS programmes excluding the ones that have been mentioned by the Fraud Squad, make sure to let them know to unban you from them as well, or alternatively contact those programmes' organisers for this.
 
-In the event of possibilities 2 or 3, the Fraud Squad will explain what has happened and what they have reviewed, and ask if you understand the penalties and why they were given. The correct answer here to is **no**, since the penalties aren't warranted for someone who didn't commit real fraud. State clearly that you can provide more evidence in future for proof of innocence if required and would like to keep the case open.
+In the event of possibilities 2 or 3, the Fraud Squad will explain what has happened and what they have reviewed, and ask if you understand the penalties and why they were given. The correct answer here is **no**, since the penalties aren't warranted for someone who didn't commit real fraud. State clearly that you can provide more evidence in future for proof of innocence if required and would like to keep the case open.
 
 **YOU MUST** make it clear that you wish to continue following up on the case if the ruling made isn't in your favour.
 
@@ -199,7 +199,7 @@ If the information used by the Fraud Squad to enact bans were to be public, then
 
 Usually, fraud cases take a while for the Fraud Squad to review or get around to reviewing/responding, so often you have to follow up a few times before getting a response. The fact that decisions take so long to be made can affect users' participation in other programmes, since users are banned from all programmes by default during the review of a case. A lot of YSWS programmes are hard on deadlines, so if you can't get your account back in time to submit your project, buy/meet requirements for a ticket for an in-person event, finish a week/section, or keep up a streak, you may be effectively forced to leave that YSWS entirely regardless of whether the Fraud Squad thinks you committed or submitted fraud for that programme. They also might just entirely forget to unban you from some programmes afterwards, which does happen occasionally.
 
-Decreasing response time of the Fraud Squad to ongoing cases, even by 10%, would have a huge positive impact on the opportunity cost of the Fraud Squad making decisions on cases, and also reduce the prevalence other issues like those mentioned above in the event where they do eventually rule to reinstate an account.
+Decreasing response time of the Fraud Squad to ongoing cases, even by 10%, would have a huge positive impact on the opportunity cost of the Fraud Squad making decisions on cases, and also reduce the prevalence of other issues like those mentioned above in the event where they do eventually rule to reinstate an account.
 
 ### Hackatime and other time tracking systems
 
@@ -212,7 +212,7 @@ Hackatime is built upon WakaTime, a coding analytics tool. It's brilliant for pr
 
 > "When a metric becomes a target, it ceases to be a good metric."
 
-There's a bigger discussion to be had here about whether this holds for other aspects of Hack Club's reward model as a whole, notably the system of weighted projects correlating too strongly with prize levels and the system of voting having the opposite problem of distorting this so that they correlate too weakly. However, I'm not the one who's going to make that discussion here, and if you know where to find it there's already plenty of points made on this (including by me) elsewhere in the Hack Club community.
+There's a bigger discussion to be had here about whether this holds for other aspects of Hack Club's reward model as a whole, notably the system of weighted projects correlating too strongly with prize levels; as well as the system of voting having the opposite problem of distorting this so that they correlate too weakly. However, I'm not the one who's going to make that discussion here, and if you know where to find it there's already plenty of points made on this (including by me) elsewhere in the Hack Club community.
 
 The smallest unit of analytics in Hackatime is the heartbeat, sent by your editor or other WakaTime-compatible client to the Hackatime API server. The format of the heartbeat is such that basically, while they *can* contain a lot of information about things like cursor position, file size, or whether edits were carried out by an AI or a human, most of the properties are optional. You can see this by checking in the source code for Hackatime or your editor extension, or just by downloading your heartbeats from the Hackatime website and seeing how many nonexistent or null fields there are.
 
@@ -274,7 +274,7 @@ Also I think it'll just be useful to have this document to look back on as a ret
 
 As a final piece of advice:
 
-**DO NOT** be discouraged from working on projects, running/travelling to events, or even aiming to apply for Hack Club staff positions in the future. Your ban is not a reflection of your worth as a Hack Clubber and will not be looked upon as such in future, but rather instead a reflection of the current state of the fraud system. 
+**DO NOT** be discouraged from working on projects, running/travelling to events, or even aiming to apply for Hack Club staff positions in the future. Your ban is not a reflection of your worth as a Hack Clubber and will not be looked upon as such in future, but rather a reflection of the current state of the fraud system.
 
 ---
 
