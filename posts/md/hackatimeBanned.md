@@ -2,8 +2,8 @@
 {
 	"title": "So you've been Hackatime banned",
 	"summary": "Details on what to do once you get banned from Hack Club's programmes by the Fraud Squad",
-	"created": "2026-08-14 18:30 GMT",
-	"updated": "2026-08-14 18:30 GMT",
+	"created": "2026-08-16 15:35 GMT-4",
+	"updated": "2026-08-16 15:35 GMT-4",
 	"tags": []
 }
 ---
