@@ -23,7 +23,7 @@ detailing the fact that the Fraud Squad "occasionally" makes mistakes, as they'v
 You never thought it would happen to *you*. So what to do now? You've been given a ban and sent strikingly little information on what to do to get your ban lifted and your account returned to its normal state. Since you're reading this, you're clearly interested in getting your account back rather than just giving up and immediately leaving the Hack Club community, or at least you want to let the Fraud Squad know their mistake before you exit on your own terms.  
 Moreover, if you ask anybody for help, they'll just tell you to "contact the Fraud Squad", probably also assuming you're one of those dirty good-for-nothing fraudsters. They won't help you, because nobody wants to be seen as someone who helps fraudsters, right?
 
-No more! This is a (possibly the *only*) guide on exactly how to recover your Hackatime account from a fraud allegation and bring your status in Hack Club back to its former glory. It's a list of everything I and some others I've talked to wish we'd known before our encounters with the Fraud Squad, with nothing withheld.
+No more! This is a (possibly the *only*) guide on exactly how to recover your Hackatime account from a fraud allegation and bring your status in Hack Club back to its former glory. It's a list of everything I and some others I've talked to wish we'd known before our encounters with the Fraud Squad. Nothing is withheld from this guide, nor need it be given that it's all public information anyway.
 
 ## How to get your account back
 
@@ -33,7 +33,7 @@ The first few steps of this guide are extremely time-sensitive.
 
 ### Step 1: Damage control
 
-**DO NOT** send *any* messages in the Slack during the first few steps. I would also recommend setting your slack status to "away", which you can currently do by pressing your profile picture in the bottom left corner and selecting "set yourself as **away**".
+**DO NOT** send *any* messages in the Slack during the first few steps. I would also recommend setting your slack status to "away", which you can currently do by pressing your profile picture in the bottom left corner and selecting "Set yourself as **away**" in the context menu that appears.
 
 **DO NOT** log into Hackatime, HCA, or any Hack Club services yet, including any YSWS programmes, especially so if you were banned from one specific YSWS, and do not navigate to any pages for these programmes if you are logged in.
 
@@ -41,7 +41,7 @@ The first few steps of this guide are extremely time-sensitive.
 
 It's likely that most of your Hackatime projects are hosted in Git repositories. See if you can find a list of them, without logging into Hackatime of course. If you can't, you can access your Hackatime profile if it's public at **hackatime.hackclub.com/@{username}** or **hackati.me/@{username}** through Tor or a VPN of your choice (to prevent anyone from logging your access by IP address).
 
-Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible even if they're not connected to Hackatime, so that your profile/projects list can be seen more as a place for credible evidence, and also for a super secret 2nd reason I'll explain later.
+Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible even if they're not connected to Hackatime, to ensure that no projects you've submitted to any programmes are hidden or private, so your profile/projects list can be seen more as a place for credible evidence, and also for a super secret 2nd reason I'll explain later.
 
 **DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold from pushing any commits that were made after the time of your ban for now.
 
@@ -267,7 +267,7 @@ Because I care deeply about the Hack Club community and the people in it, and I 
 
 My purpose with this document isn't primarily to invoke improvements to time tracking systems or structure/processes of the Fraud Squad itself, though as I've made pretty clear already, it would be brilliant to see either of those. I want to educate people on how to deal with the Fraud Squad so they'll have the knowledge to handle their own current or future cases correctly, and more importantly, the confidence to prove their innocence and continue participating in Hack Club's programmes and the community.
 
-Also I think it'll just be useful to have this document to look back on as a retrospective in about a year so I can at least remember where we started from as improvements are made. I've made plenty of statements about time tracking systems, fraud detection, and preventing false bans before; it's nice & more convenient to have a single document to reference.
+Also I think it'll just be useful to have this document to look back on as a retrospective in about a year so I can at least remember where we started from as improvements are made, and as I learn more about the internals of time tracking systems and fraud procedures. I've made plenty of statements about time tracking systems, fraud detection, and preventing false bans before; it's nice & more convenient to have a single document to reference.
 
 As a final piece of advice:
 
@@ -277,6 +277,6 @@ As a final piece of advice:
 
 Oh, and [one more thing](https://www.youtube.com/watch?v=Cc7U47IYRz0)...
 
-I also recommend sharing chat logs sent to the Fraud Squad bot for discussion of false bans, so we can analyse them to prevent similar cases and help others in the future. If you have a chat log or parts of a chat log that you're willing to share though don't want shared publicly, you can still send it to me, though I only want to see your side of the conversation, which is the actually useful part; cut out any messages from the Fraud Squad bot or summarise them (I'm not interested in building some kind of top-secret Fraud Files).
+If you feel like it, you can publicly share chat logs sent to the Fraud Squad bot for discussion of false bans, so that the community can analyse them to prevent similar cases and help others in the future.
 
 Anyway if you ran into any problems not listed here, copy everything here into the context window of your favourite agent and have them help you out. This post was anonymised with AI, I guess.
