@@ -43,7 +43,7 @@ It's likely that most of your Hackatime projects are hosted in Git repositories.
 
 Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible even if they're not connected to Hackatime, to ensure that no projects you've submitted to any programmes are hidden or private, so your profile/projects list can be seen more as a place for credible evidence, and also for a super secret 2nd reason I'll explain later.
 
-**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold from pushing any commits that were made after the time of your ban for now.
+**DO NOT** make *any* new commits to these projects yet! If you have existing commits on your local machine that haven't been pushed yet, push them (unless you have the GitHub app enabled on a Slack channel, which will track that you've done this). Withhold from pushing any commits that were made after the time of your ban for now, though don't fuck with them by tampering with their content or timestamps.
 
 If your projects are hosted online, though not in Git repos, still make them public.
 
@@ -92,7 +92,7 @@ Other people might question why you haven't added a devlog to your project today
 
 **DO NOT** interact with any people whom you know are members of the Fraud Squad or working on the event you were primarily banned from beyond the minimum necessary during your case. Only ever talk about fraud with the Fraud Squad bot for now.
 
-**DO NOT** spend any money from grant cards you have. It's recommended to log into HCB and freeze all of them for now as well.
+**DO NOT** spend any money from grant cards you have, even if they weren't earned as a prize from a YSWS programme. It's recommended to log into HCB and freeze all of them for now as well.
 
 **DO NOT** question anyone else regarding any other delayed or disrupted fulfilments for prizes you've ordered.
 
@@ -104,7 +104,7 @@ The job of the Fraud Squad is not to be fair or just or even to investigate your
 
 The secondary job of the Fraud Squad is to keep people in the Hack Club community. This is also (not coincidentally) the primary job of the Fire Department, it's just that the fact is less well-known about the Fraud Squad. This is obviously because if people see fraudsters getting rewarded more than their own legitimate work gets rewarded, they'll become discouraged and leave the community. Equally, however, if some innocent person is a regular contributor and they get banned permanently or leave, Hack Club will have lost a valuable community member.
 
-Before I was unbanned from Hackatime, I was told by the Fraud Squad that they still wanted me to be a part of Hack Club due to my "significant efforts in open source projects" (the sentence which is effectively the sole reason why I'm so vocal about the problems of the Fraud Squad to this very day). It's been 9 months since then and I'm still trying to figure out what on earth they meant by that. Regardless, it's clear that the Fraud Squad gives significant leniency to community members with stronger reputations, and perhaps this could even be considered favouritism; the good news is that it's easy to exploit this for your own benefit.  
+Before I was unbanned from Hackatime, I was told by the Fraud Squad that they still wanted me to be a part of Hack Club due to my "significant efforts in open source projects" (the sentence which is effectively the sole reason why I'm so vocal about the problems of the Fraud Squad to this very day). It's been 9 months since then and I'm still trying to figure out what on earth they meant by that. Regardless, it's clear that the Fraud Squad gives significant leniency to community members with stronger reputations, and perhaps this could even be considered favouritism; the good news is that it's easy to understand how reputation is weighted and how to built it up for yourself, or, put less charitably, how to exploit this for your own benefit.  
 Remember what I said earlier about a super secret 2nd reason for making all your projects public? Yeah, having a more stacked list of public projects is going to add to your reputation and correspondingly your perceived credibility.
 
 All of the problems with the Fraud Squad are caused by their process and policy, not by the people that compose it. All of their staff are volunteers doing the best they can in an environment that's misaligned with their actual goals. As mentioned previously, seeking out these people and messaging them directly to request more information is a bad idea, because it will elicit nothing more than cookie-cutter template responses and warnings from the Fire Department for suspected harassment. This is why, when you're in a battle with the Fraud Squad for your account back, I don't think it's helpful to think of them as a team of individuals as much as a single entity. The team is so tightly constrained by the process that, when they talk to you, all you will hear is the process itself speaking. It's you versus the machine.
@@ -172,6 +172,16 @@ After the decision and any other discussion and unbanning has been completed, th
 
 **DO NOT** request any more updates on your case or your ban decisions. This would just make you look desperate and uncooperative. Request exactly one (1) update, 7 days after the closure of the first thread, and do not follow up beyond this for the same case.  
 Never be obstinate for the sole purpose of obstinateness. This will, perhaps somewhat predictably, not get you anywhere.
+
+### Step 8: The fallout
+
+Now for the cleanup. This step is for the evet of possibilites 2 or 3, where your account is reinstated, partially reinstated, or after your temporary ban has been lifted.
+
+Log back into the YSWS programmes you've participated in. If you're still banned from the YSWS you were primarily participating in/submitting to in the duration of the supposedly fraudulent activity, that's fairly normal. You might even see currency on the site refunded to your account, though you'll be unable to access the shop so can't spend it 😭. However, you migth still remain banned from other YSWS programmes. If this is the case, contact the organisers of those programmes and request an unban, or follow up in the Fraud Squad thread if you can't do this or if the organisers don't respond.
+
+If you have any grant cards in HCB that you want to use, you can go back and defrost them now if you froze them previously, and spend them as you wish.
+
+Having orders refunded or rejected for the primary programme you were banned from is a usual occurence, though if the same happened to other programmes you were participating in then retry the order or contact the programme organisers to see if they can help you.
 
 ---
 
@@ -250,7 +260,7 @@ This is just good practice in general too. You don't have to write good commit m
 
 **YOU MUST** use Lapse alongside Hackatime as often as possible, since the screen recordings provide valuable additional data and, due to how the systems are linked, never results in doubly-recorded time.
 
-Of course it's still possible to get banned for fraud from submitting manipulated or synthetic timelapses, it's just much less likely to happen accidentally than Hackatime on its own, and even more less likely ("more less" lol) when using both at the same time. Additionally, even if you keep using Hackatime, this means you'll also be able to submit your hours to YSWS programmes that use Lapse, making it easier to move between them.
+Of course it's still possible to get banned for fraud from submitting manipulated or synthetic timelapses, it's just much less likely to happen accidentally than Hackatime on its own, and even more less likely when using both at the same time. Additionally, even if you keep using Hackatime, this means you'll also be able to submit your hours to YSWS programmes that use Lapse, making it easier to move between them.
 
 **DO NOT** share a Hackatime account between multiple people. This seems obvious, though can happen accidentally if you let someone use your PC to edit files while you're writing code. Boom, double heartbeats, instant suspicion.
 
@@ -277,6 +287,8 @@ As a final piece of advice:
 **DO NOT** be discouraged from working on projects, running/travelling to events, or even aiming to apply for Hack Club staff positions in the future. Your ban is not a reflection of your worth as a Hack Clubber and will not be looked upon as such in future, but rather a reflection of the current state of the fraud system.
 
 ---
+
+At the time of publication of this post, all of the links, filepaths, and domains listed should be up-to-date. If you find any broken links, incorrect filepaths, or if you have any ideas for improved strategy or anything which should be added or removed from this document, let me know by [getting in contact](https://heliodex.cf/contact), so you can help me help you help us all.
 
 Oh, and [one more thing](https://www.youtube.com/watch?v=Cc7U47IYRz0)...
 
