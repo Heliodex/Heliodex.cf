@@ -10,7 +10,7 @@
 
 *Need urgent assistance? Skip directly to the [guide](#how-to-get-your-account-back)*
 
-So you've just been banned from [Hackatime](https://hackatime.hackclub.com/) due to "suspicious activity", principally fraud. Calm down. Calm down! Cal- YOU CALM THE FUCK DOWN!! Okay, okay, after your ban you were probably also sent direct message on the Hack Club Slack from an app/bot titled "Fraud Squad" (or in some older cases, "Fraud Department") similar to the following:
+So you've just been banned from [Hackatime](https://hackatime.hackclub.com/) due to "suspicious activity", principally fraud. Calm down. Calm down! Cal- YOU CALM THE FUCK DOWN!! Okay, okay, after your ban you were probably also sent a direct message on the Hack Club Slack from an app/bot titled "Fraud Squad" (or in some older cases, "Fraud Department") similar to the following:
 
 > "This is the fraud team. An investigation into your projects and hours was conducted, and we've found clear evidence of hour manipulation and inflation. As such, you have been banned from Hackatime and all current and future Hack Club YSWS programs."
 
@@ -39,7 +39,7 @@ The first few steps of this guide are extremely time-sensitive.
 
 **DO NOT, ESPECIALLY DO NOT** message or respond to the Fraud Squad **at all** until I say it's safe to do so!
 
-It's likely that most of your Hackatime projects are hosted in Git repositories. See if you can find a list of them, without logging into Hackatime of course. If you can't, you can access your Hackatime profile if it's public at **hackatime.hackclub.com/@{username}** or **hackati.me/@{username}** through Tor or a VPN of your choice (to prevent anyone from logging your access by IP address).
+It's likely that most of your Hackatime projects are hosted in Git repositories. See if you can find a list of them, without logging into Hackatime of course. If you can't, you can access your Hackatime profile if it's public at **hackatime.hackclub.com/@{username}** or **hackati.me/@{username}** in a private window or similar.
 
 Once you have the list, head to the forge where each is hosted. This will probably be GitHub, GitLab, or whatever selfhosted nonsense you have. Check if any of them are private, and if they are, make them public immediately, even if you make them private again after this whole ordeal is over. In fact, I'd recommend making as many of your projects public as possible even if they're not connected to Hackatime, to ensure that no projects you've submitted to any programmes are hidden or private, so your profile/projects list can be seen more as a place for credible evidence, and also for a super secret 2nd reason I'll explain later.
 
@@ -69,7 +69,7 @@ Replace "Code" in these paths with the name of your editor. If you're using Code
 
 If you use a different editor, find out how to collect the local file history data if it's supported. If it isn't, don't worry, there's other evidence you can use.
 
-Next, any videos or screenshots of you writing code which you have saved locally will be useful to collect. If you use Lapse and have your timelapses public, download them from there, of course without logging in. Your lapse profile can be found at **lapse.hackclub.com/user/@{username}**, again through Tor or a VPN.
+Next, any videos or screenshots of you writing code which you have saved locally will be useful to collect. If you use Lapse and have your timelapses public, download them from there, of course without logging in. Your lapse profile can be found at **lapse.hackclub.com/user/@{username}**, again through a private window or different browser.
 
 Finally, due to how WakaTime/Hackatime labels statistics for code written/edited when an AI agent or chat editor is working, it's useful to collect as many transcripts of your agent sessions as possible. This will of course depend on your agent harness. Collecting these as Markdown files with accurate timestamps should be enough.
 
@@ -88,7 +88,7 @@ Set your Slack presence back to normal. Look out your window; gosh, is it suppos
 You can log back into Hack Club services now, check the websites for any YSWS programmes you're participating in and see which ones you're banned from. You can send some messages in the Slack now.
 
 **DO NOT** talk about your ban or suspension in public/private channels on the Slack while your case is ongoing. Anything you say can and will be used against you, even things that are obviously not confessions or incriminating.  
-If other people are questioning why you haven't added a devlog to your project today (because you can't cuz you're banned), make something plausible up like "I was busy with other stuff" or "I'm on a camping trip with bad signal" or "I got lost in a cave with amazing WiFi though it blocks *.hackclub.com domains" or anything like that. Just don't lie to the Fraud Squad directly.
+Other people might question why you haven't added a devlog to your project today (because you can't cuz you're banned); you don't have to explain yourself to anyone other than the Fraud Squad. Why not say something like "I was busy with other stuff" or "I'm on a camping trip with bad signal" or "I got lost in a cave with amazing WiFi though it blocks *.hackclub.com domains"?
 
 **DO NOT** interact with any people whom you know are members of the Fraud Squad or working on the event you were primarily banned from beyond the minimum necessary during your case. Only ever talk about fraud with the Fraud Squad bot for now.
 
@@ -164,13 +164,14 @@ Eventually, the Fraud Squad will make up their minds and tell you whether your a
 
 In the event of possibility 2, you may be told that your future projects will be held to increased levels of scrutiny. If this happens, make it clear that you are fine with your projects being held up to as much scrutiny as is needed. Additionally, if you still remain banned from any YSWS programmes excluding the ones that have been mentioned by the Fraud Squad, make sure to let them know to unban you from them as well, or alternatively contact those programmes' organisers for this.
 
-In the event of possibilities 2 or 3, the Fraud Squad will explain what has happened and what they have reviewed, and ask if you understand the penalties and why they were given. The correct answer here is **no**.
+In the event of possibilities 2 or 3, the Fraud Squad will explain what has happened and what they have reviewed, and ask if you understand the penalties and why they were given. The correct answer here to is **no**, since the penalties aren't warranted for someone who didn't commit real fraud. State clearly that you can provide more evidence in future for proof of innocence if required and would like to keep the case open.
 
 **YOU MUST** make it clear that you wish to continue following up on the case if the ruling made isn't in your favour.
 
 After the decision and any other discussion and unbanning has been completed, the thread with the Fraud Squad bot will notify you it's gone stale and marked as resolved after 4-7 days. Once you receive this resolution message, wait an additional 7 days. If your accounts and hours haven't been fully recovered by this time, send a message asking for an update on the case status. Repeat through the previous steps as appropriate.
 
-**DO NOT** request any more updates on your case or your ban decisions. This would just make you look desperate and uncooperative. Request exactly one (1) update, 7 days after the closure of the first thread, and do not follow up beyond this for the same case.
+**DO NOT** request any more updates on your case or your ban decisions. This would just make you look desperate and uncooperative. Request exactly one (1) update, 7 days after the closure of the first thread, and do not follow up beyond this for the same case.  
+Never be obstinate for the sole purpose of obstinateness. This will, perhaps somewhat predictably, not get you anywhere.
 
 ---
 
@@ -192,7 +193,7 @@ One of the downsides is that a lot of people see contact with the Fraud Squad's 
 
 This is a distinct problem to the potential issue of anonymity created by the bot, and is the most consequential problem with the Fraud Squad. They have always been covert about their operations and unwilling to reveal even the most basic information about their methods/processes/tools. Who do they think they are, the Illuminati? Well, their reasoning is that providing such information would allow fraudsters to game the system and get away unpunished with fraud. This is borderline true though pretty much completely meaningless.
 
-If the information used by the Fraud Squad to enact bans were to be public, then it would become clear that Fraud Squad are making the best decisions that they're able to, though with hopelessly incomplete information and insufficient tools. Eventually it would transpire that the majority of the apparent fraudsters banned by the Fraud Squad are actually innocent. It should be clear already that security through obscurity is no security at all.
+If the information used by the Fraud Squad to enact bans were to be public, then it would become clear that Fraud Squad are making the best decisions that they're able to, though with hopelessly incomplete information and insufficient tools. My guess is that eventually it would transpire that a significant portion of the apparent fraudsters banned by the Fraud Squad are actually innocent. It should be clear already that security through obscurity is no security at all.
 
 ### Speed of responses
 
@@ -204,7 +205,7 @@ Decreasing response time of the Fraud Squad to ongoing cases, even by 10%, would
 
 Hackatime, as it stands today, is not a suitable or high-integrity enough time tracking system to be powering the core review workflow for as many YSWS programmes as it does. I do consider myself to be the #1 Hackatime h8r, though for plenty good reason.
 
-At points during my time in Hack Club I've had the opportunity to speak with several members of staff and ask questions about the various time tracking and review systems, including on what plans they have to evolve these systems in the future. I don't have recordings or transcripts of any of the discussions I've had, though I do have some details based on what I remember from during these discussions. The opinions of these staff members may have changed since then, and they could have been giving their own opinion rather than speaking on behalf of Hack Club, though I've elected to add them to this document because what they've said has taught me a lot.
+At points during my time in Hack Club I've had the opportunity to speak with several members of staff and ask questions about the various time tracking and review systems, including on what plans they have to evolve these systems in the future. I don't have recordings or transcripts of any of the discussions I've had, though I do have some details based solely on what I remember from during these discussions. The opinions of these staff members have likely changed since then, and they could have been giving their own opinion rather than speaking on behalf of Hack Club, though I've elected to add them to this document because what they've said has taught me a lot.
 I talked about my concerns regarding Hackatime with Max Wofford, who echoed my concerns and also detailed the state of integration between Hackatime and Lapse, including how the 2 systems are used to ensure time matches when cross-checked between each. Additionally, I asked Zach Latta which time tracking systems are easiest to integrate and review across different types of YSWS programmes, whose answer was pretty clear: "100% Hackatime". That's the point at which it started to click with me that the problems with Hackatime are deeper than I ever imagined.
 
 Hackatime is built upon WakaTime, a coding analytics tool. It's brilliant for providing metrics on time spent writing code or managing agents or debugging. Hack Club has modified it to work as a system to track time targets for their programmes. Hey, that sounds familiar. Have you ever heard of Goodhart's law?
@@ -243,7 +244,7 @@ If you have the time and ingenuity, you can red-team yourself by downloading you
 **YOU MUST** make commits to your VCS repositories as often as you can. I've found that if you make fewer than 1 commit for every hour of coding work (more than 1 hour of work per commit), then your risk of being banned tends to increase due to less evidence that the Fraud Squad will have to make a decision. Make a commit for every small change you do, and keep them as atomic as possible &ndash; for example, a Git client that allows you to stage/unstage changes at the level of individual lines of code rather than just files can help a lot with this.  
 This is just good practice in general too. You don't have to write good commit messages (or any at all) though I think they're useful for searching & personal reference.
 
-**YOU MUST** also make devlogs as often as possible. Most YSWS programmes have a 10-hour limit on the maximum time you can spend without giving a written update with screenshots or a video. Don't hit the 10-hour limit on every devlog since it might look suspicious. I know they're sometimes difficult to remember what you've done (a good commit history will help with this) or to write, though they will likely turn out to be helpful for you. If you were doing something that doesn't leave a commit history, like workflows  for CAD/other IDEs, planning, reading documentation, or searching for hardware parts online, your best play here will be to track it with Lapse and mention that you did this in the devlog.
+**YOU MUST** also make devlogs as often as possible. Most YSWS programmes have a 10-hour limit on the maximum time you can spend without giving a written update with screenshots or a video. Don't hit the 10-hour limit on every devlog since it might look suspicious. I know they're sometimes difficult to remember what you've done (a good commit history will help with this) or to write, though they will likely turn out to be helpful for you. If you were doing something that doesn't leave a commit history, like workflows for CAD/other IDEs, planning, reading documentation, or searching for hardware parts online, your best play here will be to track it with Lapse and mention that you did this in the devlog.
 
 **YOU MUST** use Lapse alongside Hackatime as often as possible, since the screen recordings provide valuable additional data and, due to how the systems are linked, never results in doubly-recorded time.
 
@@ -263,7 +264,7 @@ Uh, this post is more about reversing false Hackatime bans than it is about apol
 
 So, why'd I do it? Who would write 6000 words of actual half-reasonable advice, and maybe even some rambling ideas on improving things somewhat, when one could just repeat "I FUCKING HATE THE FRAUD SQUAD!!!" 1000 times over in a [#meta](https://hackclub.enterprise.slack.com/archives/C0188CY57PZ) post and probably end up with a similar actual effect?
 
-Because I care deeply about the Hack Club community and the people in it, and I want people to stay and keep making awesome stuff. On the contrary, the quickest way to make someone leave the community and never return (even if they aren't banned permanently) is to say that the hundreds of hours of work they've done for a programme is now not only worthless, it also actively contributed to their removal from the community.
+Because I care deeply about the Hack Club community and the people in it, and I want people to stay and keep making awesome stuff. If you wanted to fulfill the opposite goal, the quickest way to make someone leave the community and never return (even if they aren't banned permanently) is to say that the hundreds of hours of work they've done for a programme is now not only worthless, it also actively contributed to their removal from the community.
 
 My purpose with this document isn't primarily to invoke improvements to time tracking systems or structure/processes of the Fraud Squad itself, though as I've made pretty clear already, it would be brilliant to see either of those. I want to educate people on how to deal with the Fraud Squad so they'll have the knowledge to handle their own current or future cases correctly, and more importantly, the confidence to prove their innocence and continue participating in Hack Club's programmes and the community.
 
@@ -277,6 +278,6 @@ As a final piece of advice:
 
 Oh, and [one more thing](https://www.youtube.com/watch?v=Cc7U47IYRz0)...
 
-If you feel like it, you can publicly share chat logs sent to the Fraud Squad bot for discussion of false bans, so that the community can analyse them to prevent similar cases and help others in the future.
+If you feel like it, you can publicly share chat logs sent to the Fraud Squad bot for discussion of false bans, so that the community can analyse them to prevent similar cases and help others in the future. I'd just suggest summarising or redacting any personal information or other info you feel is sensitive or identifying for either you or the team on the other side.
 
 Anyway if you ran into any problems not listed here, copy everything here into the context window of your favourite agent and have them help you out. This post was anonymised with AI, I guess.
