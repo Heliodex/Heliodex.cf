@@ -212,6 +212,8 @@ Hackatime is built upon WakaTime, a coding analytics tool. It's brilliant for pr
 
 > "When a metric becomes a target, it ceases to be a good metric."
 
+There's a bigger discussion to be had here about whether this holds for other aspects of Hack Club's reward model as a whole, notably the system of weighted projects correlating too strongly with prize levels and the system of voting having the opposite problem of distorting this so that they correlate too weakly. However, I'm not the one who's going to make that discussion here, and if you know where to find it there's already plenty of points made on this (including by me) elsewhere in the Hack Club community.
+
 The smallest unit of analytics in Hackatime is the heartbeat, sent by your editor or other WakaTime-compatible client to the Hackatime API server. The format of the heartbeat is such that basically, while they *can* contain a lot of information about things like cursor position, file size, or whether edits were carried out by an AI or a human, most of the properties are optional. You can see this by checking in the source code for Hackatime or your editor extension, or just by downloading your heartbeats from the Hackatime website and seeing how many nonexistent or null fields there are.
 
 Heartbeats don't contain enough information for the Fraud Squad to make useful or informed decisions from. Don't believe me? Ask the Fraud Squad. Or, well, there's no need to ask them, because it's clear what their opinion is because *they* ask *you* for as much other information as you can provide once you receive the ban message.
