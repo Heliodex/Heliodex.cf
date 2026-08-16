@@ -12,6 +12,12 @@ export const links = [
 		"youtube.com/@lwinklly",
 	],
 	[
+		"Slack",
+		"@Heliodex",
+		"https://hackclub.enterprise.slack.com/team/U07JH9LU1NC",
+		"slack.com/team/U07JH9LU1NC",
+	],
+	[
 		"Reddit",
 		"u/Heliodex",
 		"https://reddit.com/user/Heliodex/",
@@ -27,7 +33,7 @@ export const links = [
 		"Roblox",
 		"@Lewin4",
 		"https://roblox.com/users/77663253/profile",
-		"roblox.com/users/77663253/profile",
+		"roblox.com/users/77663253",
 	],
 	[
 		"StackOverflow",
