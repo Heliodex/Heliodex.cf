@@ -3,7 +3,7 @@
 	"title": "So you've been Hackatime banned",
 	"summary": "Details on what to do once you get banned from Hack Club's programmes by the Fraud Squad",
 	"created": "2026-08-16 15:35 GMT-4",
-	"updated": "2026-08-16 15:35 GMT-4",
+	"updated": "2026-08-16 15:44 GMT-4",
 	"tags": []
 }
 ---
@@ -177,7 +177,7 @@ Never be obstinate for the sole purpose of obstinateness. This will, perhaps som
 
 Now for the cleanup. This step is for the evet of possibilites 2 or 3, where your account is reinstated, partially reinstated, or after your temporary ban has been lifted.
 
-Log back into the YSWS programmes you've participated in. If you're still banned from the YSWS you were primarily participating in/submitting to in the duration of the supposedly fraudulent activity, that's fairly normal. You might even see currency on the site refunded to your account, though you'll be unable to access the shop so can't spend it 😭. However, you migth still remain banned from other YSWS programmes. If this is the case, contact the organisers of those programmes and request an unban, or follow up in the Fraud Squad thread if you can't do this or if the organisers don't respond.
+Log back into the YSWS programmes you've participated in. If you're still banned from the YSWS you were primarily participating in/submitting to in the duration of the supposedly fraudulent activity, that's fairly normal. You might even see currency on the site refunded to your account, though you'll be unable to access the shop so can't spend it 😭. However, you might still remain banned from other YSWS programmes. If this is the case, contact the organisers of those programmes and request an unban, or follow up in the Fraud Squad thread if you can't do this or if the organisers don't respond.
 
 If you have any grant cards in HCB that you want to use, you can go back and defrost them once you've been unbanned from the programmes that issued them if you froze them previously, and spend them as you wish.
 
@@ -215,7 +215,7 @@ Decreasing response time of the Fraud Squad to ongoing cases, even by 10%, would
 
 Hackatime, as it stands today, is not a suitable or high-integrity enough time tracking system to be powering the core review workflow for as many YSWS programmes as it does. I do consider myself to be the #1 Hackatime h8r, though for plenty good reason.
 
-At points during my time in Hack Club I've had the opportunity to speak with several members of staff and ask questions about the various time tracking and review systems, including on what plans they have to evolve these systems in the future. I don't have recordings or transcripts of any of the discussions I've had, though I do have some details based solely on what I remember from during these discussions. The opinions of these staff members have likely changed since then, and they could have been giving their own opinion rather than speaking on behalf of Hack Club, though I've elected to add them to this document because what they've said has taught me a lot and helped to shape my understanding as it is now.
+At points during my time in Hack Club I've had the opportunity to speak with several members of staff and ask questions about the various time tracking and review systems, including on what plans they have to evolve these systems in the future. I don't have recordings or transcripts of any of the discussions I've had, though I do have some details based solely on what I remember from during these discussions. The opinions of these staff members have likely changed since then, and they could have been giving their own opinion rather than speaking on behalf of Hack Club, though I've elected to add them to this document because what they've said has taught me a lot and helped to shape my understanding as it is now.  
 I talked about my concerns regarding Hackatime with Max Wofford, who echoed my concerns and also detailed the state of integration between Hackatime and Lapse, including how the 2 systems are used to ensure time matches when cross-checked between each. Additionally, I asked Zach Latta which time tracking systems are easiest to integrate and review across different types of YSWS programmes, whose answer was pretty clear: "100% Hackatime". That's the point at which it started to click with me that the problems with Hackatime are deeper than I ever imagined.
 
 Hackatime is built upon WakaTime, a coding analytics tool. It's brilliant for providing metrics on time spent writing code or managing agents or debugging. Hack Club has modified it to work as a system to track time targets for their programmes. Hey, that sounds familiar. Have you ever heard of Goodhart's law?
