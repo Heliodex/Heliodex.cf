@@ -1,9 +1,9 @@
 ---
 {
 	"title": "Heliodex project update – August 2026",
-	"summary": "",
+	"summary": "Updates to my projects for August 2026",
 	"created": "2026-09-12 20:16 UTC-4",
-	"updated": "2026-09-12 20:16 UTC-4",
+	"updated": "2026-09-13 02:09 UTC-4",
 	"tags": ["monthlyupdate"]
 }
 ---
